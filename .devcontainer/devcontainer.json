@@ -29,7 +29,9 @@
         "ms-python.python",
         "ms-python.vscode-pylance",
         "ms-python.debugpy",
-        "charliermarsh.ruff"
+        "charliermarsh.ruff",
+        "janisdd.vscode-edit-csv",
+        "mechatroner.rainbow-csv"
       ]
     }
   },
