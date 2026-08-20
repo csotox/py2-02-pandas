@@ -1,0 +1,42 @@
+{
+  "name": "itwall-python-dev",
+  "build": {
+    "dockerfile": "Dockerfile",
+    "context": ".."
+  },
+  "workspaceMount": "source=${localWorkspaceFolder},target=/workspace,type=bind",
+  "workspaceFolder": "/workspace",
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "python.defaultInterpreterPath": "/usr/local/bin/python",
+        "terminal.integrated.defaultProfile.linux": "bash",
+        "python.analysis.typeCheckingMode": "basic",
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+          "source.fixAll": "explicit",
+          "source.organizeImports": "explicit"
+        },
+        "python.testing.pytestEnabled": true,
+        "python.testing.unittestEnabled": false,
+        "python.testing.pytestArgs": [
+          "tests"
+        ],
+        "ruff.enable": false,
+        "ruff.fixOnSave": false
+      },
+      "extensions": [
+        "ms-python.python",
+        "ms-python.vscode-pylance",
+        "ms-python.debugpy",
+        "charliermarsh.ruff"
+      ]
+    }
+  },
+  "runArgs": [
+    "--name",
+    "itwall-python-dev"
+  ],
+  "postCreateCommand": "mkdir -p /workspace/src /workspace/tests && python --version && pip --version",
+  "remoteUser": "vscode"
+}

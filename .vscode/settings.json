@@ -1,0 +1,14 @@
+{
+    "workbench.colorCustomizations": {
+        "activityBar.background": "#ff224766",
+        "titleBar.activeBackground": "#ff572266",
+        "titleBar.activeForeground": "#ffffff"
+    },
+    "spellright.language": [
+        "es"
+    ],
+    "spellright.documentTypes": [
+        "latex",
+        "plaintext"
+    ]
+}
