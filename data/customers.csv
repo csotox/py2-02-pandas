@@ -1,0 +1,2519 @@
+customer_id,customer_name,city,region,segment,signup_date
+C00001,Cliente 0001,Valparaíso,V,Retail,2024-10-08
+C00002,Cliente 0002,Talca,VII,Retail,2025-03-08
+C00003,Cliente 0003,Santiago,RM,Retail,2026-01-03
+C00004,Cliente 0004,Antofagasta,II,Premium,2024-01-07
+C00005,Cliente 0005,Temuco,IX,Retail,2025-01-24
+C00006,Cliente 0006,Santiago,RM,Premium,2025-07-03
+C00007,Cliente 0007,Viña del Mar,V,Premium,2025-01-05
+C00008,Cliente 0008,Antofagasta,II,Corporate,2026-05-25
+C00009,Cliente 0009,Temuco,IX,Retail,2024-12-29
+C00010,Cliente 0010,Valparaíso,V,Retail,2024-06-24
+C00011,Cliente 0011,Talca,VII,Retail,2024-11-28
+C00012,Cliente 0012,Antofagasta,II,Retail,2025-08-03
+C00013,Cliente 0013,Rancagua,VI,Retail,2024-05-22
+C00014,Cliente 0014,Puerto Montt,X,Premium,2025-02-12
+C00015,Cliente 0015,Valparaíso,V,Premium,2026-05-31
+C00016,Cliente 0016,Viña del Mar,V,Retail,2025-01-25
+C00017,Cliente 0017,Santiago,RM,Retail,2024-04-27
+C00018,Cliente 0018,Antofagasta,II,Retail,2025-04-09
+C00019,Cliente 0019,Talca,VII,Premium,2025-06-03
+C00020,Cliente 0020,Viña del Mar,V,Retail,2025-01-17
+C00021,Cliente 0021,Santiago,RM,Retail,2025-05-15
+C00022,Cliente 0022,Antofagasta,II,Retail,2024-09-03
+C00023,Cliente 0023,Valparaíso,V,Corporate,2025-06-29
+C00024,Cliente 0024,Antofagasta,II,Retail,2025-09-13
+C00025,Cliente 0025,La Serena,IV,Premium,2025-02-12
+C00026,Cliente 0026,La Serena,IV,Retail,2024-12-12
+C00027,Cliente 0027,Valparaíso,V,Premium,2024-03-01
+C00028,Cliente 0028,Talca,VII,Retail,2025-11-16
+C00029,Cliente 0029,Viña del Mar,V,Retail,2024-09-05
+C00030,Cliente 0030,Puerto Montt,X,Retail,2025-02-24
+C00031,Cliente 0031,Valparaíso,V,Retail,2026-01-15
+C00032,Cliente 0032,Talca,VII,Retail,2025-03-08
+C00033,Cliente 0033,Rancagua,VI,Premium,2026-05-26
+C00034,Cliente 0034,Santiago,RM,Corporate,2026-02-10
+C00035,Cliente 0035,,X,Corporate,2024-06-17
+C00036,Cliente 0036,Rancagua,VI,Retail,2025-12-14
+C00037,Cliente 0037,La Serena,IV,Corporate,2025-08-16
+C00038,Cliente 0038,Rancagua,VI,Retail,2026-05-23
+C00039,Cliente 0039,Concepción,VIII,Retail,2024-03-10
+C00040,Cliente 0040,Viña del Mar,V,Retail,2025-09-26
+C00041,Cliente 0041,Antofagasta,II,Retail,2026-01-03
+C00042,Cliente 0042,,II,Retail,2026-02-08
+C00043,Cliente 0043,Valparaíso,V,Retail,2024-08-06
+C00044,Cliente 0044,La Serena,IV,Retail,2024-06-10
+C00045,Cliente 0045,Talca,VII,Retail,2026-04-16
+C00046,Cliente 0046,Concepción,VIII,Retail,2026-06-30
+C00047,Cliente 0047,La Serena,IV,Premium,2024-07-27
+C00048,Cliente 0048,Santiago,RM,Retail,2025-03-09
+C00049,Cliente 0049,Antofagasta,II,Retail,2025-03-28
+C00050,Cliente 0050,Concepción,VIII,Retail,2026-05-04
+C00051,Cliente 0051,Antofagasta,II,Retail,2026-03-26
+C00052,Cliente 0052,Valparaíso,V,Retail,2025-07-27
+C00053,Cliente 0053,La Serena,IV,Premium,2026-03-30
+C00054,Cliente 0054,Temuco,IX,Premium,2025-02-25
+C00055,Cliente 0055,Santiago,RM,Premium,2024-08-15
+C00056,Cliente 0056,La Serena,IV,Retail,2025-11-06
+C00057,Cliente 0057,Antofagasta,II,Retail,2025-06-05
+C00058,Cliente 0058,Santiago,RM,Retail,2024-09-24
+C00059,Cliente 0059,Viña del Mar,V,Retail,2026-01-16
+C00060,Cliente 0060,,V,Retail,2024-02-15
+C00061,Cliente 0061,La Serena,IV,Retail,2024-03-12
+C00062,Cliente 0062,Antofagasta,II,Retail,2025-11-13
+C00063,Cliente 0063,La Serena,IV,Retail,2025-01-23
+C00064,Cliente 0064,Santiago,RM,Retail,2024-08-03
+C00065,Cliente 0065,Rancagua,VI,Retail,2024-08-06
+C00066,Cliente 0066,Concepción,VIII,Retail,2024-10-17
+C00067,Cliente 0067,La Serena,IV,Retail,2024-08-18
+C00068,Cliente 0068,Viña del Mar,V,Premium,2024-03-15
+C00069,Cliente 0069,Puerto Montt,X,,2024-09-06
+C00070,Cliente 0070,Valparaíso,V,Premium,2024-08-12
+C00071,Cliente 0071,Talca,VII,Retail,2026-05-18
+C00072,Cliente 0072,Talca,VII,Retail,2026-02-12
+C00073,Cliente 0073,Talca,VII,Retail,2024-06-11
+C00074,Cliente 0074,Antofagasta,II,Premium,2025-06-17
+C00075,Cliente 0075,Antofagasta,II,Retail,2024-12-09
+C00076,Cliente 0076,Puerto Montt,X,Retail,2025-12-24
+C00077,Cliente 0077,Puerto Montt,X,Retail,2026-05-02
+C00078,Cliente 0078,Santiago,RM,,2026-02-22
+C00079,Cliente 0079,Puerto Montt,X,Premium,2026-05-05
+C00080,Cliente 0080,La Serena,IV,Retail,2024-10-06
+C00081,Cliente 0081,Puerto Montt,X,Premium,2026-05-10
+C00082,Cliente 0082,Puerto Montt,X,Retail,2025-11-09
+C00083,Cliente 0083,Concepción,VIII,Retail,2025-01-23
+C00084,Cliente 0084,puerto montt,X,Retail,2026-05-01
+C00085,Cliente 0085,Talca,VII,Retail,2024-12-24
+C00086,Cliente 0086,Santiago,RM,Corporate,2024-07-23
+C00087,Cliente 0087,Valparaíso,V,Retail,2024-08-11
+C00088,Cliente 0088,Viña del Mar,V,Corporate,2026-01-05
+C00089,Cliente 0089,Viña del Mar,V,Retail,2024-11-15
+C00090,Cliente 0090,La Serena,IV,Retail,2025-12-08
+C00091,Cliente 0091,Viña del Mar,V,Premium,2026-03-26
+C00092,Cliente 0092,,IX,Retail,2025-10-25
+C00093,Cliente 0093,Puerto Montt,X,Corporate,2025-10-12
+C00094,Cliente 0094,Antofagasta,II,Retail,2025-07-05
+C00095,Cliente 0095,Temuco,IX,Premium,2026-04-30
+C00096,Cliente 0096,Viña del Mar,V,Retail,2025-01-23
+C00097,Cliente 0097,La Serena,IV,Retail,2024-09-21
+C00098,Cliente 0098,Talca,VII,Retail,2024-07-14
+C00099,Cliente 0099,La Serena,IV,Retail,2025-10-23
+C00100,Cliente 0100,Puerto Montt,X,Retail,2024-11-09
+C00101,Cliente 0101,Talca,VII,Retail,2025-12-20
+C00102,Cliente 0102,La Serena,IV,Retail,2026-01-30
+C00103,Cliente 0103,Rancagua,VI,Retail,2025-08-26
+C00104,Cliente 0104,,II,Retail,2024-07-02
+C00105,Cliente 0105,Santiago,RM,Retail,2025-12-15
+C00106,Cliente 0106,Santiago,RM,Retail,2025-04-25
+C00107,Cliente 0107,Rancagua,VI,Retail,2024-03-07
+C00108,Cliente 0108,Concepción,VIII,Retail,2025-07-30
+C00109,Cliente 0109,Puerto Montt,X,Retail,2026-03-20
+C00110,Cliente 0110,Rancagua,VI,Retail,2025-08-25
+C00111,Cliente 0111,Valparaíso,V,Corporate,2024-07-31
+C00112,Cliente 0112,Concepción,VIII,Retail,2024-06-09
+C00113,Cliente 0113,Santiago,RM,Retail,2025-12-24
+C00114,Cliente 0114,Antofagasta,II,Premium,2025-10-02
+C00115,Cliente 0115,Talca,VII,Retail,2024-06-01
+C00116,Cliente 0116,Antofagasta,II,Retail,2026-04-24
+C00117,Cliente 0117,Antofagasta,II,Retail,2024-10-05
+C00118,Cliente 0118,Puerto Montt,X,Premium,2025-09-10
+C00119,Cliente 0119,Viña del Mar,V,Retail,2024-01-22
+C00120,Cliente 0120,Talca,VII,Retail,2024-10-11
+C00121,Cliente 0121,Valparaíso,V,Retail,2025-02-22
+C00122,Cliente 0122,Puerto Montt,X,Retail,2024-10-22
+C00123,Cliente 0123,TEMUCO,IX,Retail,2024-04-28
+C00124,Cliente 0124,Talca,VII,Retail,2024-02-25
+C00125,Cliente 0125,Rancagua,VI,Premium,2024-07-27
+C00126,Cliente 0126,Rancagua,VI,Retail,2025-10-07
+C00127,Cliente 0127,Santiago,RM,Retail,2024-04-05
+C00128,Cliente 0128,Valparaíso,V,Retail,2024-06-06
+C00129,Cliente 0129,Puerto Montt,X,Premium,2025-04-28
+C00130,Cliente 0130,Viña del Mar,V,Retail,2026-06-19
+C00131,Cliente 0131,Puerto Montt,X,,2026-03-17
+C00132,Cliente 0132,Viña del Mar,V,Retail,2025-11-06
+C00133,Cliente 0133,Temuco,IX,Retail,2025-07-10
+C00134,Cliente 0134,La Serena,IV,Retail,2024-08-27
+C00135,Cliente 0135,Puerto Montt,X,Retail,2025-11-10
+C00136,Cliente 0136,Talca,VII,Corporate,2024-12-05
+C00137,Cliente 0137,Rancagua,VI,Retail,2024-05-27
+C00138,Cliente 0138,Antofagasta,II,Retail,2025-12-10
+C00139,Cliente 0139,Talca,VII,Retail,2024-11-20
+C00140,Cliente 0140,Santiago,RM,Retail,2024-08-28
+C00141,Cliente 0141,Valparaíso,V,Retail,2024-04-10
+C00142,Cliente 0142,Antofagasta,II,Corporate,2024-02-17
+C00143,Cliente 0143,Concepción,VIII,Retail,2025-02-25
+C00144,Cliente 0144,Viña del Mar,V,Premium,2025-09-26
+C00145,Cliente 0145,Antofagasta,II,Retail,2025-11-13
+C00146,Cliente 0146,Talca,VII,Retail,2025-03-28
+C00147,Cliente 0147,Antofagasta,II,Retail,2024-11-05
+C00148,Cliente 0148,Puerto Montt,X,Retail,2025-08-11
+C00149,Cliente 0149,Puerto Montt,X,Retail,2025-08-02
+C00150,Cliente 0150,Antofagasta,II,Premium,2024-08-23
+C00151,Cliente 0151,Antofagasta,II,Retail,2026-01-08
+C00152,Cliente 0152,Antofagasta,II,Premium,2024-02-04
+C00153,Cliente 0153,Temuco,IX,Premium,2024-06-28
+C00154,Cliente 0154,Talca,VII,Retail,2024-10-06
+C00155,Cliente 0155,Antofagasta,II,Premium,2024-12-12
+C00156,Cliente 0156,La Serena,IV,Premium,2026-01-11
+C00157,Cliente 0157,Puerto Montt,X,Retail,2025-07-03
+C00158,Cliente 0158, Viña del Mar ,V,Retail,2025-10-15
+C00159,Cliente 0159,Talca,VII,Retail,2025-09-16
+C00160,Cliente 0160,Antofagasta,II,Retail,2024-04-29
+C00161,Cliente 0161,Valparaíso,V,Retail,2026-06-27
+C00162,Cliente 0162,Talca,VII,Retail,2026-01-30
+C00163,Cliente 0163,Viña del Mar,V,Retail,2024-10-13
+C00164,Cliente 0164,La Serena,IV,Premium,2024-04-11
+C00165,Cliente 0165,Puerto Montt,X,Retail,2024-05-05
+C00166,Cliente 0166,Santiago,RM,Retail,2024-12-07
+C00167,Cliente 0167,Talca,VII,Retail,2024-08-09
+C00168,Cliente 0168,Santiago,RM,Retail,2024-05-28
+C00169,Cliente 0169,Santiago,RM,Retail,2025-01-01
+C00170,Cliente 0170,Concepción,VIII,Premium,2025-06-22
+C00171,Cliente 0171,Talca,VII,Retail,2025-04-07
+C00172,Cliente 0172,Talca,VII,Retail,2025-10-20
+C00173,Cliente 0173,Valparaíso,V,Retail,2025-03-30
+C00174,Cliente 0174,Concepción,VIII,Retail,2025-10-10
+C00175,Cliente 0175,Talca,VII,Retail,2025-06-01
+C00176,Cliente 0176,Talca,VII,Premium,2024-08-08
+C00177,Cliente 0177,Rancagua,VI,Retail,2026-01-17
+C00178,Cliente 0178,Concepción,VIII,Retail,2025-04-30
+C00179,Cliente 0179,Temuco,IX,Premium,2025-07-23
+C00180,Cliente 0180,Valparaíso,V,Retail,2026-06-13
+C00181,Cliente 0181,Viña del Mar,V,Retail,2024-04-16
+C00182,Cliente 0182,Valparaíso,V,Retail,2025-07-23
+C00183,Cliente 0183, Puerto Montt ,X,Premium,2026-02-24
+C00184,Cliente 0184,Antofagasta,II,Retail,2024-10-06
+C00185,Cliente 0185, Concepción ,VIII,Retail,2025-02-14
+C00186,Cliente 0186,Talca,VII,Retail,2025-03-05
+C00187,Cliente 0187,Viña del Mar,V,Retail,2026-06-23
+C00188,Cliente 0188,Valparaíso,V,Retail,2025-11-08
+C00189,Cliente 0189,Talca,VII,Retail,2025-03-16
+C00190,Cliente 0190,Antofagasta,II,Retail,2025-02-08
+C00191,Cliente 0191,Concepción,VIII,Premium,2024-10-23
+C00192,Cliente 0192,Concepción,VIII,Retail,2025-12-21
+C00193,Cliente 0193,Valparaíso,V,Retail,2026-01-29
+C00194,Cliente 0194,Temuco,IX,Retail,2025-08-10
+C00195,Cliente 0195,Santiago,RM,Corporate,2024-06-24
+C00196,Cliente 0196,Puerto Montt,X,Premium,2024-09-06
+C00197,Cliente 0197,Antofagasta,II,Premium,2024-08-14
+C00198,Cliente 0198,Talca,VII,Retail,2026-03-05
+C00199,Cliente 0199,Concepción,VIII,Retail,2024-05-29
+C00200,Cliente 0200,Valparaíso,V,Retail,2026-03-02
+C00201,Cliente 0201,Rancagua,VI,Retail,2026-06-22
+C00202,Cliente 0202,Temuco,IX,Retail,2024-03-10
+C00203,Cliente 0203,Santiago,RM,Retail,2024-03-16
+C00204,Cliente 0204,Antofagasta,II,Retail,2026-06-03
+C00205,Cliente 0205,Talca,VII,Corporate,2026-01-26
+C00206,Cliente 0206,Temuco,IX,Retail,2025-05-28
+C00207,Cliente 0207,Temuco,IX,Corporate,2024-03-27
+C00208,Cliente 0208,Rancagua,VI,Retail,2025-09-16
+C00209,Cliente 0209,Temuco,IX,Retail,2024-02-23
+C00210,Cliente 0210,Puerto Montt,X,Retail,2026-01-11
+C00211,Cliente 0211,Valparaíso,V,Retail,2024-05-24
+C00212,Cliente 0212,Concepción,VIII,Retail,2024-03-27
+C00213,Cliente 0213,Concepción,VIII,Retail,2026-04-28
+C00214,Cliente 0214,Santiago,RM,Retail,2024-07-03
+C00215,Cliente 0215,Concepción,VIII,Retail,2024-10-29
+C00216,Cliente 0216,Talca,VII,Retail,2024-12-10
+C00217,Cliente 0217,Viña del Mar,V,Premium,2024-06-18
+C00218,Cliente 0218,Rancagua,VI,Retail,2026-02-09
+C00219,Cliente 0219,Rancagua,VI,Corporate,2024-07-17
+C00220,Cliente 0220,Antofagasta,II,Premium,2025-05-29
+C00221,Cliente 0221,Viña del Mar,V,Retail,2024-09-13
+C00222,Cliente 0222,Valparaíso,V,Premium,2025-06-12
+C00223,Cliente 0223,Talca,VII,Retail,2025-03-23
+C00224,Cliente 0224,Temuco,IX,Corporate,2025-02-28
+C00225,Cliente 0225,Valparaíso,V,Retail,2024-01-29
+C00226,Cliente 0226,Concepción,VIII,Retail,2024-10-20
+C00227,Cliente 0227,Rancagua,VI,Retail,2024-03-22
+C00228,Cliente 0228,Viña del Mar,V,Retail,2024-04-23
+C00229,Cliente 0229,Viña del Mar,V,Retail,2024-04-23
+C00230,Cliente 0230,,IV,Premium,2024-10-25
+C00231,Cliente 0231,Concepción,VIII,Retail,2024-03-28
+C00232,Cliente 0232,Talca,VII,Premium,2025-06-03
+C00233,Cliente 0233,Puerto Montt,X,Corporate,2024-09-16
+C00234,Cliente 0234,Valparaíso,V,Premium,2026-01-22
+C00235,Cliente 0235,Concepción,VIII,Premium,2025-12-02
+C00236,Cliente 0236,Concepción,VIII,Retail,2026-03-05
+C00237,Cliente 0237,Santiago,RM,Retail,2024-11-13
+C00238,Cliente 0238,Santiago,RM,Premium,2024-07-14
+C00239,Cliente 0239,Temuco,IX,Retail,2026-03-29
+C00240,Cliente 0240,Puerto Montt,X,Retail,2024-07-10
+C00241,Cliente 0241,Antofagasta,II,Premium,2026-01-14
+C00242,Cliente 0242,Talca,VII,Retail,2024-04-15
+C00243,Cliente 0243,Puerto Montt,X,Retail,2025-03-30
+C00244,Cliente 0244,Viña del Mar,V,Corporate,2024-10-08
+C00245,Cliente 0245,Puerto Montt,X,Retail,2026-03-31
+C00246,Cliente 0246,Rancagua,VI,Retail,2024-03-09
+C00247,Cliente 0247,Viña del Mar,V,Retail,2024-06-06
+C00248,Cliente 0248,Viña del Mar,V,Retail,2025-01-10
+C00249,Cliente 0249,Santiago,RM,Premium,2025-05-26
+C00250,Cliente 0250,Antofagasta,II,Premium,2024-08-07
+C00251,Cliente 0251,Valparaíso,V,Retail,2024-03-16
+C00252,Cliente 0252,Temuco,IX,Retail,2025-12-27
+C00253,Cliente 0253,Concepción,VIII,Premium,2025-12-18
+C00254,Cliente 0254,La Serena,IV,Premium,2024-08-30
+C00255,Cliente 0255,Talca,VII,Retail,2026-06-24
+C00256,Cliente 0256,Rancagua,VI,Retail,2026-02-26
+C00257,Cliente 0257,Valparaíso,V,Retail,2025-11-27
+C00258,Cliente 0258,Viña del Mar,V,Retail,2024-05-12
+C00259,Cliente 0259,Talca,VII,Retail,2024-06-17
+C00260,Cliente 0260,Talca,VII,Premium,2026-05-16
+C00261,Cliente 0261,Concepción,VIII,Retail,2025-09-21
+C00262,Cliente 0262,Viña del Mar,V,Retail,2025-11-05
+C00263,Cliente 0263,Viña del Mar,V,Retail,2026-06-03
+C00264,Cliente 0264,Antofagasta,II,Retail,2026-02-24
+C00265,Cliente 0265,Talca,VII,Retail,2024-11-05
+C00266,Cliente 0266,Rancagua,VI,Retail,2024-03-02
+C00267,Cliente 0267,Viña del Mar,V,Retail,2026-06-01
+C00268,Cliente 0268,Concepción,VIII,Premium,2025-06-11
+C00269,Cliente 0269,Rancagua,VI,Retail,2024-04-09
+C00270,Cliente 0270,La Serena,IV,Corporate,2024-06-12
+C00271,Cliente 0271,concepción,VIII,Retail,2025-06-11
+C00272,Cliente 0272,Puerto Montt,X,Retail,2024-09-03
+C00273,Cliente 0273,Viña del Mar,V,,2025-10-31
+C00274,Cliente 0274,Concepción,VIII,Premium,2026-01-14
+C00275,Cliente 0275,Viña del Mar,V,Retail,2025-01-06
+C00276,Cliente 0276,Talca,VII,Retail,2025-09-30
+C00277,Cliente 0277,Temuco,IX,Retail,2025-01-09
+C00278,Cliente 0278,Santiago,RM,Retail,2025-12-31
+C00279,Cliente 0279,Talca,VII,Retail,2025-09-19
+C00280,Cliente 0280,Antofagasta,II,Retail,2025-06-03
+C00281,Cliente 0281,Santiago,RM,Retail,2025-11-20
+C00282,Cliente 0282,Santiago,RM,Retail,2024-09-28
+C00283,Cliente 0283,Santiago,RM,Retail,2024-06-23
+C00284,Cliente 0284,Concepción,VIII,Premium,2024-09-05
+C00285,Cliente 0285,Rancagua,VI,Retail,2024-06-04
+C00286,Cliente 0286,Rancagua,VI,Premium,2026-01-23
+C00287,Cliente 0287,Rancagua,VI,Retail,2024-11-17
+C00288,Cliente 0288,Antofagasta,II,Retail,2024-07-15
+C00289,Cliente 0289,Antofagasta,II,Premium,2025-12-22
+C00290,Cliente 0290,Talca,VII,Corporate,2026-03-25
+C00291,Cliente 0291,Puerto Montt,X,Premium,2026-03-02
+C00292,Cliente 0292,Temuco,IX,Corporate,2025-11-02
+C00293,Cliente 0293,Antofagasta,II,Corporate,2025-12-13
+C00294,Cliente 0294,La Serena,IV,Retail,2025-06-27
+C00295,Cliente 0295,,VI,Retail,2026-02-28
+C00296,Cliente 0296,Puerto Montt,X,Retail,2026-06-20
+C00297,Cliente 0297,Temuco,IX,Retail,2024-03-01
+C00298,Cliente 0298,Santiago,RM,Corporate,2024-06-28
+C00299,Cliente 0299,Puerto Montt,X,,2024-07-09
+C00300,Cliente 0300,Valparaíso,V,Corporate,2024-12-09
+C00301,Cliente 0301,Concepción,VIII,Premium,2025-04-24
+C00302,Cliente 0302,,VI,Retail,2026-01-05
+C00303,Cliente 0303,La Serena,IV,Retail,2026-05-26
+C00304,Cliente 0304,Valparaíso,V,Retail,2024-04-07
+C00305,Cliente 0305,Santiago,RM,Retail,2024-08-29
+C00306,Cliente 0306,Viña del Mar,V,Retail,2025-10-31
+C00307,Cliente 0307,Antofagasta,II,Retail,2025-12-03
+C00308,Cliente 0308,Valparaíso,V,Retail,2024-10-29
+C00309,Cliente 0309,Concepción,VIII,Retail,2025-09-12
+C00310,Cliente 0310,Talca,VII,Premium,2026-04-25
+C00311,Cliente 0311,Valparaíso,V,Retail,2025-06-24
+C00312,Cliente 0312,Talca,VII,Corporate,2024-07-26
+C00313,Cliente 0313,Rancagua,VI,Retail,2024-07-29
+C00314,Cliente 0314,Santiago,RM,Retail,2025-06-09
+C00315,Cliente 0315,Antofagasta,II,Premium,2025-02-09
+C00316,Cliente 0316,Santiago,RM,Retail,2025-12-18
+C00317,Cliente 0317,Rancagua,VI,Retail,2025-02-22
+C00318,Cliente 0318,Puerto Montt,X,Retail,2025-01-26
+C00319,Cliente 0319,Talca,VII,Retail,2026-05-30
+C00320,Cliente 0320,Concepción,VIII,Premium,2024-08-16
+C00321,Cliente 0321,Talca,VII,Retail,2025-01-23
+C00322,Cliente 0322,Valparaíso,V,Retail,2025-11-07
+C00323,Cliente 0323,La Serena,IV,Retail,2024-04-13
+C00324,Cliente 0324,Santiago,RM,Retail,2024-02-15
+C00325,Cliente 0325,Santiago,RM,Retail,2024-10-23
+C00326,Cliente 0326,Viña del Mar,V,Premium,2026-04-18
+C00327,Cliente 0327,Talca,VII,Retail,2024-11-03
+C00328,Cliente 0328,Concepción,VIII,Retail,2025-03-13
+C00329,Cliente 0329,Puerto Montt,X,Premium,2024-11-22
+C00330,Cliente 0330,Talca,VII,Retail,2026-05-19
+C00331,Cliente 0331,Santiago,RM,Retail,2025-03-02
+C00332,Cliente 0332,Temuco,IX,Retail,2025-04-05
+C00333,Cliente 0333,Antofagasta,II,Retail,2025-09-11
+C00334,Cliente 0334,Viña del Mar,V,Premium,2025-07-26
+C00335,Cliente 0335,Santiago,RM,Retail,2024-07-13
+C00336,Cliente 0336,Viña del Mar,V,Premium,2025-02-10
+C00337,Cliente 0337,Talca,VII,Retail,2024-11-11
+C00338,Cliente 0338,Rancagua,VI,Premium,2024-11-23
+C00339,Cliente 0339,La Serena,IV,Premium,2024-01-17
+C00340,Cliente 0340,Antofagasta,II,Retail,2024-12-03
+C00341,Cliente 0341,Temuco,IX,Retail,2026-04-21
+C00342,Cliente 0342,Concepción,VIII,Premium,2024-12-26
+C00343,Cliente 0343,Talca,VII,Corporate,2024-03-01
+C00344,Cliente 0344,Santiago,RM,Premium,2025-02-26
+C00345,Cliente 0345,Santiago,RM,Retail,2025-04-11
+C00346,Cliente 0346,rancagua,VI,Retail,2024-01-17
+C00347,Cliente 0347,Antofagasta,II,Retail,2024-10-20
+C00348,Cliente 0348,Concepción,VIII,Retail,2024-04-08
+C00349,Cliente 0349,Temuco,IX,Retail,2025-02-10
+C00350,Cliente 0350,La Serena,IV,Retail,2026-04-27
+C00351,Cliente 0351,Valparaíso,V,Retail,2025-01-21
+C00352,Cliente 0352,Valparaíso,V,Retail,2025-03-20
+C00353,Cliente 0353,Valparaíso,V,Premium,2024-02-13
+C00354,Cliente 0354, Rancagua ,VI,Retail,2024-03-17
+C00355,Cliente 0355,Temuco,IX,Retail,2024-07-31
+C00356,Cliente 0356,Valparaíso,V,Retail,2025-07-31
+C00357,Cliente 0357,Talca,VII,Retail,2026-02-12
+C00358,Cliente 0358,Temuco,IX,Retail,2025-03-23
+C00359,Cliente 0359,Viña del Mar,V,Retail,2026-03-03
+C00360,Cliente 0360,Rancagua,VI,Retail,2025-07-20
+C00361,Cliente 0361,Valparaíso,V,Premium,2024-10-29
+C00362,Cliente 0362,Concepción,VIII,,2024-11-20
+C00363,Cliente 0363,Temuco,IX,Premium,2024-04-14
+C00364,Cliente 0364,Talca,VII,Retail,2024-01-27
+C00365,Cliente 0365,Temuco,IX,Premium,2024-01-13
+C00366,Cliente 0366,Talca,VII,Corporate,2024-09-05
+C00367,Cliente 0367,Antofagasta,II,Retail,2025-05-19
+C00368,Cliente 0368,Rancagua,VI,Premium,2025-01-04
+C00369,Cliente 0369,Viña del Mar,V,Retail,2024-04-19
+C00370,Cliente 0370,Viña del Mar,V,Retail,2026-06-01
+C00371,Cliente 0371,Viña del Mar,V,Retail,2024-11-24
+C00372,Cliente 0372,Puerto Montt,X,Corporate,2024-10-25
+C00373,Cliente 0373,Puerto Montt,X,Retail,2026-03-15
+C00374,Cliente 0374,Talca,VII,Retail,2026-02-25
+C00375,Cliente 0375,La Serena,IV,Retail,2024-10-25
+C00376,Cliente 0376,Rancagua,VI,Retail,2024-11-06
+C00377,Cliente 0377,Puerto Montt,X,Retail,2025-09-04
+C00378,Cliente 0378,Puerto Montt,X,Retail,2026-03-20
+C00379,Cliente 0379,Valparaíso,V,Retail,2024-09-11
+C00380,Cliente 0380,Viña del Mar,V,Corporate,2025-11-24
+C00381,Cliente 0381,Puerto Montt,X,Retail,2024-04-10
+C00382,Cliente 0382,Viña del Mar,V,Retail,2025-01-18
+C00383,Cliente 0383,Concepción,VIII,Retail,2024-01-26
+C00384,Cliente 0384,Valparaíso,V,Premium,2026-01-17
+C00385,Cliente 0385,Talca,VII,Retail,2025-05-02
+C00386,Cliente 0386,Antofagasta,II,Retail,2025-12-28
+C00387,Cliente 0387,Concepción,VIII,Corporate,2026-01-28
+C00388,Cliente 0388,Puerto Montt,X,Corporate,2024-08-25
+C00389,Cliente 0389,PUERTO MONTT,X,Retail,2025-09-20
+C00390,Cliente 0390,La Serena,IV,Retail,2026-02-09
+C00391,Cliente 0391,Temuco,IX,Retail,2025-04-13
+C00392,Cliente 0392,Temuco,IX,Retail,2025-09-17
+C00393,Cliente 0393,Viña del Mar,V,Retail,2025-11-20
+C00394,Cliente 0394,Temuco,IX,Retail,2024-11-08
+C00395,Cliente 0395,Puerto Montt,X,Retail,2025-08-11
+C00396,Cliente 0396,Concepción,VIII,Retail,2025-05-16
+C00397,Cliente 0397,Santiago,RM,Premium,2024-01-10
+C00398,Cliente 0398,Talca,VII,Retail,2025-02-22
+C00399,Cliente 0399,Valparaíso,V,Retail,2026-03-25
+C00400,Cliente 0400,Concepción,VIII,Premium,2025-08-02
+C00401,Cliente 0401,Talca,VII,Premium,2025-01-10
+C00402,Cliente 0402,Talca,VII,Retail,2025-03-11
+C00403,Cliente 0403,Santiago,RM,Retail,2024-12-22
+C00404,Cliente 0404,La Serena,IV,Retail,2026-01-25
+C00405,Cliente 0405,Puerto Montt,X,Retail,2024-05-22
+C00406,Cliente 0406,Talca,VII,Retail,2025-07-05
+C00407,Cliente 0407,Antofagasta,II,Corporate,2025-06-10
+C00408,Cliente 0408,Santiago,RM,Corporate,2026-06-06
+C00409,Cliente 0409,Temuco,IX,Premium,2026-02-18
+C00410,Cliente 0410,Puerto Montt,X,Retail,2024-03-18
+C00411,Cliente 0411,Antofagasta,II,Retail,2026-06-17
+C00412,Cliente 0412,Valparaíso,V,Premium,2025-04-14
+C00413,Cliente 0413,Talca,VII,Retail,2025-03-15
+C00414,Cliente 0414,Talca,VII,Retail,2025-08-02
+C00415,Cliente 0415,,RM,Retail,2026-03-13
+C00416,Cliente 0416,Rancagua,VI,Retail,2025-03-14
+C00417,Cliente 0417,Antofagasta,II,Retail,2026-06-16
+C00418,Cliente 0418,Concepción,VIII,Retail,2025-10-02
+C00419,Cliente 0419,Valparaíso,V,Premium,2024-01-02
+C00420,Cliente 0420,Rancagua,VI,Retail,2025-12-13
+C00421,Cliente 0421,Concepción,VIII,Retail,2024-08-22
+C00422,Cliente 0422,Temuco,IX,Premium,2024-05-20
+C00423,Cliente 0423,Concepción,VIII,Retail,2025-07-30
+C00424,Cliente 0424,La Serena,IV,Retail,2024-06-04
+C00425,Cliente 0425,Valparaíso,V,Retail,2024-05-06
+C00426,Cliente 0426,Concepción,VIII,Retail,2025-10-22
+C00427,Cliente 0427,Antofagasta,II,Premium,2025-12-08
+C00428,Cliente 0428,Talca,VII,Retail,2024-07-12
+C00429,Cliente 0429,La Serena,IV,Retail,2024-04-25
+C00430,Cliente 0430,Santiago,RM,Corporate,2024-11-20
+C00431,Cliente 0431,talca,VII,Retail,2026-02-20
+C00432,Cliente 0432,Valparaíso,V,Retail,2024-08-08
+C00433,Cliente 0433,Antofagasta,II,Retail,2025-05-28
+C00434,Cliente 0434,Talca,VII,Retail,2024-10-11
+C00435,Cliente 0435,Concepción,VIII,Retail,2025-02-04
+C00436,Cliente 0436,Valparaíso,V,Retail,2025-03-23
+C00437,Cliente 0437,Rancagua,VI,Retail,2024-02-26
+C00438,Cliente 0438,Santiago,RM,Premium,2025-12-19
+C00439,Cliente 0439,Antofagasta,II,Retail,2024-05-09
+C00440,Cliente 0440,Temuco,IX,Premium,2024-10-05
+C00441,Cliente 0441,Valparaíso,V,Retail,2025-06-07
+C00442,Cliente 0442,Concepción,VIII,Retail,2024-04-15
+C00443,Cliente 0443,Santiago,RM,Retail,2026-06-02
+C00444,Cliente 0444,Concepción,VIII,Retail,2026-05-28
+C00445,Cliente 0445,Puerto Montt,X,Retail,2024-09-11
+C00446,Cliente 0446,Viña del Mar,V,Retail,2025-05-29
+C00447,Cliente 0447,Puerto Montt,X,Retail,2025-04-21
+C00448,Cliente 0448,Rancagua,VI,Retail,2024-07-24
+C00449,Cliente 0449,Rancagua,VI,Retail,2025-05-20
+C00450,Cliente 0450,Concepción,VIII,Retail,2025-02-23
+C00451,Cliente 0451,Santiago,RM,Corporate,2024-01-02
+C00452,Cliente 0452,La Serena,IV,Retail,2024-08-31
+C00453,Cliente 0453,Antofagasta,II,Retail,2024-08-25
+C00454,Cliente 0454,Valparaíso,V,Retail,2025-06-01
+C00455,Cliente 0455,Santiago,RM,Retail,2024-05-13
+C00456,Cliente 0456,Puerto Montt,X,Premium,2026-01-23
+C00457,Cliente 0457,La Serena,IV,Retail,2026-02-27
+C00458,Cliente 0458,Temuco,IX,Retail,2025-07-02
+C00459,Cliente 0459,Antofagasta,II,Premium,2024-04-02
+C00460,Cliente 0460,Viña del Mar,V,Retail,2026-05-05
+C00461,Cliente 0461, Puerto Montt ,X,Retail,2025-11-24
+C00462,Cliente 0462,Puerto Montt,X,Premium,2025-07-23
+C00463,Cliente 0463,Concepción,VIII,Retail,2024-03-04
+C00464,Cliente 0464,Valparaíso,V,Retail,2024-09-22
+C00465,Cliente 0465,Rancagua,VI,Premium,2024-04-04
+C00466,Cliente 0466,Viña del Mar,V,Retail,2026-01-11
+C00467,Cliente 0467, Temuco ,IX,Retail,2024-07-10
+C00468,Cliente 0468,Viña del Mar,V,Retail,2025-10-24
+C00469,Cliente 0469,Valparaíso,V,Retail,2024-05-20
+C00470,Cliente 0470,Talca,VII,Premium,2025-01-26
+C00471,Cliente 0471,Viña del Mar,V,Retail,2025-02-01
+C00472,Cliente 0472,Antofagasta,II,Retail,2025-04-28
+C00473,Cliente 0473,Concepción,VIII,Retail,2025-11-03
+C00474,Cliente 0474,Santiago,RM,Premium,2024-08-12
+C00475,Cliente 0475,Concepción,VIII,Retail,2025-08-29
+C00476,Cliente 0476,Santiago,RM,Premium,2024-12-26
+C00477,Cliente 0477,Rancagua,VI,Retail,2024-06-28
+C00478,Cliente 0478,Santiago,RM,Retail,2024-01-01
+C00479,Cliente 0479,Concepción,VIII,Corporate,2026-05-14
+C00480,Cliente 0480,Concepción,VIII,Premium,2026-05-16
+C00481,Cliente 0481,Puerto Montt,X,Retail,2024-12-10
+C00482,Cliente 0482,Puerto Montt,X,Premium,2025-05-13
+C00483,Cliente 0483,Viña del Mar,V,Premium,2024-08-16
+C00484,Cliente 0484,Antofagasta,II,Retail,2026-01-16
+C00485,Cliente 0485,Viña del Mar,V,Retail,2025-09-08
+C00486,Cliente 0486,Viña del Mar,V,Retail,2025-05-23
+C00487,Cliente 0487,Temuco,IX,Retail,2026-06-25
+C00488,Cliente 0488,Temuco,IX,Retail,2024-09-28
+C00489,Cliente 0489,Valparaíso,V,Premium,2024-02-19
+C00490,Cliente 0490,Puerto Montt,X,Retail,2025-01-22
+C00491,Cliente 0491,Viña del Mar,V,Retail,2025-12-04
+C00492,Cliente 0492,Antofagasta,II,Retail,2024-09-24
+C00493,Cliente 0493,Valparaíso,V,Retail,2024-04-05
+C00494,Cliente 0494,Santiago,RM,Retail,2025-10-31
+C00495,Cliente 0495,Temuco,IX,Retail,2024-07-13
+C00496,Cliente 0496,Antofagasta,II,Retail,2024-10-31
+C00497,Cliente 0497,Rancagua,VI,Retail,2025-01-04
+C00498,Cliente 0498,Viña del Mar,V,Retail,2024-04-09
+C00499,Cliente 0499,Rancagua,VI,Premium,2024-11-11
+C00500,Cliente 0500,Talca,VII,Retail,2025-01-14
+C00501,Cliente 0501,Rancagua,VI,Retail,2026-05-07
+C00502,Cliente 0502,Valparaíso,V,Retail,2024-12-18
+C00503,Cliente 0503,Santiago,RM,Premium,2026-04-18
+C00504,Cliente 0504,Rancagua,VI,Retail,2024-08-29
+C00505,Cliente 0505,Santiago,RM,Retail,2025-06-13
+C00506,Cliente 0506,Rancagua,VI,Retail,2024-06-20
+C00507,Cliente 0507,Puerto Montt,X,Retail,2026-04-22
+C00508,Cliente 0508,Valparaíso,V,Retail,2025-07-23
+C00509,Cliente 0509,Santiago,RM,Premium,2025-09-30
+C00510,Cliente 0510,Concepción,VIII,Retail,2025-08-19
+C00511,Cliente 0511,Antofagasta,II,Premium,2026-06-20
+C00512,Cliente 0512,Viña del Mar,V,Retail,2024-02-08
+C00513,Cliente 0513,Puerto Montt,X,Retail,2026-06-29
+C00514,Cliente 0514,Antofagasta,II,Premium,2024-01-21
+C00515,Cliente 0515,Rancagua,VI,Premium,2025-12-02
+C00516,Cliente 0516,Rancagua,VI,Premium,2024-11-24
+C00517,Cliente 0517,Rancagua,VI,Retail,2026-04-23
+C00518,Cliente 0518,Santiago,RM,Retail,2024-06-11
+C00519,Cliente 0519,Talca,VII,Premium,2024-01-30
+C00520,Cliente 0520,La Serena,IV,Retail,2024-02-21
+C00521,Cliente 0521,Talca,VII,Retail,2024-05-06
+C00522,Cliente 0522,Rancagua,VI,Retail,2024-12-24
+C00523,Cliente 0523,Valparaíso,V,Retail,2025-01-30
+C00524,Cliente 0524,la serena,IV,Retail,2025-11-24
+C00525,Cliente 0525,Santiago,RM,Retail,2024-05-15
+C00526,Cliente 0526,Viña del Mar,V,Premium,2024-11-08
+C00527,Cliente 0527,Rancagua,VI,Retail,2025-04-22
+C00528,Cliente 0528,Valparaíso,V,Retail,2025-11-09
+C00529,Cliente 0529,Valparaíso,V,Retail,2024-12-10
+C00530,Cliente 0530,Antofagasta,II,Retail,2025-06-13
+C00531,Cliente 0531,Viña del Mar,V,Retail,2024-11-23
+C00532,Cliente 0532,Antofagasta,II,Corporate,2025-02-18
+C00533,Cliente 0533,La Serena,IV,Retail,2025-12-31
+C00534,Cliente 0534,Temuco,IX,Retail,2026-05-15
+C00535,Cliente 0535,Valparaíso,V,Retail,2026-01-28
+C00536,Cliente 0536,Temuco,IX,Retail,2024-08-15
+C00537,Cliente 0537,Temuco,IX,Retail,2025-08-22
+C00538,Cliente 0538,Viña del Mar,V,Retail,2025-09-27
+C00539,Cliente 0539,Puerto Montt,X,Retail,2025-02-27
+C00540,Cliente 0540,Temuco,IX,Retail,2025-08-06
+C00541,Cliente 0541,Valparaíso,V,Retail,2025-10-08
+C00542,Cliente 0542,La Serena,IV,Premium,2024-06-21
+C00543,Cliente 0543,Valparaíso,V,Retail,2025-03-20
+C00544,Cliente 0544,Santiago,RM,Retail,2024-07-23
+C00545,Cliente 0545,Talca,VII,Retail,2025-11-23
+C00546,Cliente 0546,Temuco,IX,Retail,2024-04-15
+C00547,Cliente 0547,Santiago,RM,Retail,2024-10-24
+C00548,Cliente 0548,Concepción,VIII,Retail,2025-05-16
+C00549,Cliente 0549,Puerto Montt,X,Retail,2024-08-17
+C00550,Cliente 0550,Valparaíso,V,Retail,2025-10-28
+C00551,Cliente 0551,Viña del Mar,V,Retail,2024-02-19
+C00552,Cliente 0552,Puerto Montt,X,Retail,2024-05-06
+C00553,Cliente 0553,Santiago,RM,Retail,2025-11-08
+C00554,Cliente 0554,Concepción,VIII,Retail,2024-04-17
+C00555,Cliente 0555,Valparaíso,V,Retail,2025-09-15
+C00556,Cliente 0556,Temuco,IX,Premium,2024-10-29
+C00557,Cliente 0557,Rancagua,VI,Retail,2024-01-03
+C00558,Cliente 0558,Rancagua,VI,Retail,2024-04-02
+C00559,Cliente 0559,La Serena,IV,Retail,2024-10-30
+C00560,Cliente 0560,Santiago,RM,Premium,2025-01-03
+C00561,Cliente 0561,Santiago,RM,Retail,2024-05-21
+C00562,Cliente 0562,Viña del Mar,V,Retail,2026-01-20
+C00563,Cliente 0563,Puerto Montt,X,Corporate,2024-10-05
+C00564,Cliente 0564,Concepción,VIII,Retail,2025-12-13
+C00565,Cliente 0565,Viña del Mar,V,Retail,2025-08-05
+C00566,Cliente 0566,Santiago,RM,Premium,2026-06-20
+C00567,Cliente 0567,Rancagua,VI,Retail,2024-09-24
+C00568,Cliente 0568,Viña del Mar,V,Premium,2024-08-17
+C00569,Cliente 0569,Puerto Montt,X,Retail,2024-09-11
+C00570,Cliente 0570,,VII,Premium,2025-09-19
+C00571,Cliente 0571,Rancagua,VI,Premium,2026-06-09
+C00572,Cliente 0572,Antofagasta,II,Retail,2024-08-16
+C00573,Cliente 0573,Rancagua,VI,Retail,2025-08-09
+C00574,Cliente 0574,Rancagua,VI,Premium,2024-01-19
+C00575,Cliente 0575,Valparaíso,V,Premium,2025-09-25
+C00576,Cliente 0576,Rancagua,VI,Corporate,2025-01-07
+C00577,Cliente 0577,Viña del Mar,V,Retail,2026-01-03
+C00578,Cliente 0578,La Serena,IV,Retail,2024-12-29
+C00579,Cliente 0579,Valparaíso,V,Retail,2024-06-17
+C00580,Cliente 0580,Valparaíso,V,Retail,2024-07-19
+C00581,Cliente 0581,La Serena,IV,Premium,2024-04-20
+C00582,Cliente 0582,Valparaíso,V,Premium,2025-04-06
+C00583,Cliente 0583,Rancagua,VI,Retail,2026-01-23
+C00584,Cliente 0584,Talca,VII,Premium,2024-06-30
+C00585,Cliente 0585,Viña del Mar,V,Retail,2024-11-25
+C00586,Cliente 0586,La Serena,IV,Retail,2024-12-17
+C00587,Cliente 0587,Talca,VII,Retail,2025-12-19
+C00588,Cliente 0588,La Serena,IV,Retail,2025-10-01
+C00589,Cliente 0589,Concepción,VIII,Retail,2025-12-11
+C00590,Cliente 0590,Rancagua,VI,Retail,2025-11-14
+C00591,Cliente 0591,Puerto Montt,X,Premium,2025-06-19
+C00592,Cliente 0592,La Serena,IV,Retail,2026-03-15
+C00593,Cliente 0593,Santiago,RM,Retail,2024-10-29
+C00594,Cliente 0594,Valparaíso,V,Retail,2025-11-22
+C00595,Cliente 0595,La Serena,IV,Retail,2026-03-26
+C00596,Cliente 0596,Puerto Montt,X,Corporate,2025-12-02
+C00597,Cliente 0597,La Serena,IV,Retail,2026-03-10
+C00598,Cliente 0598,Temuco,IX,Premium,2025-07-13
+C00599,Cliente 0599,Rancagua,VI,Retail,2025-11-30
+C00600,Cliente 0600,Puerto Montt,X,Retail,2024-10-12
+C00601,Cliente 0601,Santiago,RM,Retail,2025-12-27
+C00602,Cliente 0602,Viña del Mar,V,Premium,2024-11-04
+C00603,Cliente 0603,Temuco,IX,Retail,2024-07-07
+C00604,Cliente 0604,Talca,VII,Retail,2024-12-23
+C00605,Cliente 0605,Antofagasta,II,Retail,2026-02-09
+C00606,Cliente 0606,Santiago,RM,Retail,2024-12-20
+C00607,Cliente 0607,La Serena,IV,Corporate,2025-11-29
+C00608,Cliente 0608,Antofagasta,II,Retail,2024-10-16
+C00609,Cliente 0609,Talca,VII,Retail,2024-02-14
+C00610,Cliente 0610,Valparaíso,V,Retail,2026-03-02
+C00611,Cliente 0611,La Serena,IV,Premium,2025-03-10
+C00612,Cliente 0612,Puerto Montt,X,Retail,2024-03-14
+C00613,Cliente 0613,Valparaíso,V,Retail,2026-03-24
+C00614,Cliente 0614,Antofagasta,II,Retail,2025-04-06
+C00615,Cliente 0615,Valparaíso,V,Retail,2025-10-18
+C00616,Cliente 0616,Valparaíso,V,Retail,2025-05-29
+C00617,Cliente 0617,Antofagasta,II,Premium,2025-03-24
+C00618,Cliente 0618,Talca,VII,Retail,2026-02-03
+C00619,Cliente 0619,Concepción,VIII,Retail,2026-06-27
+C00620,Cliente 0620,Talca,VII,Retail,2024-02-12
+C00621,Cliente 0621,Valparaíso,V,Retail,2026-02-05
+C00622,Cliente 0622,Concepción,VIII,Retail,2024-08-14
+C00623,Cliente 0623,Viña del Mar,V,Premium,2026-05-21
+C00624,Cliente 0624,Valparaíso,V,Retail,2024-07-21
+C00625,Cliente 0625,La Serena,IV,Retail,2025-09-26
+C00626,Cliente 0626,Viña del Mar,V,Retail,2025-12-11
+C00627,Cliente 0627,Puerto Montt,X,Retail,2024-11-16
+C00628,Cliente 0628,Antofagasta,II,Premium,2024-05-17
+C00629,Cliente 0629,Antofagasta,II,Retail,2024-04-21
+C00630,Cliente 0630,Concepción,VIII,Premium,2024-07-20
+C00631,Cliente 0631,Santiago,RM,Premium,2025-10-08
+C00632,Cliente 0632,La Serena,IV,Corporate,2025-07-18
+C00633,Cliente 0633,Concepción,VIII,Retail,2024-08-16
+C00634,Cliente 0634,,VII,Retail,2025-01-07
+C00635,Cliente 0635,Viña del Mar,V,Retail,2026-02-14
+C00636,Cliente 0636,Viña del Mar,V,Retail,2024-05-29
+C00637,Cliente 0637,La Serena,IV,Retail,2025-01-13
+C00638,Cliente 0638,Temuco,IX,Retail,2025-04-10
+C00639,Cliente 0639,Talca,VII,Retail,2024-10-07
+C00640,Cliente 0640,Puerto Montt,X,Retail,2025-10-31
+C00641,Cliente 0641,Talca,VII,Retail,2026-04-16
+C00642,Cliente 0642,Talca,VII,Premium,2025-03-26
+C00643,Cliente 0643,Concepción,VIII,Retail,2025-01-05
+C00644,Cliente 0644,Temuco,IX,Premium,2025-05-08
+C00645,Cliente 0645,Puerto Montt,X,Retail,2024-02-14
+C00646,Cliente 0646,Santiago,RM,Premium,2024-05-30
+C00647,Cliente 0647,Puerto Montt,X,Retail,2025-07-31
+C00648,Cliente 0648,Antofagasta,II,Corporate,2024-08-09
+C00649,Cliente 0649,La Serena,IV,Premium,2025-09-07
+C00650,Cliente 0650,Talca,VII,Retail,2026-01-11
+C00651,Cliente 0651,Puerto Montt,X,Retail,2024-04-21
+C00652,Cliente 0652,Puerto Montt,X,Premium,2025-09-12
+C00653,Cliente 0653,Talca,VII,Retail,2024-04-30
+C00654,Cliente 0654,Santiago,RM,Premium,2026-03-04
+C00655,Cliente 0655,Talca,VII,Retail,2026-04-01
+C00656,Cliente 0656,Viña del Mar,V,Retail,2024-05-17
+C00657,Cliente 0657,Antofagasta,II,,2025-07-10
+C00658,Cliente 0658,,RM,Retail,2024-04-30
+C00659,Cliente 0659,Temuco,IX,Retail,2024-04-19
+C00660,Cliente 0660,Talca,VII,Retail,2025-01-09
+C00661,Cliente 0661,Puerto Montt,X,Retail,2025-07-24
+C00662,Cliente 0662,Antofagasta,II,Retail,2026-03-03
+C00663,Cliente 0663,La Serena,IV,Retail,2025-12-17
+C00664,Cliente 0664,TALCA,VII,Retail,2025-12-01
+C00665,Cliente 0665,Valparaíso,V,Premium,2025-04-27
+C00666,Cliente 0666,Valparaíso,V,Retail,2026-01-11
+C00667,Cliente 0667,Antofagasta,II,Premium,2025-09-03
+C00668,Cliente 0668,Rancagua,VI,Retail,2026-05-20
+C00669,Cliente 0669,Viña del Mar,V,Retail,2025-12-16
+C00670,Cliente 0670,Santiago,RM,Corporate,2024-03-29
+C00671,Cliente 0671,Viña del Mar,V,Retail,2024-01-16
+C00672,Cliente 0672,Talca,VII,Corporate,2024-12-22
+C00673,Cliente 0673,,IV,Retail,2025-02-17
+C00674,Cliente 0674,Talca,VII,Retail,2024-10-28
+C00675,Cliente 0675,Talca,VII,Premium,2025-08-11
+C00676,Cliente 0676,La Serena,IV,Premium,2026-03-05
+C00677,Cliente 0677,Rancagua,VI,Retail,2024-03-10
+C00678,Cliente 0678,La Serena,IV,,2025-02-26
+C00679,Cliente 0679,La Serena,IV,Retail,2025-02-12
+C00680,Cliente 0680,Temuco,IX,Retail,2025-08-10
+C00681,Cliente 0681,La Serena,IV,Retail,2024-07-23
+C00682,Cliente 0682,La Serena,IV,Premium,2026-05-06
+C00683,Cliente 0683,Valparaíso,V,Retail,2025-11-10
+C00684,Cliente 0684,Santiago,RM,Premium,2025-01-15
+C00685,Cliente 0685,Viña del Mar,V,Premium,2025-05-17
+C00686,Cliente 0686,La Serena,IV,Premium,2024-05-11
+C00687,Cliente 0687,Santiago,RM,Retail,2025-02-07
+C00688,Cliente 0688,Temuco,IX,Retail,2024-01-13
+C00689,Cliente 0689,Antofagasta,II,Retail,2024-09-26
+C00690,Cliente 0690,Concepción,VIII,Retail,2024-08-03
+C00691,Cliente 0691,Antofagasta,II,Retail,2025-08-08
+C00692,Cliente 0692,Antofagasta,II,Premium,2025-07-22
+C00693,Cliente 0693,Concepción,VIII,Retail,2024-01-10
+C00694,Cliente 0694,Talca,VII,Retail,2024-11-19
+C00695,Cliente 0695,Puerto Montt,X,Retail,2024-06-16
+C00696,Cliente 0696,Valparaíso,V,Retail,2024-12-08
+C00697,Cliente 0697,Antofagasta,II,Retail,2025-02-25
+C00698,Cliente 0698,Viña del Mar,V,Retail,2025-10-26
+C00699,Cliente 0699,Talca,VII,Retail,2026-01-24
+C00700,Cliente 0700,Concepción,VIII,Premium,2025-10-17
+C00701,Cliente 0701,Valparaíso,V,Retail,2024-12-17
+C00702,Cliente 0702,Viña del Mar,V,Retail,2024-10-04
+C00703,Cliente 0703,Talca,VII,Corporate,2025-02-27
+C00704,Cliente 0704,Antofagasta,II,Corporate,2025-12-18
+C00705,Cliente 0705,Rancagua,VI,Retail,2024-01-27
+C00706,Cliente 0706,Viña del Mar,V,Retail,2025-11-01
+C00707,Cliente 0707,Concepción,VIII,Retail,2026-05-08
+C00708,Cliente 0708,Temuco,IX,Premium,2025-04-23
+C00709,Cliente 0709,Talca,VII,Retail,2025-09-03
+C00710,Cliente 0710,Talca,VII,Retail,2025-06-30
+C00711,Cliente 0711,VALPARAÍSO,V,Retail,2025-01-09
+C00712,Cliente 0712,,VIII,Retail,2025-04-25
+C00713,Cliente 0713,Rancagua,VI,Retail,2026-02-23
+C00714,Cliente 0714,Talca,VII,Retail,2025-02-25
+C00715,Cliente 0715,Puerto Montt,X,Premium,2024-08-13
+C00716,Cliente 0716,Viña del Mar,V,Premium,2025-12-02
+C00717,Cliente 0717,Puerto Montt,X,Retail,2024-03-11
+C00718,Cliente 0718,Rancagua,VI,Retail,2025-09-29
+C00719,Cliente 0719,Talca,VII,Retail,2024-04-14
+C00720,Cliente 0720,La Serena,IV,Retail,2024-01-16
+C00721,Cliente 0721,Rancagua,VI,Corporate,2025-04-19
+C00722,Cliente 0722,Santiago,RM,Retail,2025-02-05
+C00723,Cliente 0723,Antofagasta,II,Premium,2026-04-28
+C00724,Cliente 0724,Rancagua,VI,Retail,2024-02-04
+C00725,Cliente 0725,La Serena,IV,Retail,2025-11-28
+C00726,Cliente 0726,Talca,VII,Retail,2024-09-16
+C00727,Cliente 0727,La Serena,IV,Corporate,2024-08-29
+C00728,Cliente 0728,,V,Retail,2026-03-19
+C00729,Cliente 0729,Rancagua,VI,Retail,2024-06-07
+C00730,Cliente 0730,Viña del Mar,V,Retail,2026-02-16
+C00731,Cliente 0731,Talca,VII,Premium,2024-05-08
+C00732,Cliente 0732,Temuco,IX,Premium,2025-03-25
+C00733,Cliente 0733,Antofagasta,II,Premium,2025-05-11
+C00734,Cliente 0734,Viña del Mar,V,Retail,2024-12-22
+C00735,Cliente 0735,Talca,VII,Retail,2025-06-27
+C00736,Cliente 0736,rancagua,VI,Retail,2025-10-15
+C00737,Cliente 0737,Temuco,IX,Premium,2024-09-01
+C00738,Cliente 0738,Puerto Montt,X,Retail,2025-11-30
+C00739,Cliente 0739,Puerto Montt,X,Retail,2024-04-23
+C00740,Cliente 0740, Concepción ,VIII,Retail,2024-02-02
+C00741,Cliente 0741,Puerto Montt,X,Retail,2025-06-22
+C00742,Cliente 0742,Viña del Mar,V,Premium,2024-01-14
+C00743,Cliente 0743,Rancagua,VI,Premium,2024-03-03
+C00744,Cliente 0744,Temuco,IX,Premium,2024-02-29
+C00745,Cliente 0745,Antofagasta,II,Retail,2024-08-09
+C00746,Cliente 0746,La Serena,IV,Retail,2025-11-03
+C00747,Cliente 0747,Talca,VII,Retail,2024-04-18
+C00748,Cliente 0748,Puerto Montt,X,Premium,2024-06-19
+C00749,Cliente 0749,Talca,VII,Corporate,2025-03-29
+C00750,Cliente 0750,Temuco,IX,Retail,2025-10-10
+C00751,Cliente 0751,Talca,VII,Retail,2026-02-23
+C00752,Cliente 0752,Rancagua,VI,Corporate,2024-01-01
+C00753,Cliente 0753,Antofagasta,II,Retail,2024-08-15
+C00754,Cliente 0754,Antofagasta,II,Corporate,2025-06-07
+C00755,Cliente 0755,Rancagua,VI,Retail,2024-05-21
+C00756,Cliente 0756,Antofagasta,II,Retail,2025-02-13
+C00757,Cliente 0757,Rancagua,VI,Retail,2026-04-25
+C00758,Cliente 0758,Santiago,RM,Premium,2025-08-13
+C00759,Cliente 0759,Temuco,IX,Premium,2025-03-20
+C00760,Cliente 0760,Viña del Mar,V,Corporate,2025-10-11
+C00761,Cliente 0761,Talca,VII,Retail,2024-11-30
+C00762,Cliente 0762,Puerto Montt,X,Corporate,2026-02-09
+C00763,Cliente 0763,Puerto Montt,X,Retail,2024-12-10
+C00764,Cliente 0764,Antofagasta,II,Retail,2025-05-28
+C00765,Cliente 0765,Talca,VII,Retail,2025-02-08
+C00766,Cliente 0766,Talca,VII,Retail,2024-03-14
+C00767,Cliente 0767,Valparaíso,V,Retail,2025-02-27
+C00768,Cliente 0768,Santiago,RM,Premium,2024-06-22
+C00769,Cliente 0769,Concepción,VIII,Retail,2026-04-17
+C00770,Cliente 0770,Valparaíso,V,Retail,2024-02-25
+C00771,Cliente 0771,Antofagasta,II,Retail,2025-12-11
+C00772,Cliente 0772,Talca,VII,Retail,2025-07-13
+C00773,Cliente 0773,Concepción,VIII,Retail,2025-11-15
+C00774,Cliente 0774,Antofagasta,II,Retail,2024-10-17
+C00775,Cliente 0775,Santiago,RM,Retail,2025-11-07
+C00776,Cliente 0776,Valparaíso,V,Retail,2026-06-07
+C00777,Cliente 0777,Valparaíso,V,Corporate,2025-05-11
+C00778,Cliente 0778,Rancagua,VI,Retail,2025-12-30
+C00779,Cliente 0779,Rancagua,VI,Retail,2024-06-09
+C00780,Cliente 0780,La Serena,IV,Corporate,2025-05-28
+C00781,Cliente 0781,Santiago,RM,Corporate,2024-10-13
+C00782,Cliente 0782,Valparaíso,V,Premium,2025-06-17
+C00783,Cliente 0783,Viña del Mar,V,Retail,2024-11-15
+C00784,Cliente 0784,Concepción,VIII,Retail,2025-12-01
+C00785,Cliente 0785,Talca,VII,Corporate,2025-03-16
+C00786,Cliente 0786,Valparaíso,V,Retail,2026-01-06
+C00787,Cliente 0787,Santiago,RM,Premium,2026-06-20
+C00788,Cliente 0788,Antofagasta,II,Retail,2024-07-11
+C00789,Cliente 0789,Viña del Mar,V,Retail,2025-08-03
+C00790,Cliente 0790,Temuco,IX,Retail,2026-03-09
+C00791,Cliente 0791,Temuco,IX,Retail,2025-01-31
+C00792,Cliente 0792,Puerto Montt,X,Premium,2024-01-16
+C00793,Cliente 0793,La Serena,IV,Premium,2024-03-08
+C00794,Cliente 0794,Rancagua,VI,Retail,2026-06-06
+C00795,Cliente 0795,Viña del Mar,V,Premium,2025-01-24
+C00796,Cliente 0796,Talca,VII,Retail,2026-06-15
+C00797,Cliente 0797,Santiago,RM,Premium,2024-09-08
+C00798,Cliente 0798,Puerto Montt,X,Retail,2025-10-07
+C00799,Cliente 0799,Antofagasta,II,Retail,2025-03-08
+C00800,Cliente 0800,Concepción,VIII,Retail,2025-10-23
+C00801,Cliente 0801,Viña del Mar,V,Corporate,2025-12-13
+C00802,Cliente 0802,Concepción,VIII,Retail,2025-12-30
+C00803,Cliente 0803,Concepción,VIII,Premium,2024-05-06
+C00804,Cliente 0804,Talca,VII,Premium,2026-01-14
+C00805,Cliente 0805,Santiago,RM,Premium,2024-12-09
+C00806,Cliente 0806,Concepción,VIII,Retail,2025-12-30
+C00807,Cliente 0807,RANCAGUA,VI,Retail,2024-07-04
+C00808,Cliente 0808,Antofagasta,II,,2025-05-24
+C00809,Cliente 0809,La Serena,IV,Retail,2025-11-06
+C00810,Cliente 0810,Santiago,RM,Retail,2025-07-14
+C00811,Cliente 0811, Santiago ,RM,Retail,2024-02-26
+C00812,Cliente 0812,Viña del Mar,V,Premium,2024-11-01
+C00813,Cliente 0813,Concepción,VIII,Retail,2024-10-18
+C00814,Cliente 0814,Talca,VII,Retail,2025-04-11
+C00815,Cliente 0815,Temuco,IX,Retail,2025-01-23
+C00816,Cliente 0816,Rancagua,VI,Retail,2025-12-12
+C00817,Cliente 0817,La Serena,IV,Retail,2024-04-21
+C00818,Cliente 0818,Rancagua,VI,Premium,2025-09-11
+C00819,Cliente 0819,Viña del Mar,V,Corporate,2024-12-28
+C00820,Cliente 0820,Rancagua,VI,Retail,2024-07-03
+C00821,Cliente 0821,Valparaíso,V,Retail,2025-10-02
+C00822,Cliente 0822,PUERTO MONTT,X,Retail,2024-12-07
+C00823,Cliente 0823,La Serena,IV,Retail,2024-09-17
+C00824,Cliente 0824,Santiago,RM,Retail,2024-12-07
+C00825,Cliente 0825,Concepción,VIII,Retail,2026-05-03
+C00826,Cliente 0826,Santiago,RM,Retail,2025-05-08
+C00827,Cliente 0827,Temuco,IX,Retail,2026-04-13
+C00828,Cliente 0828,Viña del Mar,V,Premium,2024-11-19
+C00829,Cliente 0829,Temuco,IX,Retail,2024-06-01
+C00830,Cliente 0830,Talca,VII,Premium,2025-08-07
+C00831,Cliente 0831,Antofagasta,II,Premium,2024-11-18
+C00832,Cliente 0832,Temuco,IX,Retail,2024-11-05
+C00833,Cliente 0833,Santiago,RM,Premium,2024-04-04
+C00834,Cliente 0834,Concepción,VIII,Retail,2025-05-10
+C00835,Cliente 0835,Valparaíso,V,Premium,2025-06-12
+C00836,Cliente 0836,Talca,VII,Retail,2024-11-14
+C00837,Cliente 0837,rancagua,VI,Premium,2024-04-15
+C00838,Cliente 0838,Antofagasta,II,Retail,2024-08-02
+C00839,Cliente 0839,Rancagua,VI,Retail,2024-10-06
+C00840,Cliente 0840,Talca,VII,Retail,2024-07-30
+C00841,Cliente 0841,Antofagasta,II,Retail,2024-06-24
+C00842,Cliente 0842,Santiago,RM,Retail,2025-04-27
+C00843,Cliente 0843,Concepción,VIII,Premium,2025-08-29
+C00844,Cliente 0844,Antofagasta,II,Retail,2024-07-21
+C00845,Cliente 0845,Viña del Mar,V,Retail,2026-04-12
+C00846,Cliente 0846,Rancagua,VI,Retail,2024-08-17
+C00847,Cliente 0847,Puerto Montt,X,Retail,2025-11-12
+C00848,Cliente 0848,Santiago,RM,Retail,2024-04-25
+C00849,Cliente 0849,Temuco,IX,Retail,2024-05-10
+C00850,Cliente 0850,Temuco,IX,Retail,2024-03-13
+C00851,Cliente 0851,Viña del Mar,V,Retail,2024-06-11
+C00852,Cliente 0852,Viña del Mar,V,Retail,2025-03-21
+C00853,Cliente 0853,Valparaíso,V,Premium,2025-12-29
+C00854,Cliente 0854,Temuco,IX,Retail,2026-04-21
+C00855,Cliente 0855,Valparaíso,V,Retail,2025-09-02
+C00856,Cliente 0856,LA SERENA,IV,Premium,2026-06-27
+C00857,Cliente 0857,Concepción,VIII,Retail,2025-04-08
+C00858,Cliente 0858,La Serena,IV,Retail,2024-11-20
+C00859,Cliente 0859,Puerto Montt,X,Premium,2024-12-18
+C00860,Cliente 0860,CONCEPCIÓN,VIII,Premium,2024-03-04
+C00861,Cliente 0861,Talca,VII,Premium,2025-01-02
+C00862,Cliente 0862,Viña del Mar,V,Retail,2024-11-21
+C00863,Cliente 0863,Concepción,VIII,Retail,2024-07-11
+C00864,Cliente 0864,concepción,VIII,Retail,2026-06-12
+C00865,Cliente 0865,Rancagua,VI,Retail,2024-05-19
+C00866,Cliente 0866,Viña del Mar,V,Corporate,2025-09-30
+C00867,Cliente 0867,Puerto Montt,X,Retail,2024-07-09
+C00868,Cliente 0868, La Serena ,IV,Premium,2024-10-02
+C00869,Cliente 0869,Santiago,RM,Retail,2025-12-22
+C00870,Cliente 0870,Concepción,VIII,Premium,2025-06-23
+C00871,Cliente 0871,Valparaíso,V,Retail,2025-10-07
+C00872,Cliente 0872,Viña del Mar,V,Retail,2024-12-17
+C00873,Cliente 0873,Rancagua,VI,Retail,2024-12-05
+C00874,Cliente 0874,Concepción,VIII,Retail,2025-09-03
+C00875,Cliente 0875,Rancagua,VI,Retail,2025-08-09
+C00876,Cliente 0876,Santiago,RM,Retail,2024-03-25
+C00877,Cliente 0877,,VIII,Retail,2024-10-08
+C00878,Cliente 0878,Viña del Mar,V,Premium,2025-11-05
+C00879,Cliente 0879,La Serena,IV,Retail,2026-03-29
+C00880,Cliente 0880,Concepción,VIII,Retail,2026-04-21
+C00881,Cliente 0881,Puerto Montt,X,Retail,2025-03-26
+C00882,Cliente 0882,Santiago,RM,Retail,2026-02-12
+C00883,Cliente 0883,Rancagua,VI,Premium,2026-02-09
+C00884,Cliente 0884,,II,Retail,2026-06-10
+C00885,Cliente 0885,Temuco,IX,Corporate,2025-11-30
+C00886,Cliente 0886,Puerto Montt,X,Retail,2025-10-29
+C00887,Cliente 0887,Viña del Mar,V,Retail,2026-03-02
+C00888,Cliente 0888,Temuco,IX,Retail,2024-07-03
+C00889,Cliente 0889,Santiago,RM,Retail,2025-06-21
+C00890,Cliente 0890,Antofagasta,II,Retail,2024-01-25
+C00891,Cliente 0891,La Serena,IV,Corporate,2025-10-15
+C00892,Cliente 0892,Concepción,VIII,Retail,2026-02-21
+C00893,Cliente 0893,Concepción,VIII,Retail,2025-04-23
+C00894,Cliente 0894,Puerto Montt,X,Retail,2025-11-14
+C00895,Cliente 0895,Santiago,RM,Retail,2024-12-06
+C00896,Cliente 0896,Valparaíso,V,Retail,2024-07-24
+C00897,Cliente 0897,Talca,VII,Premium,2024-08-11
+C00898,Cliente 0898,valparaíso,V,Retail,2024-03-13
+C00899,Cliente 0899,Rancagua,VI,Retail,2025-10-17
+C00900,Cliente 0900,Temuco,IX,Corporate,2025-08-11
+C00901,Cliente 0901,Puerto Montt,X,,2026-01-15
+C00902,Cliente 0902,Rancagua,VI,Retail,2025-07-02
+C00903,Cliente 0903,Valparaíso,V,Retail,2026-05-23
+C00904,Cliente 0904,La Serena,IV,Retail,2024-02-10
+C00905,Cliente 0905,Valparaíso,V,Retail,2025-01-02
+C00906,Cliente 0906,Concepción,VIII,Retail,2024-01-26
+C00907,Cliente 0907,Antofagasta,II,Retail,2026-05-04
+C00908,Cliente 0908,Temuco,IX,Premium,2024-02-13
+C00909,Cliente 0909,Rancagua,VI,Corporate,2026-06-10
+C00910,Cliente 0910,Santiago,RM,Premium,2025-05-15
+C00911,Cliente 0911,La Serena,IV,Premium,2024-05-13
+C00912,Cliente 0912,Valparaíso,V,Retail,2024-06-23
+C00913,Cliente 0913,Viña del Mar,V,Premium,2024-08-13
+C00914,Cliente 0914,Puerto Montt,X,Retail,2025-12-01
+C00915,Cliente 0915,La Serena,IV,Premium,2025-08-30
+C00916,Cliente 0916,Puerto Montt,X,Retail,2025-01-13
+C00917,Cliente 0917,concepción,VIII,Retail,2026-05-17
+C00918,Cliente 0918,Rancagua,VI,Retail,2024-01-08
+C00919,Cliente 0919,Antofagasta,II,Retail,2026-04-06
+C00920,Cliente 0920,Talca,VII,Retail,2024-09-01
+C00921,Cliente 0921,Rancagua,VI,Retail,2024-03-31
+C00922,Cliente 0922,Talca,VII,Retail,2024-04-30
+C00923,Cliente 0923,Talca,VII,Retail,2025-04-20
+C00924,Cliente 0924,Concepción,VIII,Retail,2025-04-30
+C00925,Cliente 0925,Temuco,IX,Retail,2025-03-21
+C00926,Cliente 0926,Santiago,RM,Retail,2024-02-23
+C00927,Cliente 0927,Valparaíso,V,Retail,2024-08-28
+C00928,Cliente 0928,Temuco,IX,Retail,2024-04-22
+C00929,Cliente 0929,La Serena,IV,Retail,2024-08-13
+C00930,Cliente 0930,Concepción,VIII,Retail,2025-09-16
+C00931,Cliente 0931,La Serena,IV,Retail,2024-10-03
+C00932,Cliente 0932,Antofagasta,II,Retail,2026-05-22
+C00933,Cliente 0933,Antofagasta,II,Retail,2026-03-19
+C00934,Cliente 0934,Talca,VII,Premium,2024-03-29
+C00935,Cliente 0935,,V,Retail,2025-04-18
+C00936,Cliente 0936,La Serena,IV,Retail,2025-08-16
+C00937,Cliente 0937,Viña del Mar,V,Premium,2025-03-03
+C00938,Cliente 0938,Santiago,RM,Retail,2025-02-07
+C00939,Cliente 0939,Rancagua,VI,Retail,2025-07-25
+C00940,Cliente 0940,,IX,Retail,2025-10-25
+C00941,Cliente 0941,Rancagua,VI,Premium,2026-02-04
+C00942,Cliente 0942,PUERTO MONTT,X,Retail,2026-06-11
+C00943,Cliente 0943,Valparaíso,V,Retail,2025-12-08
+C00944,Cliente 0944,Viña del Mar,V,Retail,2026-03-24
+C00945,Cliente 0945,Santiago,RM,Retail,2025-11-21
+C00946,Cliente 0946,Viña del Mar,V,Retail,2025-01-10
+C00947,Cliente 0947,La Serena,IV,Retail,2024-12-08
+C00948,Cliente 0948,Viña del Mar,V,Premium,2025-12-20
+C00949,Cliente 0949,Antofagasta,II,Retail,2025-03-09
+C00950,Cliente 0950,Talca,VII,Retail,2024-05-05
+C00951,Cliente 0951,Antofagasta,II,Retail,2025-01-11
+C00952,Cliente 0952,Puerto Montt,X,Premium,2024-10-22
+C00953,Cliente 0953,Rancagua,VI,Retail,2024-07-28
+C00954,Cliente 0954,talca,VII,Corporate,2025-04-30
+C00955,Cliente 0955,La Serena,IV,Retail,2026-06-11
+C00956,Cliente 0956,Viña del Mar,V,Retail,2025-10-23
+C00957,Cliente 0957,Talca,VII,Retail,2024-11-07
+C00958,Cliente 0958,Antofagasta,II,Retail,2025-01-15
+C00959,Cliente 0959,Rancagua,VI,Corporate,2025-09-25
+C00960,Cliente 0960,Concepción,VIII,Retail,2024-04-29
+C00961,Cliente 0961,Temuco,IX,Retail,2025-07-29
+C00962,Cliente 0962,Rancagua,VI,Retail,2024-06-15
+C00963,Cliente 0963,Rancagua,VI,Premium,2025-04-14
+C00964,Cliente 0964,Talca,VII,Retail,2025-12-23
+C00965,Cliente 0965,Viña del Mar,V,Retail,2026-03-29
+C00966,Cliente 0966, Valparaíso ,V,Premium,2024-02-11
+C00967,Cliente 0967,Viña del Mar,V,Premium,2025-04-01
+C00968,Cliente 0968,Viña del Mar,V,Retail,2026-03-11
+C00969,Cliente 0969,Valparaíso,V,Corporate,2025-02-07
+C00970,Cliente 0970,Santiago,RM,Corporate,2025-01-04
+C00971,Cliente 0971,Temuco,IX,Retail,2024-12-19
+C00972,Cliente 0972,La Serena,IV,Premium,2025-03-30
+C00973,Cliente 0973,Puerto Montt,X,Premium,2025-02-28
+C00974,Cliente 0974,Antofagasta,II,Retail,2026-06-07
+C00975,Cliente 0975,Puerto Montt,X,Retail,2025-02-23
+C00976,Cliente 0976,Viña del Mar,V,Premium,2024-05-20
+C00977,Cliente 0977,Santiago,RM,Premium,2024-11-05
+C00978,Cliente 0978,Santiago,RM,Premium,2024-06-06
+C00979,Cliente 0979,Valparaíso,V,Retail,2024-10-21
+C00980,Cliente 0980,Santiago,RM,Retail,2024-10-10
+C00981,Cliente 0981,Viña del Mar,V,Retail,2025-03-22
+C00982,Cliente 0982,,V,Retail,2026-01-20
+C00983,Cliente 0983,Concepción,VIII,Retail,2026-06-18
+C00984,Cliente 0984,Temuco,IX,Retail,2024-10-25
+C00985,Cliente 0985,Concepción,VIII,Premium,2025-09-05
+C00986,Cliente 0986,Antofagasta,II,Retail,2025-12-15
+C00987,Cliente 0987,Santiago,RM,Retail,2024-10-15
+C00988,Cliente 0988,Concepción,VIII,Retail,2024-06-07
+C00989,Cliente 0989,Viña del Mar,V,Retail,2025-06-22
+C00990,Cliente 0990,Puerto Montt,X,Retail,2024-03-19
+C00991,Cliente 0991,Antofagasta,II,Retail,2024-05-22
+C00992,Cliente 0992,Temuco,IX,Retail,2024-11-07
+C00993,Cliente 0993,Concepción,VIII,Retail,2024-11-10
+C00994,Cliente 0994,Valparaíso,V,Retail,2026-03-04
+C00995,Cliente 0995,Talca,VII,Retail,2025-04-25
+C00996,Cliente 0996,Santiago,RM,Premium,2026-03-12
+C00997,Cliente 0997,Concepción,VIII,Retail,2024-01-30
+C00998,Cliente 0998,Viña del Mar,V,Retail,2024-06-13
+C00999,Cliente 0999,Valparaíso,V,Retail,2025-08-15
+C01000,Cliente 1000,Concepción,VIII,Corporate,2025-07-04
+C01001,Cliente 1001,Talca,VII,Premium,2025-05-01
+C01002,Cliente 1002,Valparaíso,V,Retail,2024-12-29
+C01003,Cliente 1003,Temuco,IX,Retail,2024-04-22
+C01004,Cliente 1004,Talca,VII,Premium,2024-03-25
+C01005,Cliente 1005,Antofagasta,II,Retail,2026-05-11
+C01006,Cliente 1006,puerto montt,X,Retail,2024-03-12
+C01007,Cliente 1007,Rancagua,VI,Retail,2025-02-09
+C01008,Cliente 1008,Puerto Montt,X,Retail,2025-08-27
+C01009,Cliente 1009,Temuco,IX,Corporate,2024-12-12
+C01010,Cliente 1010,Puerto Montt,X,Premium,2024-10-12
+C01011,Cliente 1011,Puerto Montt,X,Retail,2025-11-13
+C01012,Cliente 1012,Concepción,VIII,Premium,2024-04-20
+C01013,Cliente 1013, Concepción ,VIII,Retail,2026-01-25
+C01014,Cliente 1014,Concepción,VIII,Retail,2025-11-26
+C01015,Cliente 1015,Valparaíso,V,Retail,2025-06-16
+C01016,Cliente 1016,rancagua,VI,Retail,2025-07-09
+C01017,Cliente 1017,Santiago,RM,Corporate,2026-06-20
+C01018,Cliente 1018,Rancagua,VI,Retail,2024-06-30
+C01019,Cliente 1019,Concepción,VIII,Retail,2024-05-17
+C01020,Cliente 1020,Rancagua,VI,Retail,2025-12-02
+C01021,Cliente 1021,Talca,VII,Retail,2024-09-26
+C01022,Cliente 1022,Antofagasta,II,Retail,2024-01-29
+C01023,Cliente 1023,Viña del Mar,V,Retail,2025-10-02
+C01024,Cliente 1024,Puerto Montt,X,Retail,2025-11-08
+C01025,Cliente 1025,Valparaíso,V,Premium,2024-04-27
+C01026,Cliente 1026,puerto montt,X,Retail,2025-03-07
+C01027,Cliente 1027,Temuco,IX,Retail,2025-02-03
+C01028,Cliente 1028,La Serena,IV,Retail,2025-05-29
+C01029,Cliente 1029,La Serena,IV,Retail,2026-05-17
+C01030,Cliente 1030,Santiago,RM,Retail,2025-08-10
+C01031,Cliente 1031,Viña del Mar,V,Retail,2024-12-10
+C01032,Cliente 1032,La Serena,IV,Retail,2024-03-19
+C01033,Cliente 1033,Talca,VII,Retail,2025-02-28
+C01034,Cliente 1034,Talca,VII,Retail,2024-01-20
+C01035,Cliente 1035,La Serena,IV,Retail,2026-04-23
+C01036,Cliente 1036,Puerto Montt,X,Corporate,2026-01-14
+C01037,Cliente 1037,La Serena,IV,Retail,2025-12-02
+C01038,Cliente 1038,Valparaíso,V,Retail,2026-05-16
+C01039,Cliente 1039,Viña del Mar,V,Retail,2024-09-01
+C01040,Cliente 1040,Antofagasta,II,Retail,2025-07-27
+C01041,Cliente 1041,Antofagasta,II,Retail,2024-09-21
+C01042,Cliente 1042,Rancagua,VI,Premium,2024-02-26
+C01043,Cliente 1043,Puerto Montt,X,Premium,2025-11-18
+C01044,Cliente 1044,Concepción,VIII,Retail,2025-08-07
+C01045,Cliente 1045,Talca,VII,Retail,2026-06-24
+C01046,Cliente 1046,Temuco,IX,Premium,2026-01-24
+C01047,Cliente 1047,La Serena,IV,Retail,2024-06-28
+C01048,Cliente 1048,Viña del Mar,V,Retail,2025-06-30
+C01049,Cliente 1049,Rancagua,VI,Retail,2024-10-11
+C01050,Cliente 1050,Santiago,RM,Retail,2025-09-12
+C01051,Cliente 1051,La Serena,IV,Retail,2025-01-28
+C01052,Cliente 1052,Valparaíso,V,Retail,2024-08-30
+C01053,Cliente 1053,Antofagasta,II,Retail,2026-04-22
+C01054,Cliente 1054,Rancagua,VI,Retail,2026-06-19
+C01055,Cliente 1055,Rancagua,VI,Retail,2025-02-26
+C01056,Cliente 1056,Concepción,VIII,Retail,2025-06-02
+C01057,Cliente 1057,Temuco,IX,Retail,2024-01-29
+C01058,Cliente 1058,Concepción,VIII,Retail,2024-07-23
+C01059,Cliente 1059,La Serena,IV,Retail,2026-02-25
+C01060,Cliente 1060,Temuco,IX,Retail,2026-06-13
+C01061,Cliente 1061,Antofagasta,II,Retail,2025-02-28
+C01062,Cliente 1062,Viña del Mar,V,Retail,2024-01-24
+C01063,Cliente 1063,Rancagua,VI,Retail,2025-12-19
+C01064,Cliente 1064,Concepción,VIII,Retail,2025-01-11
+C01065,Cliente 1065,Puerto Montt,X,Premium,2025-04-09
+C01066,Cliente 1066,Antofagasta,II,Retail,2025-05-21
+C01067,Cliente 1067, Antofagasta ,II,Premium,2024-07-12
+C01068,Cliente 1068,Antofagasta,II,Retail,2025-04-06
+C01069,Cliente 1069,Santiago,RM,Retail,2026-06-11
+C01070,Cliente 1070,Puerto Montt,X,Premium,2026-01-23
+C01071,Cliente 1071,Temuco,IX,Corporate,2025-04-27
+C01072,Cliente 1072,,V,Premium,2026-04-09
+C01073,Cliente 1073,Puerto Montt,X,Retail,2024-05-15
+C01074,Cliente 1074,Rancagua,VI,Corporate,2026-06-17
+C01075,Cliente 1075,Concepción,VIII,Retail,2024-11-16
+C01076,Cliente 1076,Antofagasta,II,Premium,2025-03-16
+C01077,Cliente 1077,Antofagasta,II,Retail,2025-03-22
+C01078,Cliente 1078,Concepción,VIII,Retail,2025-11-04
+C01079,Cliente 1079,La Serena,IV,Retail,2025-04-26
+C01080,Cliente 1080,Rancagua,VI,Retail,2024-12-31
+C01081,Cliente 1081,Concepción,VIII,Retail,2024-04-05
+C01082,Cliente 1082,TALCA,VII,Premium,2025-07-30
+C01083,Cliente 1083,Viña del Mar,V,Retail,2024-03-19
+C01084,Cliente 1084,Santiago,RM,Retail,2025-11-27
+C01085,Cliente 1085,Temuco,IX,Retail,2024-03-24
+C01086,Cliente 1086,Antofagasta,II,Retail,2024-01-06
+C01087,Cliente 1087,Temuco,IX,Corporate,2026-01-21
+C01088,Cliente 1088,Antofagasta,II,Retail,2024-02-26
+C01089,Cliente 1089,Antofagasta,II,Retail,2026-02-28
+C01090,Cliente 1090,Puerto Montt,X,Retail,2026-02-09
+C01091,Cliente 1091,Antofagasta,II,Corporate,2025-09-09
+C01092,Cliente 1092,La Serena,IV,Retail,2026-06-25
+C01093,Cliente 1093,Puerto Montt,X,Premium,2025-09-20
+C01094,Cliente 1094,Temuco,IX,Corporate,2025-11-23
+C01095,Cliente 1095,Talca,VII,Retail,2025-06-21
+C01096,Cliente 1096,Rancagua,VI,Retail,2024-05-10
+C01097,Cliente 1097,Santiago,RM,Retail,2024-02-16
+C01098,Cliente 1098,viña del mar,V,Premium,2024-12-29
+C01099,Cliente 1099,Rancagua,VI,Retail,2024-07-05
+C01100,Cliente 1100,Temuco,IX,Retail,2025-04-10
+C01101,Cliente 1101,Concepción,VIII,Retail,2024-03-21
+C01102,Cliente 1102,Santiago,RM,Retail,2024-04-29
+C01103,Cliente 1103,Viña del Mar,V,Premium,2024-11-06
+C01104,Cliente 1104,Puerto Montt,X,Premium,2024-03-30
+C01105,Cliente 1105,La Serena,IV,Premium,2024-08-02
+C01106,Cliente 1106,Talca,VII,Retail,2024-11-04
+C01107,Cliente 1107,Concepción,VIII,Premium,2025-03-31
+C01108,Cliente 1108,La Serena,IV,,2026-04-29
+C01109,Cliente 1109,Puerto Montt,X,Corporate,2026-05-18
+C01110,Cliente 1110,Antofagasta,II,Retail,2025-02-13
+C01111,Cliente 1111,Rancagua,VI,Retail,2024-03-03
+C01112,Cliente 1112,Antofagasta,II,Premium,2025-03-03
+C01113,Cliente 1113,Rancagua,VI,Retail,2024-01-22
+C01114,Cliente 1114,La Serena,IV,Retail,2025-08-24
+C01115,Cliente 1115,Rancagua,VI,Retail,2024-10-27
+C01116,Cliente 1116,Temuco,IX,Premium,2026-03-29
+C01117,Cliente 1117,Rancagua,VI,Retail,2024-07-23
+C01118,Cliente 1118,Rancagua,VI,Retail,2024-08-02
+C01119,Cliente 1119,Temuco,IX,Retail,2024-06-27
+C01120,Cliente 1120,Viña del Mar,V,Retail,2025-07-29
+C01121,Cliente 1121,Santiago,RM,Premium,2025-07-24
+C01122,Cliente 1122,Viña del Mar,V,Retail,2025-12-24
+C01123,Cliente 1123,Valparaíso,V,Corporate,2026-03-11
+C01124,Cliente 1124,Talca,VII,Retail,2024-04-17
+C01125,Cliente 1125,Concepción,VIII,Premium,2025-12-26
+C01126,Cliente 1126,Concepción,VIII,Retail,2024-12-08
+C01127,Cliente 1127,Santiago,RM,Retail,2026-04-08
+C01128,Cliente 1128,Temuco,IX,Premium,2025-02-28
+C01129,Cliente 1129,Talca,VII,Retail,2024-08-21
+C01130,Cliente 1130,Rancagua,VI,Corporate,2025-06-12
+C01131,Cliente 1131,Talca,VII,Corporate,2024-03-27
+C01132,Cliente 1132,Santiago,RM,Retail,2024-02-07
+C01133,Cliente 1133,Talca,VII,Corporate,2025-03-05
+C01134,Cliente 1134,Temuco,IX,Corporate,2024-01-09
+C01135,Cliente 1135,Puerto Montt,X,Retail,2024-07-29
+C01136,Cliente 1136,Temuco,IX,Premium,2026-03-11
+C01137,Cliente 1137,Santiago,RM,Retail,2025-02-03
+C01138,Cliente 1138, Talca ,VII,Retail,2025-06-17
+C01139,Cliente 1139,Talca,VII,Retail,2024-09-04
+C01140,Cliente 1140,Santiago,RM,Premium,2024-09-22
+C01141,Cliente 1141,Valparaíso,V,Retail,2025-08-09
+C01142,Cliente 1142,Viña del Mar,V,Retail,2025-10-04
+C01143,Cliente 1143,Viña del Mar,V,Retail,2026-01-01
+C01144,Cliente 1144,Viña del Mar,V,Retail,2026-03-08
+C01145,Cliente 1145,Puerto Montt,X,Retail,2024-03-04
+C01146,Cliente 1146,Temuco,IX,Retail,2025-02-16
+C01147,Cliente 1147,Viña del Mar,V,Retail,2025-03-09
+C01148,Cliente 1148,Puerto Montt,X,Premium,2024-05-27
+C01149,Cliente 1149,Talca,VII,Premium,2024-04-30
+C01150,Cliente 1150,Talca,VII,Retail,2024-05-01
+C01151,Cliente 1151,Antofagasta,II,Retail,2024-06-05
+C01152,Cliente 1152,Rancagua,VI,Retail,2024-05-26
+C01153,Cliente 1153,Antofagasta,II,Premium,2024-08-08
+C01154,Cliente 1154,Temuco,IX,Retail,2024-02-15
+C01155,Cliente 1155,Temuco,IX,Premium,2025-05-01
+C01156,Cliente 1156,Rancagua,VI,Retail,2024-06-01
+C01157,Cliente 1157,Puerto Montt,X,Retail,2025-02-08
+C01158,Cliente 1158,Antofagasta,II,Retail,2026-06-05
+C01159,Cliente 1159,Antofagasta,II,Retail,2024-05-06
+C01160,Cliente 1160,Viña del Mar,V,Premium,2025-08-06
+C01161,Cliente 1161,Valparaíso,V,Retail,2025-06-28
+C01162,Cliente 1162,Viña del Mar,V,Retail,2026-04-06
+C01163,Cliente 1163,Santiago,RM,Retail,2024-07-03
+C01164,Cliente 1164,Valparaíso,V,Retail,2024-04-11
+C01165,Cliente 1165,Valparaíso,V,Retail,2025-02-21
+C01166,Cliente 1166,Santiago,RM,Retail,2024-04-11
+C01167,Cliente 1167,Valparaíso,V,Retail,2024-09-02
+C01168,Cliente 1168,Puerto Montt,X,Corporate,2024-10-02
+C01169,Cliente 1169,Santiago,RM,Retail,2024-08-27
+C01170,Cliente 1170,La Serena,IV,Premium,2025-10-29
+C01171,Cliente 1171,Talca,VII,Retail,2024-05-25
+C01172,Cliente 1172,Puerto Montt,X,Corporate,2025-07-22
+C01173,Cliente 1173,Viña del Mar,V,Retail,2024-06-20
+C01174,Cliente 1174,Antofagasta,II,Premium,2025-01-24
+C01175,Cliente 1175,Antofagasta,II,Retail,2026-01-26
+C01176,Cliente 1176,Valparaíso,V,Premium,2026-01-12
+C01177,Cliente 1177,Talca,VII,Corporate,2024-11-21
+C01178,Cliente 1178,Antofagasta,II,Retail,2024-11-25
+C01179,Cliente 1179,Concepción,VIII,Retail,2024-01-03
+C01180,Cliente 1180,Puerto Montt,X,Retail,2025-12-14
+C01181,Cliente 1181,Valparaíso,V,Retail,2026-05-02
+C01182,Cliente 1182,Viña del Mar,V,Retail,2024-06-30
+C01183,Cliente 1183,Santiago,RM,Retail,2024-01-21
+C01184,Cliente 1184,Viña del Mar,V,Retail,2026-04-07
+C01185,Cliente 1185,Antofagasta,II,Retail,2025-12-21
+C01186,Cliente 1186,Puerto Montt,X,Retail,2024-10-11
+C01187,Cliente 1187,Viña del Mar,V,Retail,2025-09-09
+C01188,Cliente 1188,Concepción,VIII,Retail,2025-08-06
+C01189,Cliente 1189,Santiago,RM,Corporate,2025-12-10
+C01190,Cliente 1190,Santiago,RM,Corporate,2025-10-18
+C01191,Cliente 1191,Puerto Montt,X,Retail,2025-11-27
+C01192,Cliente 1192,La Serena,IV,,2025-03-06
+C01193,Cliente 1193,Valparaíso,V,Premium,2026-04-07
+C01194,Cliente 1194,Valparaíso,V,Corporate,2024-07-20
+C01195,Cliente 1195,Santiago,RM,Retail,2026-04-07
+C01196,Cliente 1196,Antofagasta,II,Retail,2025-04-29
+C01197,Cliente 1197,Talca,VII,Premium,2024-03-15
+C01198,Cliente 1198,Viña del Mar,V,Retail,2024-03-03
+C01199,Cliente 1199,Concepción,VIII,Retail,2026-04-01
+C01200,Cliente 1200,Valparaíso,V,Retail,2025-07-26
+C01201,Cliente 1201,,X,Retail,2025-09-05
+C01202,Cliente 1202,Viña del Mar,V,Retail,2024-12-13
+C01203,Cliente 1203,,IX,Retail,2024-04-20
+C01204,Cliente 1204,La Serena,IV,Corporate,2024-05-09
+C01205,Cliente 1205,Viña del Mar,V,Retail,2024-09-05
+C01206,Cliente 1206,Puerto Montt,X,Retail,2025-10-29
+C01207,Cliente 1207,Concepción,VIII,Retail,2025-09-09
+C01208,Cliente 1208,Concepción,VIII,Retail,2025-06-03
+C01209,Cliente 1209,La Serena,IV,Retail,2024-07-25
+C01210,Cliente 1210,Rancagua,VI,Retail,2024-12-05
+C01211,Cliente 1211,Temuco,IX,Retail,2025-04-10
+C01212,Cliente 1212,La Serena,IV,Retail,2024-08-06
+C01213,Cliente 1213, Puerto Montt ,X,Retail,2024-07-07
+C01214,Cliente 1214,Valparaíso,V,Retail,2025-03-26
+C01215,Cliente 1215,Santiago,RM,Retail,2024-10-17
+C01216,Cliente 1216,Talca,VII,Retail,2024-07-19
+C01217,Cliente 1217,Concepción,VIII,Retail,2026-03-17
+C01218,Cliente 1218,Temuco,IX,Premium,2025-11-07
+C01219,Cliente 1219,Puerto Montt,X,Premium,2024-03-07
+C01220,Cliente 1220,La Serena,IV,Retail,2025-12-12
+C01221,Cliente 1221,Santiago,RM,Premium,2025-08-24
+C01222,Cliente 1222,La Serena,IV,Retail,2026-03-25
+C01223,Cliente 1223,Rancagua,VI,Retail,2024-03-24
+C01224,Cliente 1224,Puerto Montt,X,Premium,2025-10-22
+C01225,Cliente 1225,Temuco,IX,Retail,2025-05-09
+C01226,Cliente 1226,Viña del Mar,V,Retail,2024-07-31
+C01227,Cliente 1227,La Serena,IV,Retail,2026-06-29
+C01228,Cliente 1228,Talca,VII,Retail,2026-02-08
+C01229,Cliente 1229,Santiago,RM,Retail,2025-09-28
+C01230,Cliente 1230,Rancagua,VI,Retail,2025-01-26
+C01231,Cliente 1231,Temuco,IX,Corporate,2024-10-28
+C01232,Cliente 1232,La Serena,IV,Retail,2024-03-14
+C01233,Cliente 1233,Temuco,IX,Retail,2026-02-02
+C01234,Cliente 1234,Talca,VII,Corporate,2024-01-09
+C01235,Cliente 1235,,X,Premium,2026-02-14
+C01236,Cliente 1236,Concepción,VIII,Premium,2024-08-21
+C01237,Cliente 1237,Viña del Mar,V,Premium,2026-02-14
+C01238,Cliente 1238,Temuco,IX,Premium,2025-03-15
+C01239,Cliente 1239,Temuco,IX,Retail,2026-06-13
+C01240,Cliente 1240,Temuco,IX,Retail,2025-03-05
+C01241,Cliente 1241,Talca,VII,Retail,2025-08-24
+C01242,Cliente 1242,Temuco,IX,Retail,2026-03-29
+C01243,Cliente 1243,Puerto Montt,X,Retail,2025-02-04
+C01244,Cliente 1244,Viña del Mar,V,Corporate,2025-10-16
+C01245,Cliente 1245,Santiago,RM,Premium,2025-09-09
+C01246,Cliente 1246,Puerto Montt,X,Retail,2024-08-26
+C01247,Cliente 1247,Talca,VII,Retail,2024-11-30
+C01248,Cliente 1248,Puerto Montt,X,Retail,2024-03-11
+C01249,Cliente 1249,La Serena,IV,Retail,2026-04-17
+C01250,Cliente 1250,La Serena,IV,,2025-12-02
+C01251,Cliente 1251,Valparaíso,V,Premium,2025-09-11
+C01252,Cliente 1252,Rancagua,VI,Retail,2024-02-10
+C01253,Cliente 1253,Antofagasta,II,Retail,2026-04-23
+C01254,Cliente 1254,Puerto Montt,X,Retail,2025-11-05
+C01255,Cliente 1255,Santiago,RM,Retail,2026-06-10
+C01256,Cliente 1256,Valparaíso,V,Retail,2026-01-09
+C01257,Cliente 1257,Valparaíso,V,Corporate,2024-03-19
+C01258,Cliente 1258,Concepción,VIII,Retail,2025-06-02
+C01259,Cliente 1259,RANCAGUA,VI,Retail,2026-02-02
+C01260,Cliente 1260,Valparaíso,V,Premium,2024-05-19
+C01261,Cliente 1261,Valparaíso,V,Retail,2024-09-05
+C01262,Cliente 1262,Concepción,VIII,Premium,2025-09-13
+C01263,Cliente 1263,Concepción,VIII,Retail,2026-02-20
+C01264,Cliente 1264,La Serena,IV,Premium,2025-11-22
+C01265,Cliente 1265,Talca,VII,Retail,2026-01-03
+C01266,Cliente 1266,Santiago,RM,Retail,2025-01-21
+C01267,Cliente 1267,Valparaíso,V,Retail,2024-01-29
+C01268,Cliente 1268,La Serena,IV,Corporate,2024-04-08
+C01269,Cliente 1269,Temuco,IX,Retail,2025-10-03
+C01270,Cliente 1270,Puerto Montt,X,Retail,2024-08-06
+C01271,Cliente 1271,Temuco,IX,Retail,2024-08-05
+C01272,Cliente 1272,Viña del Mar,V,Retail,2024-03-09
+C01273,Cliente 1273,Valparaíso,V,Premium,2026-03-21
+C01274,Cliente 1274,Puerto Montt,X,Retail,2026-02-28
+C01275,Cliente 1275,Temuco,IX,Corporate,2025-11-13
+C01276,Cliente 1276,rancagua,VI,Retail,2025-10-17
+C01277,Cliente 1277,Santiago,RM,Retail,2024-05-07
+C01278,Cliente 1278,Valparaíso,V,Retail,2025-01-18
+C01279,Cliente 1279,Santiago,RM,Retail,2026-01-12
+C01280,Cliente 1280,Concepción,VIII,Retail,2025-10-21
+C01281,Cliente 1281,Antofagasta,II,Premium,2024-08-22
+C01282,Cliente 1282,La Serena,IV,Premium,2025-12-13
+C01283,Cliente 1283,Rancagua,VI,Retail,2024-03-07
+C01284,Cliente 1284,Concepción,VIII,Corporate,2024-05-08
+C01285,Cliente 1285,La Serena,IV,Retail,2024-03-21
+C01286,Cliente 1286,La Serena,IV,Retail,2025-09-12
+C01287,Cliente 1287,La Serena,IV,Retail,2026-03-11
+C01288,Cliente 1288,Concepción,VIII,Retail,2025-03-08
+C01289,Cliente 1289,Rancagua,VI,Retail,2025-01-25
+C01290,Cliente 1290,Viña del Mar,V,Retail,2025-07-20
+C01291,Cliente 1291,Puerto Montt,X,Retail,2025-05-07
+C01292,Cliente 1292,La Serena,IV,Retail,2026-06-01
+C01293,Cliente 1293,Puerto Montt,X,Corporate,2026-01-30
+C01294,Cliente 1294,Valparaíso,V,Retail,2024-02-09
+C01295,Cliente 1295,Puerto Montt,X,Corporate,2026-02-28
+C01296,Cliente 1296,Santiago,RM,Retail,2025-03-10
+C01297,Cliente 1297,Santiago,RM,Retail,2025-10-22
+C01298,Cliente 1298,,II,Retail,2025-08-15
+C01299,Cliente 1299,Puerto Montt,X,Retail,2025-08-23
+C01300,Cliente 1300,Puerto Montt,X,Retail,2024-11-05
+C01301,Cliente 1301,Antofagasta,II,Premium,2026-02-09
+C01302,Cliente 1302,Concepción,VIII,,2024-08-02
+C01303,Cliente 1303,Rancagua,VI,Retail,2024-03-12
+C01304,Cliente 1304,Concepción,VIII,Retail,2024-07-09
+C01305,Cliente 1305,Rancagua,VI,Retail,2024-08-05
+C01306,Cliente 1306,La Serena,IV,Retail,2026-06-11
+C01307,Cliente 1307, Concepción ,VIII,Retail,2024-03-28
+C01308,Cliente 1308,,IV,Retail,2025-11-19
+C01309,Cliente 1309,Viña del Mar,V,Premium,2024-02-12
+C01310,Cliente 1310,Talca,VII,Corporate,2026-02-18
+C01311,Cliente 1311,Puerto Montt,X,Retail,2025-11-29
+C01312,Cliente 1312,PUERTO MONTT,X,Retail,2024-02-28
+C01313,Cliente 1313,Puerto Montt,X,Premium,2026-06-28
+C01314,Cliente 1314,La Serena,IV,Retail,2025-09-25
+C01315,Cliente 1315,,RM,Corporate,2026-04-12
+C01316,Cliente 1316,Temuco,IX,Retail,2024-08-27
+C01317,Cliente 1317,Temuco,IX,Retail,2025-05-02
+C01318,Cliente 1318,Antofagasta,II,Retail,2025-12-30
+C01319,Cliente 1319,Talca,VII,Retail,2025-05-24
+C01320,Cliente 1320,Rancagua,VI,Retail,2025-04-01
+C01321,Cliente 1321, Concepción ,VIII,Premium,2025-11-06
+C01322,Cliente 1322,Temuco,IX,Corporate,2026-02-23
+C01323,Cliente 1323,Valparaíso,V,Retail,2025-07-01
+C01324,Cliente 1324,La Serena,IV,Corporate,2026-02-23
+C01325,Cliente 1325,Puerto Montt,X,Retail,2026-03-14
+C01326,Cliente 1326,Antofagasta,II,Retail,2024-03-30
+C01327,Cliente 1327,VALPARAÍSO,V,Retail,2024-05-10
+C01328,Cliente 1328,Santiago,RM,Retail,2024-07-13
+C01329,Cliente 1329,Concepción,VIII,Retail,2025-09-08
+C01330,Cliente 1330,Rancagua,VI,Retail,2026-04-15
+C01331,Cliente 1331,Viña del Mar,V,Retail,2026-02-03
+C01332,Cliente 1332,Valparaíso,V,Retail,2026-05-18
+C01333,Cliente 1333,Puerto Montt,X,Retail,2026-04-09
+C01334,Cliente 1334,La Serena,IV,Premium,2024-02-23
+C01335,Cliente 1335,Concepción,VIII,Corporate,2025-07-15
+C01336,Cliente 1336,Puerto Montt,X,Retail,2025-06-24
+C01337,Cliente 1337,Talca,VII,Retail,2024-05-14
+C01338,Cliente 1338,Antofagasta,II,Retail,2024-06-16
+C01339,Cliente 1339,Concepción,VIII,,2026-04-03
+C01340,Cliente 1340,Viña del Mar,V,Retail,2026-03-15
+C01341,Cliente 1341,Concepción,VIII,Corporate,2024-04-08
+C01342,Cliente 1342,Talca,VII,Retail,2025-08-30
+C01343,Cliente 1343,Santiago,RM,Retail,2025-02-10
+C01344,Cliente 1344,Puerto Montt,X,Premium,2026-03-25
+C01345,Cliente 1345,Puerto Montt,X,Retail,2025-10-30
+C01346,Cliente 1346,Rancagua,VI,Retail,2025-06-05
+C01347,Cliente 1347,Antofagasta,II,Retail,2024-04-06
+C01348,Cliente 1348,Puerto Montt,X,Retail,2024-05-08
+C01349,Cliente 1349,Talca,VII,Retail,2026-04-12
+C01350,Cliente 1350,Talca,VII,Retail,2025-06-15
+C01351,Cliente 1351,LA SERENA,IV,Corporate,2024-04-30
+C01352,Cliente 1352,Rancagua,VI,Premium,2024-05-05
+C01353,Cliente 1353,Talca,VII,Retail,2026-02-10
+C01354,Cliente 1354,Talca,VII,Retail,2025-11-04
+C01355,Cliente 1355,Antofagasta,II,Retail,2025-03-31
+C01356,Cliente 1356,Temuco,IX,Retail,2025-06-06
+C01357,Cliente 1357,Santiago,RM,Retail,2024-11-02
+C01358,Cliente 1358,Temuco,IX,Retail,2026-01-16
+C01359,Cliente 1359,Concepción,VIII,Retail,2024-03-26
+C01360,Cliente 1360,La Serena,IV,Retail,2026-01-20
+C01361,Cliente 1361,Temuco,IX,Retail,2025-10-25
+C01362,Cliente 1362,Puerto Montt,X,Retail,2025-09-10
+C01363,Cliente 1363,Talca,VII,Retail,2024-12-03
+C01364,Cliente 1364,,VIII,Premium,2024-08-19
+C01365,Cliente 1365,Puerto Montt,X,Corporate,2026-03-12
+C01366,Cliente 1366,Rancagua,VI,Retail,2024-12-23
+C01367,Cliente 1367,Santiago,RM,Retail,2026-02-08
+C01368,Cliente 1368,TALCA,VII,Retail,2026-06-22
+C01369,Cliente 1369,Talca,VII,Premium,2025-11-04
+C01370,Cliente 1370,Temuco,IX,Premium,2024-09-12
+C01371,Cliente 1371,Temuco,IX,Premium,2025-05-29
+C01372,Cliente 1372,La Serena,IV,Retail,2026-05-28
+C01373,Cliente 1373,Valparaíso,V,Retail,2024-03-19
+C01374,Cliente 1374,Antofagasta,II,Retail,2025-05-19
+C01375,Cliente 1375,Concepción,VIII,Retail,2025-06-11
+C01376,Cliente 1376,Santiago,RM,Premium,2025-12-20
+C01377,Cliente 1377,Talca,VII,Retail,2024-02-13
+C01378,Cliente 1378,Talca,VII,Corporate,2024-06-28
+C01379,Cliente 1379,Santiago,RM,Retail,2025-01-23
+C01380,Cliente 1380,La Serena,IV,Premium,2026-05-21
+C01381,Cliente 1381,Santiago,RM,Premium,2025-08-05
+C01382,Cliente 1382,Talca,VII,Premium,2024-02-06
+C01383,Cliente 1383,Santiago,RM,,2024-12-02
+C01384,Cliente 1384,Concepción,VIII,Retail,2024-01-10
+C01385,Cliente 1385,Concepción,VIII,Retail,2025-05-14
+C01386,Cliente 1386,Puerto Montt,X,Retail,2025-01-08
+C01387,Cliente 1387,RANCAGUA,VI,Retail,2025-03-25
+C01388,Cliente 1388,La Serena,IV,Retail,2024-10-18
+C01389,Cliente 1389,Santiago,RM,Retail,2024-07-22
+C01390,Cliente 1390,Rancagua,VI,Retail,2026-03-30
+C01391,Cliente 1391,Talca,VII,Premium,2026-01-29
+C01392,Cliente 1392,Concepción,VIII,Retail,2025-05-27
+C01393,Cliente 1393,Temuco,IX,Retail,2025-09-03
+C01394,Cliente 1394,Puerto Montt,X,Retail,2024-06-05
+C01395,Cliente 1395,Antofagasta,II,Corporate,2024-09-10
+C01396,Cliente 1396,Talca,VII,Retail,2024-07-12
+C01397,Cliente 1397,Puerto Montt,X,Retail,2024-07-15
+C01398,Cliente 1398,Santiago,RM,Retail,2025-06-21
+C01399,Cliente 1399,Puerto Montt,X,Retail,2025-06-06
+C01400,Cliente 1400,Antofagasta,II,Corporate,2025-12-29
+C01401,Cliente 1401,Santiago,RM,Retail,2026-02-01
+C01402,Cliente 1402,Valparaíso,V,Retail,2024-09-15
+C01403,Cliente 1403,Santiago,RM,Retail,2026-02-27
+C01404,Cliente 1404,Viña del Mar,V,Retail,2025-01-15
+C01405,Cliente 1405,Valparaíso,V,Retail,2026-01-30
+C01406,Cliente 1406,La Serena,IV,Retail,2025-04-01
+C01407,Cliente 1407,Rancagua,VI,Corporate,2024-07-25
+C01408,Cliente 1408,Talca,VII,Premium,2026-06-17
+C01409,Cliente 1409,Valparaíso,V,Corporate,2024-03-10
+C01410,Cliente 1410,Santiago,RM,Retail,2024-10-07
+C01411,Cliente 1411,La Serena,IV,Premium,2025-02-11
+C01412,Cliente 1412,Concepción,VIII,Retail,2025-06-05
+C01413,Cliente 1413,La Serena,IV,Retail,2024-06-12
+C01414,Cliente 1414,Talca,VII,Retail,2025-12-25
+C01415,Cliente 1415,Antofagasta,II,Retail,2024-06-24
+C01416,Cliente 1416,Concepción,VIII,Corporate,2024-10-11
+C01417,Cliente 1417,La Serena,IV,Corporate,2024-08-03
+C01418,Cliente 1418,Temuco,IX,Retail,2025-12-23
+C01419,Cliente 1419,Antofagasta,II,Retail,2024-02-28
+C01420,Cliente 1420,Antofagasta,II,Retail,2024-01-17
+C01421,Cliente 1421,Viña del Mar,V,Retail,2026-02-02
+C01422,Cliente 1422,Viña del Mar,V,Retail,2026-04-16
+C01423,Cliente 1423,Puerto Montt,X,Retail,2024-08-25
+C01424,Cliente 1424,Concepción,VIII,Retail,2026-04-15
+C01425,Cliente 1425,Antofagasta,II,Retail,2024-06-15
+C01426,Cliente 1426,Concepción,VIII,Retail,2024-09-08
+C01427,Cliente 1427,talca,VII,Retail,2026-02-07
+C01428,Cliente 1428,Santiago,RM,Premium,2025-10-21
+C01429,Cliente 1429,Viña del Mar,V,Retail,2024-01-10
+C01430,Cliente 1430,Valparaíso,V,Retail,2025-05-06
+C01431,Cliente 1431,Rancagua,VI,Retail,2024-02-27
+C01432,Cliente 1432,Santiago,RM,Retail,2024-10-30
+C01433,Cliente 1433,La Serena,IV,Retail,2025-03-13
+C01434,Cliente 1434,Puerto Montt,X,Retail,2026-01-02
+C01435,Cliente 1435,Antofagasta,II,Retail,2025-09-22
+C01436,Cliente 1436,Santiago,RM,Retail,2024-07-01
+C01437,Cliente 1437,Concepción,VIII,Premium,2025-12-04
+C01438,Cliente 1438,Antofagasta,II,Corporate,2025-11-08
+C01439,Cliente 1439,Valparaíso,V,Premium,2026-06-01
+C01440,Cliente 1440,Rancagua,VI,Premium,2026-03-15
+C01441,Cliente 1441,Antofagasta,II,Retail,2024-11-26
+C01442,Cliente 1442,Puerto Montt,X,Retail,2025-02-27
+C01443,Cliente 1443,La Serena,IV,Retail,2025-07-16
+C01444,Cliente 1444,La Serena,IV,Retail,2025-08-17
+C01445,Cliente 1445,,IV,Premium,2024-08-28
+C01446,Cliente 1446,Talca,VII,Retail,2024-05-16
+C01447,Cliente 1447,Concepción,VIII,Retail,2024-05-27
+C01448,Cliente 1448,La Serena,IV,Retail,2024-05-21
+C01449,Cliente 1449,Santiago,RM,Retail,2025-03-10
+C01450,Cliente 1450,Rancagua,VI,Premium,2026-06-10
+C01451,Cliente 1451,Valparaíso,V,Retail,2026-05-01
+C01452,Cliente 1452,Talca,VII,Retail,2024-11-02
+C01453,Cliente 1453,Santiago,RM,Retail,2024-06-08
+C01454,Cliente 1454,Talca,VII,Retail,2025-02-09
+C01455,Cliente 1455,Antofagasta,II,Corporate,2025-05-28
+C01456,Cliente 1456,Valparaíso,V,Retail,2024-05-08
+C01457,Cliente 1457,Talca,VII,Retail,2024-03-20
+C01458,Cliente 1458,Puerto Montt,X,Retail,2026-04-02
+C01459,Cliente 1459,Valparaíso,V,Retail,2026-03-08
+C01460,Cliente 1460,Valparaíso,V,Retail,2024-01-12
+C01461,Cliente 1461,La Serena,IV,Retail,2025-08-06
+C01462,Cliente 1462,Santiago,RM,Retail,2024-11-12
+C01463,Cliente 1463,Talca,VII,Retail,2026-02-08
+C01464,Cliente 1464,Valparaíso,V,Retail,2026-01-29
+C01465,Cliente 1465,Viña del Mar,V,Premium,2025-05-03
+C01466,Cliente 1466,Rancagua,VI,Retail,2025-10-02
+C01467,Cliente 1467,Concepción,VIII,Premium,2024-06-13
+C01468,Cliente 1468,Temuco,IX,Retail,2024-05-14
+C01469,Cliente 1469,Santiago,RM,Premium,2026-03-03
+C01470,Cliente 1470,Concepción,VIII,Retail,2025-05-24
+C01471,Cliente 1471,Talca,VII,Premium,2026-03-27
+C01472,Cliente 1472,Antofagasta,II,Retail,2024-10-13
+C01473,Cliente 1473,Rancagua,VI,Retail,2025-04-29
+C01474,Cliente 1474,Valparaíso,V,Corporate,2025-05-14
+C01475,Cliente 1475,Viña del Mar,V,Corporate,2024-05-12
+C01476,Cliente 1476,Temuco,IX,Retail,2025-02-27
+C01477,Cliente 1477,Santiago,RM,Retail,2025-10-21
+C01478,Cliente 1478,Santiago,RM,Retail,2024-04-17
+C01479,Cliente 1479,La Serena,IV,Retail,2025-04-18
+C01480,Cliente 1480,Rancagua,VI,Retail,2024-07-03
+C01481,Cliente 1481,La Serena,IV,Retail,2024-03-07
+C01482,Cliente 1482,Rancagua,VI,Retail,2025-04-10
+C01483,Cliente 1483,La Serena,IV,Retail,2024-02-02
+C01484,Cliente 1484,Puerto Montt,X,Corporate,2024-08-06
+C01485,Cliente 1485,Puerto Montt,X,Retail,2025-10-12
+C01486,Cliente 1486,Antofagasta,II,Premium,2025-04-07
+C01487,Cliente 1487,Santiago,RM,Retail,2025-03-14
+C01488,Cliente 1488,Puerto Montt,X,Retail,2025-07-02
+C01489,Cliente 1489,Viña del Mar,V,Retail,2024-01-11
+C01490,Cliente 1490,,V,Retail,2024-11-27
+C01491,Cliente 1491,Rancagua,VI,Premium,2024-04-26
+C01492,Cliente 1492,Concepción,VIII,Retail,2025-10-16
+C01493,Cliente 1493,Puerto Montt,X,Retail,2026-03-03
+C01494,Cliente 1494,La Serena,IV,Corporate,2025-08-13
+C01495,Cliente 1495,Antofagasta,II,Retail,2026-06-07
+C01496,Cliente 1496,Puerto Montt,X,Retail,2026-04-28
+C01497,Cliente 1497,Concepción,VIII,Retail,2025-01-17
+C01498,Cliente 1498,Antofagasta,II,Premium,2025-12-06
+C01499,Cliente 1499,Valparaíso,V,Corporate,2026-04-05
+C01500,Cliente 1500,Valparaíso,V,Retail,2026-02-08
+C01501,Cliente 1501,Viña del Mar,V,Premium,2025-11-14
+C01502,Cliente 1502,Talca,VII,Retail,2024-07-19
+C01503,Cliente 1503,RANCAGUA,VI,Retail,2026-04-20
+C01504,Cliente 1504,Temuco,IX,Premium,2025-06-03
+C01505,Cliente 1505,Puerto Montt,X,Retail,2024-01-05
+C01506,Cliente 1506,Talca,VII,Premium,2025-09-06
+C01507,Cliente 1507,La Serena,IV,Retail,2025-02-04
+C01508,Cliente 1508,Viña del Mar,V,Retail,2025-10-13
+C01509,Cliente 1509,Talca,VII,Retail,2024-08-24
+C01510,Cliente 1510,Viña del Mar,V,Premium,2026-05-13
+C01511,Cliente 1511,Temuco,IX,Retail,2024-04-05
+C01512,Cliente 1512,Santiago,RM,Retail,2025-07-10
+C01513,Cliente 1513,Rancagua,VI,Retail,2026-03-07
+C01514,Cliente 1514,La Serena,IV,Retail,2024-09-08
+C01515,Cliente 1515,Concepción,VIII,Retail,2025-10-15
+C01516,Cliente 1516,Valparaíso,V,Retail,2024-10-16
+C01517,Cliente 1517,Temuco,IX,Corporate,2024-07-31
+C01518,Cliente 1518,Rancagua,VI,Corporate,2024-03-19
+C01519,Cliente 1519,,VI,Premium,2024-07-03
+C01520,Cliente 1520,Viña del Mar,V,Premium,2024-04-30
+C01521,Cliente 1521, Talca ,VII,Retail,2025-06-18
+C01522,Cliente 1522,Santiago,RM,Retail,2026-02-18
+C01523,Cliente 1523,Santiago,RM,Retail,2024-08-13
+C01524,Cliente 1524,Rancagua,VI,Retail,2024-04-04
+C01525,Cliente 1525,Rancagua,VI,Retail,2025-02-13
+C01526,Cliente 1526,Antofagasta,II,Corporate,2024-04-15
+C01527,Cliente 1527,La Serena,IV,Corporate,2025-05-14
+C01528,Cliente 1528,Temuco,IX,Retail,2025-09-13
+C01529,Cliente 1529,Valparaíso,V,Retail,2026-06-29
+C01530,Cliente 1530,Viña del Mar,V,Premium,2025-10-22
+C01531,Cliente 1531,Temuco,IX,Retail,2024-07-09
+C01532,Cliente 1532,Concepción,VIII,,2024-05-05
+C01533,Cliente 1533,Rancagua,VI,Retail,2024-11-25
+C01534,Cliente 1534,Talca,VII,Retail,2025-07-28
+C01535,Cliente 1535,Valparaíso,V,Retail,2025-10-23
+C01536,Cliente 1536,La Serena,IV,Retail,2026-04-01
+C01537,Cliente 1537,valparaíso,V,Retail,2025-09-07
+C01538,Cliente 1538,Santiago,RM,Retail,2026-05-26
+C01539,Cliente 1539,Puerto Montt,X,Retail,2025-06-30
+C01540,Cliente 1540,Valparaíso,V,Premium,2025-03-01
+C01541,Cliente 1541,Talca,VII,Premium,2025-05-20
+C01542,Cliente 1542,Rancagua,VI,Premium,2024-05-04
+C01543,Cliente 1543,Santiago,RM,Retail,2024-11-26
+C01544,Cliente 1544,Temuco,IX,Premium,2025-07-04
+C01545,Cliente 1545,Santiago,RM,Retail,2024-11-07
+C01546,Cliente 1546,Puerto Montt,X,Retail,2024-06-23
+C01547,Cliente 1547,Concepción,VIII,Premium,2026-06-28
+C01548,Cliente 1548,La Serena,IV,Retail,2025-11-08
+C01549,Cliente 1549,La Serena,IV,Retail,2026-02-23
+C01550,Cliente 1550,La Serena,IV,Retail,2026-01-22
+C01551,Cliente 1551,La Serena,IV,Retail,2024-08-09
+C01552,Cliente 1552,La Serena,IV,Premium,2026-02-18
+C01553,Cliente 1553,Rancagua,VI,Retail,2026-05-18
+C01554,Cliente 1554,Puerto Montt,X,Corporate,2026-06-07
+C01555,Cliente 1555,Antofagasta,II,Retail,2025-12-03
+C01556,Cliente 1556,Rancagua,VI,Premium,2026-02-01
+C01557,Cliente 1557,Santiago,RM,Retail,2025-06-27
+C01558,Cliente 1558,Temuco,IX,Retail,2024-06-03
+C01559,Cliente 1559,Antofagasta,II,Retail,2024-02-20
+C01560,Cliente 1560,La Serena,IV,Retail,2025-08-31
+C01561,Cliente 1561,Santiago,RM,Retail,2024-04-23
+C01562,Cliente 1562,La Serena,IV,Retail,2024-04-13
+C01563,Cliente 1563,Puerto Montt,X,Retail,2024-08-13
+C01564,Cliente 1564,Antofagasta,II,Premium,2024-10-21
+C01565,Cliente 1565,Rancagua,VI,Premium,2026-05-23
+C01566,Cliente 1566,temuco,IX,Premium,2024-05-25
+C01567,Cliente 1567,Antofagasta,II,Premium,2024-06-23
+C01568,Cliente 1568,Rancagua,VI,Premium,2025-04-28
+C01569,Cliente 1569,Antofagasta,II,Premium,2025-06-21
+C01570,Cliente 1570,Antofagasta,II,Premium,2024-12-09
+C01571,Cliente 1571,Rancagua,VI,Retail,2025-04-14
+C01572,Cliente 1572,Talca,VII,Premium,2026-05-27
+C01573,Cliente 1573,Santiago,RM,Retail,2025-02-24
+C01574,Cliente 1574,La Serena,IV,Retail,2025-12-13
+C01575,Cliente 1575,Puerto Montt,X,Retail,2024-10-07
+C01576,Cliente 1576,Talca,VII,Retail,2025-11-26
+C01577,Cliente 1577,Antofagasta,II,Retail,2024-02-12
+C01578,Cliente 1578,Puerto Montt,X,Premium,2025-08-03
+C01579,Cliente 1579,Concepción,VIII,Retail,2024-06-02
+C01580,Cliente 1580,,II,Retail,2024-03-07
+C01581,Cliente 1581,,V,Retail,2025-05-15
+C01582,Cliente 1582,Santiago,RM,Retail,2024-12-24
+C01583,Cliente 1583,Talca,VII,Retail,2024-03-29
+C01584,Cliente 1584,Valparaíso,V,Retail,2024-02-02
+C01585,Cliente 1585,Puerto Montt,X,Retail,2024-04-10
+C01586,Cliente 1586,Puerto Montt,X,Retail,2024-11-26
+C01587,Cliente 1587,Puerto Montt,X,Retail,2024-11-04
+C01588,Cliente 1588,Talca,VII,Retail,2026-03-12
+C01589,Cliente 1589,Talca,VII,Corporate,2025-12-30
+C01590,Cliente 1590,Puerto Montt,X,Retail,2025-07-26
+C01591,Cliente 1591,Viña del Mar,V,Corporate,2026-03-16
+C01592,Cliente 1592,Viña del Mar,V,Premium,2024-02-24
+C01593,Cliente 1593,Talca,VII,Retail,2024-02-25
+C01594,Cliente 1594,Temuco,IX,Retail,2026-04-21
+C01595,Cliente 1595,Valparaíso,V,Premium,2025-11-21
+C01596,Cliente 1596,Concepción,VIII,Retail,2025-05-22
+C01597,Cliente 1597,Antofagasta,II,Retail,2026-01-06
+C01598,Cliente 1598,Valparaíso,V,Retail,2025-09-10
+C01599,Cliente 1599,Santiago,RM,Premium,2025-03-30
+C01600,Cliente 1600,Concepción,VIII,Premium,2026-05-11
+C01601,Cliente 1601,Viña del Mar,V,Retail,2024-05-29
+C01602,Cliente 1602,La Serena,IV,Retail,2026-01-29
+C01603,Cliente 1603,Valparaíso,V,Corporate,2025-05-19
+C01604,Cliente 1604,Valparaíso,V,Retail,2026-04-13
+C01605,Cliente 1605,Puerto Montt,X,Retail,2024-11-06
+C01606,Cliente 1606,Santiago,RM,Corporate,2024-12-29
+C01607,Cliente 1607,Concepción,VIII,Retail,2026-05-26
+C01608,Cliente 1608,Talca,VII,Retail,2025-11-02
+C01609,Cliente 1609,Concepción,VIII,Retail,2026-02-19
+C01610,Cliente 1610,Rancagua,VI,Retail,2025-04-28
+C01611,Cliente 1611,Talca,VII,Retail,2025-12-15
+C01612,Cliente 1612,Puerto Montt,X,Retail,2024-01-31
+C01613,Cliente 1613,Rancagua,VI,Retail,2024-08-25
+C01614,Cliente 1614,Puerto Montt,X,Premium,2025-03-06
+C01615,Cliente 1615,Valparaíso,V,Retail,2025-01-18
+C01616,Cliente 1616,Valparaíso,V,Retail,2025-01-21
+C01617,Cliente 1617,Antofagasta,II,Retail,2025-11-26
+C01618,Cliente 1618,Talca,VII,Premium,2024-07-15
+C01619,Cliente 1619,La Serena,IV,Retail,2024-05-23
+C01620,Cliente 1620,Valparaíso,V,Retail,2025-11-29
+C01621,Cliente 1621,Rancagua,VI,Retail,2024-12-31
+C01622,Cliente 1622,Rancagua,VI,Retail,2025-01-20
+C01623,Cliente 1623,Valparaíso,V,Retail,2024-08-24
+C01624,Cliente 1624,Antofagasta,II,Corporate,2024-09-14
+C01625,Cliente 1625,Antofagasta,II,Retail,2025-08-12
+C01626,Cliente 1626,Puerto Montt,X,Retail,2025-07-13
+C01627,Cliente 1627,Santiago,RM,Retail,2025-03-07
+C01628,Cliente 1628,La Serena,IV,Retail,2026-01-21
+C01629,Cliente 1629,La Serena,IV,Retail,2026-04-04
+C01630,Cliente 1630,Santiago,RM,Retail,2024-03-13
+C01631,Cliente 1631,Talca,VII,Retail,2024-05-12
+C01632,Cliente 1632,La Serena,IV,Retail,2025-03-17
+C01633,Cliente 1633,Santiago,RM,Corporate,2024-01-27
+C01634,Cliente 1634,Santiago,RM,Retail,2024-02-23
+C01635,Cliente 1635,Puerto Montt,X,Retail,2024-04-28
+C01636,Cliente 1636,TEMUCO,IX,Retail,2025-03-23
+C01637,Cliente 1637,puerto montt,X,Premium,2026-06-28
+C01638,Cliente 1638,La Serena,IV,Premium,2024-03-19
+C01639,Cliente 1639,Temuco,IX,Retail,2026-06-30
+C01640,Cliente 1640,Valparaíso,V,Retail,2024-03-19
+C01641,Cliente 1641,Temuco,IX,Premium,2026-05-29
+C01642,Cliente 1642,Talca,VII,Retail,2025-10-31
+C01643,Cliente 1643,Talca,VII,Retail,2024-12-20
+C01644,Cliente 1644,La Serena,IV,Corporate,2026-05-11
+C01645,Cliente 1645,Temuco,IX,Premium,2026-03-17
+C01646,Cliente 1646,Rancagua,VI,Corporate,2024-01-22
+C01647,Cliente 1647,Antofagasta,II,Premium,2024-03-27
+C01648,Cliente 1648,Puerto Montt,X,Retail,2024-02-15
+C01649,Cliente 1649,Santiago,RM,Retail,2024-02-02
+C01650,Cliente 1650,Temuco,IX,Corporate,2024-09-25
+C01651,Cliente 1651,Viña del Mar,V,Retail,2025-03-13
+C01652,Cliente 1652,Antofagasta,II,Premium,2025-07-01
+C01653,Cliente 1653,Antofagasta,II,Retail,2025-01-25
+C01654,Cliente 1654,Santiago,RM,Retail,2025-11-29
+C01655,Cliente 1655,Temuco,IX,Retail,2024-02-09
+C01656,Cliente 1656,Viña del Mar,V,Retail,2024-11-10
+C01657,Cliente 1657,Rancagua,VI,Retail,2025-03-26
+C01658,Cliente 1658,Talca,VII,Retail,2024-02-29
+C01659,Cliente 1659,Temuco,IX,Corporate,2025-03-27
+C01660,Cliente 1660,Rancagua,VI,Retail,2025-10-07
+C01661,Cliente 1661,Valparaíso,V,Retail,2024-07-07
+C01662,Cliente 1662,La Serena,IV,Retail,2026-01-01
+C01663,Cliente 1663,Temuco,IX,Retail,2024-02-15
+C01664,Cliente 1664,Valparaíso,V,Retail,2024-08-30
+C01665,Cliente 1665,Puerto Montt,X,Retail,2025-03-12
+C01666,Cliente 1666,Temuco,IX,Corporate,2025-10-29
+C01667,Cliente 1667,Concepción,VIII,Retail,2024-10-24
+C01668,Cliente 1668,Temuco,IX,Retail,2026-03-10
+C01669,Cliente 1669,Puerto Montt,X,Premium,2024-02-03
+C01670,Cliente 1670,Valparaíso,V,Corporate,2024-08-17
+C01671,Cliente 1671,Puerto Montt,X,Retail,2024-05-04
+C01672,Cliente 1672,Talca,VII,Retail,2024-10-02
+C01673,Cliente 1673,La Serena,IV,Premium,2025-01-05
+C01674,Cliente 1674,La Serena,IV,Retail,2026-06-20
+C01675,Cliente 1675,Temuco,IX,Retail,2025-09-11
+C01676,Cliente 1676,Concepción,VIII,Corporate,2024-09-07
+C01677,Cliente 1677,Antofagasta,II,Retail,2024-04-30
+C01678,Cliente 1678,rancagua,VI,Retail,2026-03-02
+C01679,Cliente 1679,Valparaíso,V,Retail,2026-02-22
+C01680,Cliente 1680,Santiago,RM,Premium,2024-01-25
+C01681,Cliente 1681,Puerto Montt,X,Corporate,2024-12-28
+C01682,Cliente 1682,Valparaíso,V,Retail,2026-04-24
+C01683,Cliente 1683,Santiago,RM,Retail,2024-12-29
+C01684,Cliente 1684,Puerto Montt,X,Retail,2025-05-03
+C01685,Cliente 1685,Talca,VII,Retail,2024-01-08
+C01686,Cliente 1686,Temuco,IX,Retail,2025-06-04
+C01687,Cliente 1687,Rancagua,VI,Retail,2025-07-31
+C01688,Cliente 1688,Puerto Montt,X,Retail,2025-01-28
+C01689,Cliente 1689,La Serena,IV,Retail,2024-10-11
+C01690,Cliente 1690,Concepción,VIII,Retail,2024-10-07
+C01691,Cliente 1691,Antofagasta,II,Corporate,2026-02-10
+C01692,Cliente 1692,La Serena,IV,Retail,2025-06-04
+C01693,Cliente 1693,Talca,VII,Retail,2024-07-18
+C01694,Cliente 1694,Antofagasta,II,Corporate,2025-08-07
+C01695,Cliente 1695,Antofagasta,II,Corporate,2026-01-03
+C01696,Cliente 1696,Concepción,VIII,Corporate,2026-01-19
+C01697,Cliente 1697,La Serena,IV,Premium,2024-11-30
+C01698,Cliente 1698,Talca,VII,Retail,2024-03-16
+C01699,Cliente 1699, Talca ,VII,Retail,2026-05-11
+C01700,Cliente 1700,Santiago,RM,Retail,2025-08-23
+C01701,Cliente 1701,Rancagua,VI,Retail,2026-04-13
+C01702,Cliente 1702,,V,Corporate,2026-05-27
+C01703,Cliente 1703,La Serena,IV,Premium,2024-02-09
+C01704,Cliente 1704,La Serena,IV,Retail,2025-05-10
+C01705,Cliente 1705,La Serena,IV,Premium,2025-11-15
+C01706,Cliente 1706,Talca,VII,Retail,2024-04-08
+C01707,Cliente 1707,Antofagasta,II,Retail,2025-04-02
+C01708,Cliente 1708,Temuco,IX,Retail,2024-12-21
+C01709,Cliente 1709,Rancagua,VI,Retail,2025-12-04
+C01710,Cliente 1710,Puerto Montt,X,Retail,2026-03-01
+C01711,Cliente 1711,Rancagua,VI,Retail,2024-09-23
+C01712,Cliente 1712,Santiago,RM,Retail,2025-02-23
+C01713,Cliente 1713,valparaíso,V,Corporate,2025-09-20
+C01714,Cliente 1714,Santiago,RM,Premium,2024-04-02
+C01715,Cliente 1715,Santiago,RM,Retail,2025-01-05
+C01716,Cliente 1716,La Serena,IV,Retail,2024-06-14
+C01717,Cliente 1717,Santiago,RM,Retail,2024-01-21
+C01718,Cliente 1718, Concepción ,VIII,Retail,2024-01-25
+C01719,Cliente 1719,Valparaíso,V,Premium,2025-01-21
+C01720,Cliente 1720,Valparaíso,V,Retail,2025-05-31
+C01721,Cliente 1721,Concepción,VIII,Retail,2025-08-25
+C01722,Cliente 1722,Temuco,IX,Retail,2026-01-31
+C01723,Cliente 1723,Viña del Mar,V,Retail,2024-10-25
+C01724,Cliente 1724,Rancagua,VI,Retail,2025-12-20
+C01725,Cliente 1725,Puerto Montt,X,Corporate,2026-02-20
+C01726,Cliente 1726,Santiago,RM,Retail,2024-08-25
+C01727,Cliente 1727,Temuco,IX,Retail,2025-10-07
+C01728,Cliente 1728,Rancagua,VI,Retail,2024-03-26
+C01729,Cliente 1729,Viña del Mar,V,Premium,2024-03-01
+C01730,Cliente 1730,Concepción,VIII,Retail,2025-12-06
+C01731,Cliente 1731,La Serena,IV,Premium,2026-03-24
+C01732,Cliente 1732,Temuco,IX,Retail,2025-05-09
+C01733,Cliente 1733,Valparaíso,V,Retail,2024-03-20
+C01734,Cliente 1734,Valparaíso,V,Retail,2025-03-24
+C01735,Cliente 1735,Talca,VII,,2026-02-05
+C01736,Cliente 1736,Antofagasta,II,Premium,2026-06-20
+C01737,Cliente 1737,Concepción,VIII,Retail,2025-06-19
+C01738,Cliente 1738,Viña del Mar,V,Retail,2025-04-18
+C01739,Cliente 1739,,VIII,Retail,2026-01-02
+C01740,Cliente 1740,Valparaíso,V,Corporate,2024-01-06
+C01741,Cliente 1741,Rancagua,VI,Retail,2024-03-03
+C01742,Cliente 1742,,VII,Premium,2024-12-19
+C01743,Cliente 1743,Puerto Montt,X,Retail,2024-11-09
+C01744,Cliente 1744,Talca,VII,Retail,2024-07-26
+C01745,Cliente 1745,Concepción,VIII,Retail,2024-04-14
+C01746,Cliente 1746,Temuco,IX,Retail,2026-05-23
+C01747,Cliente 1747,Viña del Mar,V,Retail,2025-04-29
+C01748,Cliente 1748,VALPARAÍSO,V,Corporate,2025-09-21
+C01749,Cliente 1749,Valparaíso,V,Premium,2024-02-23
+C01750,Cliente 1750,Temuco,IX,Retail,2026-02-17
+C01751,Cliente 1751,Rancagua,VI,Retail,2026-05-08
+C01752,Cliente 1752,La Serena,IV,Corporate,2025-10-10
+C01753,Cliente 1753,Rancagua,VI,Retail,2024-09-13
+C01754,Cliente 1754,Santiago,RM,Premium,2026-05-25
+C01755,Cliente 1755,Viña del Mar,V,Retail,2024-07-14
+C01756,Cliente 1756,,IV,Retail,2025-06-22
+C01757,Cliente 1757,Temuco,IX,Corporate,2025-05-29
+C01758,Cliente 1758,Rancagua,VI,Retail,2025-12-13
+C01759,Cliente 1759,Santiago,RM,Premium,2025-04-27
+C01760,Cliente 1760,Talca,VII,Premium,2024-02-09
+C01761,Cliente 1761,Concepción,VIII,Premium,2024-05-14
+C01762,Cliente 1762,Santiago,RM,Retail,2026-05-28
+C01763,Cliente 1763,Santiago,RM,Retail,2025-11-19
+C01764,Cliente 1764,Temuco,IX,Retail,2025-11-11
+C01765,Cliente 1765,La Serena,IV,Premium,2025-05-28
+C01766,Cliente 1766,Antofagasta,II,Retail,2025-12-06
+C01767,Cliente 1767,Santiago,RM,Retail,2025-07-28
+C01768,Cliente 1768,Valparaíso,V,Retail,2025-04-19
+C01769,Cliente 1769,Concepción,VIII,Retail,2025-10-03
+C01770,Cliente 1770,Temuco,IX,Retail,2026-06-17
+C01771,Cliente 1771,La Serena,IV,Premium,2026-01-25
+C01772,Cliente 1772,Antofagasta,II,Retail,2024-11-19
+C01773,Cliente 1773,Concepción,VIII,Corporate,2024-09-22
+C01774,Cliente 1774,Temuco,IX,Premium,2025-06-19
+C01775,Cliente 1775,Viña del Mar,V,Retail,2025-07-04
+C01776,Cliente 1776,Antofagasta,II,Retail,2025-12-17
+C01777,Cliente 1777,Talca,VII,Premium,2024-09-21
+C01778,Cliente 1778,Concepción,VIII,Retail,2025-04-23
+C01779,Cliente 1779,Santiago,RM,Retail,2024-04-17
+C01780,Cliente 1780,Rancagua,VI,Retail,2025-10-25
+C01781,Cliente 1781,Talca,VII,Retail,2024-01-23
+C01782,Cliente 1782,Puerto Montt,X,Premium,2025-04-29
+C01783,Cliente 1783,Puerto Montt,X,Retail,2026-06-17
+C01784,Cliente 1784,Puerto Montt,X,Retail,2024-10-02
+C01785,Cliente 1785,Antofagasta,II,Premium,2025-12-15
+C01786,Cliente 1786,Concepción,VIII,Retail,2026-03-18
+C01787,Cliente 1787,,IX,Retail,2024-06-18
+C01788,Cliente 1788,Antofagasta,II,Retail,2024-07-08
+C01789,Cliente 1789,,VIII,Retail,2026-05-15
+C01790,Cliente 1790,Talca,VII,Retail,2025-12-16
+C01791,Cliente 1791,La Serena,IV,Premium,2024-04-08
+C01792,Cliente 1792,Temuco,IX,Premium,2026-04-19
+C01793,Cliente 1793,Viña del Mar,V,Retail,2026-06-25
+C01794,Cliente 1794,Talca,VII,Premium,2025-09-17
+C01795,Cliente 1795,Concepción,VIII,Retail,2024-02-15
+C01796,Cliente 1796, Concepción ,VIII,Retail,2024-10-18
+C01797,Cliente 1797,Puerto Montt,X,Retail,2025-02-11
+C01798,Cliente 1798,Valparaíso,V,Retail,2025-02-18
+C01799,Cliente 1799,Rancagua,VI,Retail,2025-10-31
+C01800,Cliente 1800,Valparaíso,V,Retail,2026-04-01
+C01801,Cliente 1801,Talca,VII,Corporate,2024-04-24
+C01802,Cliente 1802,Valparaíso,V,Retail,2024-12-11
+C01803,Cliente 1803,Rancagua,VI,Retail,2025-04-20
+C01804,Cliente 1804,Santiago,RM,Premium,2025-12-03
+C01805,Cliente 1805,Santiago,RM,Retail,2024-07-02
+C01806,Cliente 1806,Santiago,RM,Retail,2024-12-31
+C01807,Cliente 1807,Talca,VII,Retail,2026-01-14
+C01808,Cliente 1808,Rancagua,VI,Retail,2024-09-06
+C01809,Cliente 1809,Santiago,RM,Retail,2026-01-11
+C01810,Cliente 1810,Valparaíso,V,Retail,2025-10-14
+C01811,Cliente 1811,Antofagasta,II,Premium,2026-01-30
+C01812,Cliente 1812,La Serena,IV,Retail,2024-11-06
+C01813,Cliente 1813,Santiago,RM,Retail,2025-04-29
+C01814,Cliente 1814,Concepción,VIII,Retail,2025-11-18
+C01815,Cliente 1815,Antofagasta,II,Retail,2024-07-31
+C01816,Cliente 1816,Rancagua,VI,Retail,2025-10-12
+C01817,Cliente 1817,La Serena,IV,Retail,2024-10-21
+C01818,Cliente 1818,,IX,Retail,2025-05-02
+C01819,Cliente 1819,Rancagua,VI,Retail,2026-05-24
+C01820,Cliente 1820,Antofagasta,II,Retail,2025-11-07
+C01821,Cliente 1821,Temuco,IX,Retail,2026-02-04
+C01822,Cliente 1822,Rancagua,VI,Retail,2025-10-01
+C01823,Cliente 1823,Santiago,RM,Premium,2024-10-17
+C01824,Cliente 1824,Talca,VII,Retail,2025-09-13
+C01825,Cliente 1825,Viña del Mar,V,Retail,2026-06-04
+C01826,Cliente 1826,Talca,VII,Retail,2026-02-08
+C01827,Cliente 1827,Temuco,IX,Retail,2025-11-11
+C01828,Cliente 1828,Puerto Montt,X,Retail,2025-02-17
+C01829,Cliente 1829,Concepción,VIII,Corporate,2024-06-30
+C01830,Cliente 1830,Rancagua,VI,Retail,2025-11-30
+C01831,Cliente 1831,Puerto Montt,X,Retail,2024-01-30
+C01832,Cliente 1832,Valparaíso,V,Retail,2026-01-19
+C01833,Cliente 1833,Viña del Mar,V,Retail,2025-12-01
+C01834,Cliente 1834,Puerto Montt,X,Retail,2026-06-03
+C01835,Cliente 1835,La Serena,IV,Retail,2025-12-30
+C01836,Cliente 1836,La Serena,IV,Retail,2025-04-15
+C01837,Cliente 1837,Concepción,VIII,Corporate,2025-05-27
+C01838,Cliente 1838,,VIII,Retail,2026-01-09
+C01839,Cliente 1839,Talca,VII,Corporate,2026-06-01
+C01840,Cliente 1840,talca,VII,Retail,2026-03-06
+C01841,Cliente 1841,Rancagua,VI,Premium,2024-03-02
+C01842,Cliente 1842,Santiago,RM,Retail,2026-01-03
+C01843,Cliente 1843,Valparaíso,V,Retail,2024-09-25
+C01844,Cliente 1844,Puerto Montt,X,Retail,2024-05-25
+C01845,Cliente 1845,Valparaíso,V,Retail,2025-12-27
+C01846,Cliente 1846,Rancagua,VI,Retail,2025-04-06
+C01847,Cliente 1847,Concepción,VIII,Retail,2024-01-27
+C01848,Cliente 1848,Antofagasta,II,Corporate,2024-06-11
+C01849,Cliente 1849,Antofagasta,II,Retail,2026-04-04
+C01850,Cliente 1850,La Serena,IV,Retail,2024-08-04
+C01851,Cliente 1851,Talca,VII,Premium,2025-06-13
+C01852,Cliente 1852,Concepción,VIII,Retail,2025-05-28
+C01853,Cliente 1853,Concepción,VIII,Premium,2025-05-08
+C01854,Cliente 1854,Valparaíso,V,Retail,2024-11-12
+C01855,Cliente 1855,Valparaíso,V,Retail,2024-12-31
+C01856,Cliente 1856,Talca,VII,Premium,2026-01-29
+C01857,Cliente 1857,Temuco,IX,Retail,2024-10-04
+C01858,Cliente 1858,Valparaíso,V,Corporate,2024-02-27
+C01859,Cliente 1859,Concepción,VIII,Retail,2025-10-28
+C01860,Cliente 1860,Viña del Mar,V,Retail,2024-10-11
+C01861,Cliente 1861,Concepción,VIII,Retail,2024-03-03
+C01862,Cliente 1862,Rancagua,VI,Retail,2026-06-21
+C01863,Cliente 1863,Valparaíso,V,Retail,2025-05-02
+C01864,Cliente 1864,Antofagasta,II,Retail,2025-08-18
+C01865,Cliente 1865,La Serena,IV,Retail,2025-10-12
+C01866,Cliente 1866,Puerto Montt,X,Retail,2025-05-19
+C01867,Cliente 1867,Antofagasta,II,Retail,2025-06-28
+C01868,Cliente 1868,Rancagua,VI,Retail,2026-02-13
+C01869,Cliente 1869,Rancagua,VI,Retail,2024-07-02
+C01870,Cliente 1870,Rancagua,VI,Retail,2025-12-04
+C01871,Cliente 1871,La Serena,IV,Retail,2025-05-28
+C01872,Cliente 1872,Antofagasta,II,Corporate,2024-08-03
+C01873,Cliente 1873,Puerto Montt,X,Premium,2026-05-22
+C01874,Cliente 1874,Rancagua,VI,Retail,2026-03-18
+C01875,Cliente 1875,Rancagua,VI,Corporate,2026-05-04
+C01876,Cliente 1876,Temuco,IX,Retail,2025-03-11
+C01877,Cliente 1877,Puerto Montt,X,Retail,2025-02-22
+C01878,Cliente 1878,Antofagasta,II,Retail,2025-12-22
+C01879,Cliente 1879,Temuco,IX,Retail,2025-03-13
+C01880,Cliente 1880,La Serena,IV,Retail,2025-03-26
+C01881,Cliente 1881,Rancagua,VI,Corporate,2025-08-30
+C01882,Cliente 1882,Puerto Montt,X,Retail,2025-12-24
+C01883,Cliente 1883,Santiago,RM,Retail,2025-10-16
+C01884,Cliente 1884,Valparaíso,V,Retail,2026-06-20
+C01885,Cliente 1885,Concepción,VIII,Premium,2025-08-26
+C01886,Cliente 1886,Temuco,IX,Retail,2026-02-20
+C01887,Cliente 1887,Concepción,VIII,Premium,2024-03-10
+C01888,Cliente 1888,La Serena,IV,Retail,2025-04-24
+C01889,Cliente 1889,Antofagasta,II,Retail,2026-02-04
+C01890,Cliente 1890,Rancagua,VI,Premium,2026-05-01
+C01891,Cliente 1891,Viña del Mar,V,Retail,2024-02-02
+C01892,Cliente 1892,Antofagasta,II,Retail,2025-10-11
+C01893,Cliente 1893,Valparaíso,V,Retail,2026-03-28
+C01894,Cliente 1894,Viña del Mar,V,Retail,2024-07-14
+C01895,Cliente 1895,Rancagua,VI,Premium,2026-01-26
+C01896,Cliente 1896,Temuco,IX,Retail,2026-03-10
+C01897,Cliente 1897,Viña del Mar,V,Premium,2024-01-20
+C01898,Cliente 1898,La Serena,IV,Retail,2026-02-25
+C01899,Cliente 1899,Viña del Mar,V,Corporate,2026-06-20
+C01900,Cliente 1900,Concepción,VIII,Retail,2025-06-30
+C01901,Cliente 1901,Temuco,IX,Corporate,2024-12-01
+C01902,Cliente 1902,Concepción,VIII,Retail,2024-10-04
+C01903,Cliente 1903,Concepción,VIII,Premium,2025-03-26
+C01904,Cliente 1904,La Serena,IV,Retail,2025-04-02
+C01905,Cliente 1905,Valparaíso,V,Retail,2024-06-28
+C01906,Cliente 1906,La Serena,IV,Retail,2025-05-15
+C01907,Cliente 1907,La Serena,IV,Corporate,2026-03-29
+C01908,Cliente 1908,Rancagua,VI,Retail,2025-01-24
+C01909,Cliente 1909,Antofagasta,II,Premium,2025-03-20
+C01910,Cliente 1910,Puerto Montt,X,Premium,2024-01-17
+C01911,Cliente 1911,La Serena,IV,Retail,2024-01-10
+C01912,Cliente 1912,Santiago,RM,Retail,2026-04-01
+C01913,Cliente 1913,Puerto Montt,X,Premium,2025-03-05
+C01914,Cliente 1914,Concepción,VIII,Retail,2024-04-22
+C01915,Cliente 1915,Temuco,IX,Corporate,2024-09-28
+C01916,Cliente 1916,Rancagua,VI,Retail,2026-06-11
+C01917,Cliente 1917,Viña del Mar,V,Premium,2024-06-22
+C01918,Cliente 1918,Puerto Montt,X,Corporate,2024-04-25
+C01919,Cliente 1919,,VI,Retail,2025-09-09
+C01920,Cliente 1920,Antofagasta,II,Retail,2025-11-03
+C01921,Cliente 1921,Rancagua,VI,Retail,2026-05-01
+C01922,Cliente 1922,Concepción,VIII,Retail,2024-03-25
+C01923,Cliente 1923,La Serena,IV,Retail,2024-07-08
+C01924,Cliente 1924,Talca,VII,Retail,2026-06-23
+C01925,Cliente 1925,Concepción,VIII,Retail,2026-05-21
+C01926,Cliente 1926,La Serena,IV,Corporate,2024-01-15
+C01927,Cliente 1927,Puerto Montt,X,Retail,2025-08-08
+C01928,Cliente 1928,Viña del Mar,V,Retail,2024-08-07
+C01929,Cliente 1929,Antofagasta,II,Retail,2025-06-10
+C01930,Cliente 1930,Rancagua,VI,Premium,2025-04-12
+C01931,Cliente 1931,Valparaíso,V,Premium,2025-03-12
+C01932,Cliente 1932,Rancagua,VI,Premium,2024-05-03
+C01933,Cliente 1933,Rancagua,VI,Retail,2024-03-25
+C01934,Cliente 1934,Talca,VII,Retail,2026-05-10
+C01935,Cliente 1935,Talca,VII,Retail,2024-06-04
+C01936,Cliente 1936,Temuco,IX,Retail,2025-12-11
+C01937,Cliente 1937,Viña del Mar,V,Retail,2026-02-08
+C01938,Cliente 1938,La Serena,IV,Retail,2025-02-14
+C01939,Cliente 1939,,VI,Retail,2024-05-19
+C01940,Cliente 1940,Antofagasta,II,Retail,2026-01-21
+C01941,Cliente 1941,Concepción,VIII,Retail,2026-04-22
+C01942,Cliente 1942,La Serena,IV,Retail,2024-06-12
+C01943,Cliente 1943,Temuco,IX,Retail,2024-10-09
+C01944,Cliente 1944,Concepción,VIII,,2024-05-25
+C01945,Cliente 1945,Antofagasta,II,Retail,2026-03-01
+C01946,Cliente 1946,Valparaíso,V,Retail,2025-09-16
+C01947,Cliente 1947,Temuco,IX,Premium,2024-02-11
+C01948,Cliente 1948,Puerto Montt,X,Retail,2026-06-16
+C01949,Cliente 1949,Viña del Mar,V,Corporate,2026-06-04
+C01950,Cliente 1950,Puerto Montt,X,Retail,2025-10-15
+C01951,Cliente 1951,Antofagasta,II,Corporate,2025-10-17
+C01952,Cliente 1952,Temuco,IX,Retail,2024-04-13
+C01953,Cliente 1953,Antofagasta,II,Retail,2026-03-10
+C01954,Cliente 1954,Talca,VII,Premium,2025-11-14
+C01955,Cliente 1955,Valparaíso,V,Retail,2024-04-30
+C01956,Cliente 1956,Puerto Montt,X,Premium,2026-01-05
+C01957,Cliente 1957,Viña del Mar,V,Premium,2024-02-08
+C01958,Cliente 1958,Santiago,RM,Retail,2024-07-04
+C01959,Cliente 1959,Puerto Montt,X,Premium,2026-01-16
+C01960,Cliente 1960,Temuco,IX,Retail,2024-09-11
+C01961,Cliente 1961,Antofagasta,II,Premium,2024-06-13
+C01962,Cliente 1962,Puerto Montt,X,Premium,2026-03-10
+C01963,Cliente 1963,Viña del Mar,V,Retail,2026-04-04
+C01964,Cliente 1964,Valparaíso,V,Retail,2024-11-16
+C01965,Cliente 1965,Antofagasta,II,Premium,2025-05-12
+C01966,Cliente 1966,Concepción,VIII,Corporate,2024-11-26
+C01967,Cliente 1967,Talca,VII,Retail,2025-07-27
+C01968,Cliente 1968,Valparaíso,V,Retail,2025-09-04
+C01969,Cliente 1969,Temuco,IX,Retail,2025-01-29
+C01970,Cliente 1970,Antofagasta,II,Retail,2024-03-25
+C01971,Cliente 1971,Talca,VII,Retail,2024-10-07
+C01972,Cliente 1972,La Serena,IV,Premium,2025-03-26
+C01973,Cliente 1973,Santiago,RM,Premium,2025-05-09
+C01974,Cliente 1974,Puerto Montt,X,Retail,2025-06-15
+C01975,Cliente 1975,Puerto Montt,X,Premium,2025-12-24
+C01976,Cliente 1976,La Serena,IV,Retail,2024-12-31
+C01977,Cliente 1977,La Serena,IV,Premium,2025-08-15
+C01978,Cliente 1978,Rancagua,VI,Retail,2024-04-17
+C01979,Cliente 1979,Talca,VII,Premium,2024-08-17
+C01980,Cliente 1980,Rancagua,VI,Retail,2025-03-22
+C01981,Cliente 1981,Talca,VII,Retail,2024-12-21
+C01982,Cliente 1982, Valparaíso ,V,Corporate,2024-10-09
+C01983,Cliente 1983,Viña del Mar,V,Retail,2025-12-22
+C01984,Cliente 1984,Talca,VII,Retail,2024-11-07
+C01985,Cliente 1985,Puerto Montt,X,,2025-07-06
+C01986,Cliente 1986,Temuco,IX,Retail,2026-03-04
+C01987,Cliente 1987,La Serena,IV,Retail,2025-09-07
+C01988,Cliente 1988,Valparaíso,V,Retail,2024-04-06
+C01989,Cliente 1989,Puerto Montt,X,Retail,2025-04-30
+C01990,Cliente 1990,Concepción,VIII,Premium,2026-06-19
+C01991,Cliente 1991,La Serena,IV,Retail,2025-10-24
+C01992,Cliente 1992,Antofagasta,II,Retail,2025-09-12
+C01993,Cliente 1993,,VIII,Retail,2025-06-25
+C01994,Cliente 1994,Viña del Mar,V,Retail,2026-05-29
+C01995,Cliente 1995,Concepción,VIII,Retail,2024-12-19
+C01996,Cliente 1996,Viña del Mar,V,Retail,2025-03-27
+C01997,Cliente 1997,Viña del Mar,V,Retail,2025-07-04
+C01998,Cliente 1998,Temuco,IX,Retail,2025-08-27
+C01999,Cliente 1999,Concepción,VIII,Corporate,2024-12-11
+C02000,Cliente 2000,Rancagua,VI,Corporate,2025-11-15
+C02001,Cliente 2001,Rancagua,VI,Retail,2025-02-17
+C02002,Cliente 2002,Viña del Mar,V,Retail,2025-06-16
+C02003,Cliente 2003,Viña del Mar,V,Premium,2025-06-18
+C02004,Cliente 2004,Concepción,VIII,Retail,2024-07-21
+C02005,Cliente 2005,Valparaíso,V,Retail,2025-05-18
+C02006,Cliente 2006,Rancagua,VI,Corporate,2026-02-28
+C02007,Cliente 2007,Santiago,RM,Retail,2024-04-01
+C02008,Cliente 2008,Concepción,VIII,Retail,2026-01-26
+C02009,Cliente 2009,La Serena,IV,Retail,2025-07-04
+C02010,Cliente 2010,Talca,VII,Retail,2024-07-01
+C02011,Cliente 2011,Valparaíso,V,Retail,2024-07-09
+C02012,Cliente 2012,La Serena,IV,Retail,2025-09-19
+C02013,Cliente 2013,Valparaíso,V,Corporate,2024-01-05
+C02014,Cliente 2014,Concepción,VIII,Corporate,2026-04-26
+C02015,Cliente 2015,Concepción,VIII,Retail,2025-09-28
+C02016,Cliente 2016,Antofagasta,II,Retail,2026-06-18
+C02017,Cliente 2017,Puerto Montt,X,Premium,2025-01-21
+C02018,Cliente 2018,Antofagasta,II,Retail,2025-10-03
+C02019,Cliente 2019,La Serena,IV,Retail,2024-04-27
+C02020,Cliente 2020,Talca,VII,Retail,2026-01-27
+C02021,Cliente 2021,Antofagasta,II,Retail,2024-10-18
+C02022,Cliente 2022, La Serena ,IV,Corporate,2025-07-22
+C02023,Cliente 2023,Rancagua,VI,Retail,2024-08-22
+C02024,Cliente 2024,Valparaíso,V,Retail,2025-09-22
+C02025,Cliente 2025,Santiago,RM,Retail,2025-05-30
+C02026,Cliente 2026,Santiago,RM,Corporate,2024-12-15
+C02027,Cliente 2027,Santiago,RM,Retail,2024-06-05
+C02028,Cliente 2028,Temuco,IX,Retail,2025-03-25
+C02029,Cliente 2029,Talca,VII,Retail,2024-06-13
+C02030,Cliente 2030,Valparaíso,V,Retail,2025-07-01
+C02031,Cliente 2031,,IX,,2024-04-16
+C02032,Cliente 2032,Puerto Montt,X,Premium,2024-05-02
+C02033,Cliente 2033,Santiago,RM,Retail,2025-05-02
+C02034,Cliente 2034,Rancagua,VI,Corporate,2024-08-31
+C02035,Cliente 2035,Rancagua,VI,Retail,2024-06-05
+C02036,Cliente 2036,concepción,VIII,Corporate,2025-02-01
+C02037,Cliente 2037,Antofagasta,II,Retail,2025-04-15
+C02038,Cliente 2038,Puerto Montt,X,Retail,2025-10-03
+C02039,Cliente 2039,Rancagua,VI,Premium,2025-03-30
+C02040,Cliente 2040,Concepción,VIII,Premium,2024-07-29
+C02041,Cliente 2041,Viña del Mar,V,Retail,2025-04-19
+C02042,Cliente 2042,Antofagasta,II,Retail,2024-05-24
+C02043,Cliente 2043,Viña del Mar,V,Retail,2024-07-23
+C02044,Cliente 2044,Talca,VII,Retail,2025-03-29
+C02045,Cliente 2045,Antofagasta,II,Corporate,2025-11-27
+C02046,Cliente 2046,La Serena,IV,Retail,2024-11-20
+C02047,Cliente 2047, Rancagua ,VI,Retail,2026-02-20
+C02048,Cliente 2048,,V,Premium,2024-03-28
+C02049,Cliente 2049,Valparaíso,V,Retail,2024-12-31
+C02050,Cliente 2050,Valparaíso,V,Retail,2024-11-19
+C02051,Cliente 2051,Concepción,VIII,Retail,2024-04-13
+C02052,Cliente 2052,Valparaíso,V,Retail,2025-09-25
+C02053,Cliente 2053,Antofagasta,II,Retail,2024-09-12
+C02054,Cliente 2054,santiago,RM,Retail,2025-01-25
+C02055,Cliente 2055,Temuco,IX,Corporate,2025-08-21
+C02056,Cliente 2056,Viña del Mar,V,Retail,2024-12-13
+C02057,Cliente 2057,Antofagasta,II,Retail,2024-06-02
+C02058,Cliente 2058,Temuco,IX,Retail,2026-03-22
+C02059,Cliente 2059,Viña del Mar,V,Premium,2025-03-03
+C02060,Cliente 2060,Talca,VII,Corporate,2024-01-25
+C02061,Cliente 2061,Antofagasta,II,Retail,2025-03-19
+C02062,Cliente 2062,Rancagua,VI,Retail,2024-12-06
+C02063,Cliente 2063,Santiago,RM,Premium,2024-01-20
+C02064,Cliente 2064,Santiago,RM,Retail,2024-10-03
+C02065,Cliente 2065,Puerto Montt,X,Retail,2024-12-16
+C02066,Cliente 2066,Rancagua,VI,Retail,2024-03-26
+C02067,Cliente 2067,Temuco,IX,Premium,2024-04-26
+C02068,Cliente 2068,Valparaíso,V,Retail,2024-03-07
+C02069,Cliente 2069,Valparaíso,V,Retail,2024-01-14
+C02070,Cliente 2070,Rancagua,VI,Retail,2024-12-04
+C02071,Cliente 2071,,V,Retail,2026-01-05
+C02072,Cliente 2072,Santiago,RM,Premium,2025-01-31
+C02073,Cliente 2073,Rancagua,VI,Retail,2024-07-09
+C02074,Cliente 2074,Santiago,RM,Retail,2025-06-03
+C02075,Cliente 2075,Talca,VII,Retail,2024-07-12
+C02076,Cliente 2076,Temuco,IX,Premium,2024-08-21
+C02077,Cliente 2077,Puerto Montt,X,Retail,2024-10-19
+C02078,Cliente 2078,Talca,VII,Retail,2026-06-30
+C02079,Cliente 2079,Rancagua,VI,Retail,2026-01-20
+C02080,Cliente 2080,Rancagua,VI,Retail,2026-02-01
+C02081,Cliente 2081,Viña del Mar,V,Retail,2024-03-08
+C02082,Cliente 2082,Rancagua,VI,Retail,2024-11-03
+C02083,Cliente 2083,Viña del Mar,V,Retail,2025-12-08
+C02084,Cliente 2084,Puerto Montt,X,Retail,2025-04-20
+C02085,Cliente 2085,Santiago,RM,Premium,2026-03-18
+C02086,Cliente 2086,Temuco,IX,Retail,2026-03-21
+C02087,Cliente 2087,Santiago,RM,Retail,2024-06-02
+C02088,Cliente 2088,Antofagasta,II,Premium,2026-05-24
+C02089,Cliente 2089,Rancagua,VI,Retail,2026-05-22
+C02090,Cliente 2090,Valparaíso,V,Retail,2024-11-27
+C02091,Cliente 2091,,VI,Premium,2025-03-02
+C02092,Cliente 2092,Antofagasta,II,Retail,2025-03-15
+C02093,Cliente 2093,Temuco,IX,Premium,2026-06-03
+C02094,Cliente 2094,Rancagua,VI,Retail,2024-09-09
+C02095,Cliente 2095,Temuco,IX,Retail,2025-05-02
+C02096,Cliente 2096,La Serena,IV,Corporate,2024-11-25
+C02097,Cliente 2097,viña del mar,V,Retail,2026-04-19
+C02098,Cliente 2098,Talca,VII,Premium,2025-01-28
+C02099,Cliente 2099,Viña del Mar,V,Corporate,2026-01-15
+C02100,Cliente 2100,ANTOFAGASTA,II,Premium,2025-01-07
+C02101,Cliente 2101,Temuco,IX,Premium,2025-05-09
+C02102,Cliente 2102,Temuco,IX,Retail,2025-07-03
+C02103,Cliente 2103,Viña del Mar,V,Retail,2024-10-29
+C02104,Cliente 2104,Antofagasta,II,Retail,2025-01-20
+C02105,Cliente 2105,La Serena,IV,Retail,2024-01-26
+C02106,Cliente 2106,Rancagua,VI,Premium,2024-05-31
+C02107,Cliente 2107,Temuco,IX,Retail,2024-10-07
+C02108,Cliente 2108,Concepción,VIII,Retail,2024-11-26
+C02109,Cliente 2109,Temuco,IX,Retail,2026-05-01
+C02110,Cliente 2110,Puerto Montt,X,Retail,2025-09-19
+C02111,Cliente 2111,Santiago,RM,Premium,2024-02-27
+C02112,Cliente 2112,Valparaíso,V,Retail,2025-12-31
+C02113,Cliente 2113,Valparaíso,V,Retail,2026-02-07
+C02114,Cliente 2114,Puerto Montt,X,Retail,2025-07-15
+C02115,Cliente 2115,Antofagasta,II,Retail,2024-02-27
+C02116,Cliente 2116,La Serena,IV,Retail,2024-02-13
+C02117,Cliente 2117,concepción,VIII,Retail,2024-11-26
+C02118,Cliente 2118,Antofagasta,II,Retail,2025-11-16
+C02119,Cliente 2119,La Serena,IV,Retail,2025-05-18
+C02120,Cliente 2120,Talca,VII,Premium,2024-06-17
+C02121,Cliente 2121,Viña del Mar,V,Retail,2025-07-23
+C02122,Cliente 2122,Viña del Mar,V,Retail,2024-07-19
+C02123,Cliente 2123,Rancagua,VI,Retail,2025-09-09
+C02124,Cliente 2124,Valparaíso,V,Retail,2026-04-03
+C02125,Cliente 2125,Viña del Mar,V,Premium,2024-11-01
+C02126,Cliente 2126,Santiago,RM,Retail,2024-08-23
+C02127,Cliente 2127,Santiago,RM,Retail,2024-08-09
+C02128,Cliente 2128,Puerto Montt,X,Premium,2025-04-13
+C02129,Cliente 2129,TALCA,VII,Retail,2026-03-25
+C02130,Cliente 2130,Santiago,RM,Retail,2026-05-27
+C02131,Cliente 2131,Puerto Montt,X,Premium,2024-06-12
+C02132,Cliente 2132,Puerto Montt,X,Premium,2025-01-16
+C02133,Cliente 2133,Santiago,RM,Premium,2024-11-05
+C02134,Cliente 2134,La Serena,IV,Retail,2025-10-13
+C02135,Cliente 2135,Valparaíso,V,Retail,2024-08-28
+C02136,Cliente 2136,Antofagasta,II,Retail,2025-07-30
+C02137,Cliente 2137,Puerto Montt,X,Retail,2024-01-31
+C02138,Cliente 2138,Santiago,RM,Retail,2024-02-15
+C02139,Cliente 2139,Antofagasta,II,Premium,2024-07-26
+C02140,Cliente 2140,La Serena,IV,Retail,2026-04-09
+C02141,Cliente 2141,Puerto Montt,X,Retail,2025-12-20
+C02142,Cliente 2142,Antofagasta,II,Retail,2025-09-04
+C02143,Cliente 2143,Temuco,IX,Premium,2025-07-07
+C02144,Cliente 2144,Viña del Mar,V,Retail,2025-04-23
+C02145,Cliente 2145,Rancagua,VI,Retail,2025-02-21
+C02146,Cliente 2146,Concepción,VIII,Retail,2025-01-02
+C02147,Cliente 2147,Concepción,VIII,Premium,2024-12-17
+C02148,Cliente 2148,Temuco,IX,Retail,2026-05-01
+C02149,Cliente 2149,La Serena,IV,Premium,2025-02-09
+C02150,Cliente 2150,,VII,Retail,2024-04-16
+C02151,Cliente 2151,Concepción,VIII,Premium,2025-12-01
+C02152,Cliente 2152,Temuco,IX,Retail,2025-02-08
+C02153,Cliente 2153,Puerto Montt,X,Retail,2024-04-18
+C02154,Cliente 2154,La Serena,IV,Premium,2026-03-23
+C02155,Cliente 2155,Antofagasta,II,Retail,2025-02-19
+C02156,Cliente 2156,La Serena,IV,Retail,2024-02-01
+C02157,Cliente 2157,Valparaíso,V,Retail,2025-04-08
+C02158,Cliente 2158,Viña del Mar,V,Retail,2025-02-01
+C02159,Cliente 2159,Rancagua,VI,Retail,2025-08-30
+C02160,Cliente 2160,Temuco,IX,Retail,2025-12-18
+C02161,Cliente 2161,Valparaíso,V,Retail,2025-08-24
+C02162,Cliente 2162,Santiago,RM,Retail,2025-05-14
+C02163,Cliente 2163, Valparaíso ,V,Retail,2026-02-06
+C02164,Cliente 2164,ANTOFAGASTA,II,Retail,2025-12-21
+C02165,Cliente 2165,Concepción,VIII,Retail,2025-11-22
+C02166,Cliente 2166,Rancagua,VI,Retail,2025-08-01
+C02167,Cliente 2167,Antofagasta,II,Retail,2025-12-15
+C02168,Cliente 2168,Concepción,VIII,Retail,2025-09-07
+C02169,Cliente 2169,,V,Retail,2025-05-12
+C02170,Cliente 2170,Concepción,VIII,Premium,2024-02-14
+C02171,Cliente 2171,Rancagua,VI,Retail,2025-03-31
+C02172,Cliente 2172,viña del mar,V,Retail,2025-03-24
+C02173,Cliente 2173, Talca ,VII,Premium,2025-01-12
+C02174,Cliente 2174,Puerto Montt,X,Retail,2025-03-08
+C02175,Cliente 2175,Temuco,IX,Retail,2025-06-03
+C02176,Cliente 2176,Concepción,VIII,Retail,2024-07-10
+C02177,Cliente 2177,Antofagasta,II,Retail,2026-03-19
+C02178,Cliente 2178,La Serena,IV,Retail,2024-11-03
+C02179,Cliente 2179,TALCA,VII,Premium,2024-04-25
+C02180,Cliente 2180,Concepción,VIII,Retail,2024-09-06
+C02181,Cliente 2181,Rancagua,VI,Retail,2024-06-25
+C02182,Cliente 2182,Valparaíso,V,Retail,2024-05-10
+C02183,Cliente 2183,Valparaíso,V,Retail,2024-09-09
+C02184,Cliente 2184,La Serena,IV,Premium,2025-02-20
+C02185,Cliente 2185,Puerto Montt,X,Retail,2025-11-18
+C02186,Cliente 2186,Concepción,VIII,Retail,2026-03-20
+C02187,Cliente 2187,Concepción,VIII,Retail,2025-06-17
+C02188,Cliente 2188,Puerto Montt,X,Retail,2024-03-27
+C02189,Cliente 2189,Antofagasta,II,Retail,2026-04-06
+C02190,Cliente 2190,Antofagasta,II,Premium,2025-04-26
+C02191,Cliente 2191,Viña del Mar,V,Retail,2025-11-29
+C02192,Cliente 2192,Temuco,IX,Retail,2025-05-16
+C02193,Cliente 2193,Antofagasta,II,Corporate,2026-06-14
+C02194,Cliente 2194,Temuco,IX,Corporate,2025-08-02
+C02195,Cliente 2195,Talca,VII,Retail,2024-10-12
+C02196,Cliente 2196,Viña del Mar,V,Premium,2024-05-22
+C02197,Cliente 2197,Talca,VII,Retail,2026-03-28
+C02198,Cliente 2198,Antofagasta,II,Retail,2024-07-29
+C02199,Cliente 2199,Rancagua,VI,Retail,2025-02-05
+C02200,Cliente 2200,Temuco,IX,Retail,2025-09-12
+C02201,Cliente 2201,Puerto Montt,X,Retail,2024-07-12
+C02202,Cliente 2202,Viña del Mar,V,Premium,2025-06-07
+C02203,Cliente 2203,Rancagua,VI,Retail,2025-05-02
+C02204,Cliente 2204,Temuco,IX,Premium,2024-02-25
+C02205,Cliente 2205,Antofagasta,II,Retail,2024-04-08
+C02206,Cliente 2206,Santiago,RM,Retail,2025-10-01
+C02207,Cliente 2207,viña del mar,V,Retail,2024-09-30
+C02208,Cliente 2208,Viña del Mar,V,Retail,2024-08-13
+C02209,Cliente 2209,Viña del Mar,V,Retail,2024-06-13
+C02210,Cliente 2210,Rancagua,VI,Retail,2024-09-09
+C02211,Cliente 2211,,VIII,Corporate,2024-10-13
+C02212,Cliente 2212,Viña del Mar,V,Premium,2025-04-01
+C02213,Cliente 2213,rancagua,VI,Retail,2026-01-26
+C02214,Cliente 2214,Antofagasta,II,Retail,2025-11-20
+C02215,Cliente 2215,Santiago,RM,Retail,2025-09-22
+C02216,Cliente 2216,Valparaíso,V,Retail,2025-12-16
+C02217,Cliente 2217,Temuco,IX,Retail,2024-09-11
+C02218,Cliente 2218,Santiago,RM,Retail,2025-07-30
+C02219,Cliente 2219,Santiago,RM,Retail,2024-12-19
+C02220,Cliente 2220,Puerto Montt,X,Retail,2024-09-18
+C02221,Cliente 2221,Rancagua,VI,Retail,2024-08-12
+C02222,Cliente 2222,Santiago,RM,Corporate,2025-01-08
+C02223,Cliente 2223,Valparaíso,V,Retail,2025-07-20
+C02224,Cliente 2224,Concepción,VIII,Retail,2026-05-29
+C02225,Cliente 2225,Antofagasta,II,Retail,2024-03-09
+C02226,Cliente 2226,Concepción,VIII,Retail,2025-04-26
+C02227,Cliente 2227,La Serena,IV,Retail,2024-03-19
+C02228,Cliente 2228,Talca,VII,Retail,2025-04-18
+C02229,Cliente 2229,Concepción,VIII,Retail,2024-01-09
+C02230,Cliente 2230,Santiago,RM,Retail,2024-02-28
+C02231,Cliente 2231,Concepción,VIII,Retail,2025-09-15
+C02232,Cliente 2232,Concepción,VIII,Premium,2025-12-31
+C02233,Cliente 2233,Puerto Montt,X,Retail,2024-10-21
+C02234,Cliente 2234,Talca,VII,Retail,2025-02-17
+C02235,Cliente 2235,Viña del Mar,V,Retail,2026-05-07
+C02236,Cliente 2236,Talca,VII,Premium,2024-05-09
+C02237,Cliente 2237,Antofagasta,II,Retail,2025-02-26
+C02238,Cliente 2238,La Serena,IV,Premium,2024-08-08
+C02239,Cliente 2239,Viña del Mar,V,Premium,2026-02-06
+C02240,Cliente 2240,Santiago,RM,Corporate,2025-03-25
+C02241,Cliente 2241,La Serena,IV,Retail,2025-03-01
+C02242,Cliente 2242,Valparaíso,V,Retail,2024-02-24
+C02243,Cliente 2243,Puerto Montt,X,Retail,2024-10-28
+C02244,Cliente 2244,RANCAGUA,VI,Retail,2024-12-05
+C02245,Cliente 2245,Valparaíso,V,Retail,2025-12-29
+C02246,Cliente 2246,Talca,VII,Retail,2025-04-04
+C02247,Cliente 2247,Temuco,IX,Retail,2024-02-22
+C02248,Cliente 2248,Puerto Montt,X,Premium,2024-02-07
+C02249,Cliente 2249,Concepción,VIII,Corporate,2025-01-21
+C02250,Cliente 2250,Antofagasta,II,Retail,2026-02-19
+C02251,Cliente 2251,Santiago,RM,Retail,2024-01-13
+C02252,Cliente 2252,Concepción,VIII,Retail,2025-08-04
+C02253,Cliente 2253,Concepción,VIII,Premium,2024-09-28
+C02254,Cliente 2254,Concepción,VIII,Corporate,2025-05-20
+C02255,Cliente 2255,Viña del Mar,V,Premium,2025-01-16
+C02256,Cliente 2256,Temuco,IX,Retail,2024-11-30
+C02257,Cliente 2257,Talca,VII,Retail,2026-04-05
+C02258,Cliente 2258,Puerto Montt,X,Retail,2024-12-02
+C02259,Cliente 2259,Santiago,RM,Corporate,2024-11-03
+C02260,Cliente 2260,La Serena,IV,Premium,2024-09-11
+C02261,Cliente 2261,Talca,VII,Retail,2026-01-30
+C02262,Cliente 2262,Concepción,VIII,Retail,2025-11-09
+C02263,Cliente 2263,Puerto Montt,X,Premium,2024-06-06
+C02264,Cliente 2264,Valparaíso,V,Retail,2025-05-13
+C02265,Cliente 2265,Puerto Montt,X,Premium,2024-10-20
+C02266,Cliente 2266,Temuco,IX,Retail,2026-05-23
+C02267,Cliente 2267,Concepción,VIII,Retail,2025-05-19
+C02268,Cliente 2268,Concepción,VIII,Corporate,2024-01-03
+C02269,Cliente 2269,Temuco,IX,Retail,2026-04-26
+C02270,Cliente 2270,ANTOFAGASTA,II,Retail,2024-02-09
+C02271,Cliente 2271,La Serena,IV,Premium,2025-02-04
+C02272,Cliente 2272,Talca,VII,Retail,2025-09-19
+C02273,Cliente 2273,Concepción,VIII,Retail,2025-12-17
+C02274,Cliente 2274,Santiago,RM,Retail,2024-12-12
+C02275,Cliente 2275,Talca,VII,Retail,2025-10-31
+C02276,Cliente 2276,Antofagasta,II,Retail,2024-08-03
+C02277,Cliente 2277,Santiago,RM,Retail,2024-04-30
+C02278,Cliente 2278,Valparaíso,V,Retail,2024-12-06
+C02279,Cliente 2279,Valparaíso,V,Corporate,2025-11-15
+C02280,Cliente 2280,Rancagua,VI,Retail,2025-01-07
+C02281,Cliente 2281,Antofagasta,II,Retail,2026-04-12
+C02282,Cliente 2282,Temuco,IX,Retail,2026-04-15
+C02283,Cliente 2283,Viña del Mar,V,Premium,2024-07-07
+C02284,Cliente 2284,Valparaíso,V,Retail,2024-12-08
+C02285,Cliente 2285,Rancagua,VI,Corporate,2024-07-26
+C02286,Cliente 2286,,IX,Premium,2025-01-16
+C02287,Cliente 2287,Talca,VII,Retail,2024-05-31
+C02288,Cliente 2288,Antofagasta,II,Retail,2026-06-29
+C02289,Cliente 2289,Puerto Montt,X,Premium,2026-01-18
+C02290,Cliente 2290,Talca,VII,Corporate,2025-04-12
+C02291,Cliente 2291,Valparaíso,V,Retail,2026-06-18
+C02292,Cliente 2292,La Serena,IV,Corporate,2026-05-04
+C02293,Cliente 2293,Santiago,RM,Premium,2025-11-15
+C02294,Cliente 2294,Santiago,RM,,2026-04-21
+C02295,Cliente 2295,Valparaíso,V,Premium,2024-10-07
+C02296,Cliente 2296,Talca,VII,Premium,2026-01-20
+C02297,Cliente 2297,Rancagua,VI,Corporate,2024-08-06
+C02298,Cliente 2298,La Serena,IV,Corporate,2025-02-02
+C02299,Cliente 2299,santiago,RM,Retail,2024-03-22
+C02300,Cliente 2300,Concepción,VIII,Corporate,2026-01-18
+C02301,Cliente 2301,Concepción,VIII,Corporate,2024-07-27
+C02302,Cliente 2302,Talca,VII,Retail,2025-10-16
+C02303,Cliente 2303,Santiago,RM,Corporate,2024-03-08
+C02304,Cliente 2304,Valparaíso,V,Retail,2026-05-05
+C02305,Cliente 2305,Antofagasta,II,Premium,2024-12-30
+C02306,Cliente 2306,Antofagasta,II,Premium,2025-09-27
+C02307,Cliente 2307,Talca,VII,Premium,2025-07-01
+C02308,Cliente 2308,Santiago,RM,Retail,2025-02-02
+C02309,Cliente 2309,La Serena,IV,Retail,2025-09-27
+C02310,Cliente 2310,La Serena,IV,Premium,2026-03-10
+C02311,Cliente 2311,Temuco,IX,,2024-02-12
+C02312,Cliente 2312,Temuco,IX,Retail,2025-03-01
+C02313,Cliente 2313,Valparaíso,V,Retail,2025-07-28
+C02314,Cliente 2314,Talca,VII,Premium,2024-12-14
+C02315,Cliente 2315,Temuco,IX,Retail,2025-07-03
+C02316,Cliente 2316,Antofagasta,II,Retail,2024-05-20
+C02317,Cliente 2317,Puerto Montt,X,Corporate,2025-06-27
+C02318,Cliente 2318,Santiago,RM,Retail,2024-10-18
+C02319,Cliente 2319,Talca,VII,Retail,2026-05-22
+C02320,Cliente 2320,Temuco,IX,Retail,2024-05-06
+C02321,Cliente 2321,Santiago,RM,Retail,2026-05-11
+C02322,Cliente 2322,Talca,VII,Corporate,2026-06-10
+C02323,Cliente 2323,Puerto Montt,X,Premium,2024-02-11
+C02324,Cliente 2324,ANTOFAGASTA,II,Premium,2024-05-20
+C02325,Cliente 2325,Rancagua,VI,Retail,2026-04-08
+C02326,Cliente 2326,Talca,VII,Premium,2024-09-10
+C02327,Cliente 2327,Valparaíso,V,Retail,2024-01-18
+C02328,Cliente 2328,Talca,VII,Retail,2025-02-21
+C02329,Cliente 2329,La Serena,IV,Retail,2024-08-31
+C02330,Cliente 2330,Talca,VII,Retail,2024-05-19
+C02331,Cliente 2331,Antofagasta,II,Retail,2026-05-26
+C02332,Cliente 2332,Santiago,RM,Corporate,2025-02-19
+C02333,Cliente 2333,Concepción,VIII,Premium,2025-08-17
+C02334,Cliente 2334,La Serena,IV,Corporate,2026-02-01
+C02335,Cliente 2335,,IV,Retail,2024-04-25
+C02336,Cliente 2336,Santiago,RM,Retail,2024-12-15
+C02337,Cliente 2337,Valparaíso,V,Premium,2024-11-28
+C02338,Cliente 2338,La Serena,IV,Premium,2024-05-29
+C02339,Cliente 2339,La Serena,IV,,2024-10-07
+C02340,Cliente 2340,Santiago,RM,Premium,2026-05-03
+C02341,Cliente 2341,valparaíso,V,Premium,2024-05-24
+C02342,Cliente 2342,Talca,VII,Retail,2025-04-10
+C02343,Cliente 2343,Antofagasta,II,Premium,2025-02-03
+C02344,Cliente 2344,Santiago,RM,Premium,2025-10-22
+C02345,Cliente 2345,Concepción,VIII,Retail,2026-01-08
+C02346,Cliente 2346,Talca,VII,Premium,2026-02-03
+C02347,Cliente 2347,La Serena,IV,Premium,2024-09-15
+C02348,Cliente 2348,VIÑA DEL MAR,V,Retail,2025-06-26
+C02349,Cliente 2349,Santiago,RM,Retail,2025-12-07
+C02350,Cliente 2350,Concepción,VIII,Retail,2024-11-09
+C02351,Cliente 2351,Puerto Montt,X,Retail,2025-09-08
+C02352,Cliente 2352,La Serena,IV,Premium,2024-11-28
+C02353,Cliente 2353,Talca,VII,Retail,2024-08-21
+C02354,Cliente 2354,Viña del Mar,V,Premium,2024-08-24
+C02355,Cliente 2355,Valparaíso,V,Retail,2025-07-15
+C02356,Cliente 2356,Temuco,IX,Retail,2024-09-19
+C02357,Cliente 2357,Viña del Mar,V,Premium,2024-08-02
+C02358,Cliente 2358,Antofagasta,II,Premium,2025-07-03
+C02359,Cliente 2359,Antofagasta,II,Retail,2025-11-04
+C02360,Cliente 2360,Puerto Montt,X,Premium,2024-04-12
+C02361,Cliente 2361,Santiago,RM,Retail,2024-12-23
+C02362,Cliente 2362,Valparaíso,V,Corporate,2025-08-08
+C02363,Cliente 2363,La Serena,IV,Premium,2026-01-20
+C02364,Cliente 2364,Rancagua,VI,Retail,2025-04-05
+C02365,Cliente 2365,La Serena,IV,Retail,2026-02-13
+C02366,Cliente 2366,Concepción,VIII,Retail,2024-01-08
+C02367,Cliente 2367,Puerto Montt,X,Retail,2026-02-21
+C02368,Cliente 2368,La Serena,IV,Retail,2024-06-19
+C02369,Cliente 2369,Talca,VII,Corporate,2025-08-28
+C02370,Cliente 2370,Viña del Mar,V,Retail,2025-08-03
+C02371,Cliente 2371,Rancagua,VI,Retail,2024-09-23
+C02372,Cliente 2372,Santiago,RM,Retail,2024-10-29
+C02373,Cliente 2373,Viña del Mar,V,Retail,2025-12-12
+C02374,Cliente 2374,Valparaíso,V,Retail,2025-02-08
+C02375,Cliente 2375,Talca,VII,Retail,2026-06-15
+C02376,Cliente 2376,Viña del Mar,V,Retail,2024-03-16
+C02377,Cliente 2377,Valparaíso,V,Retail,2024-12-06
+C02378,Cliente 2378,La Serena,IV,Retail,2026-03-19
+C02379,Cliente 2379,Rancagua,VI,Retail,2026-01-08
+C02380,Cliente 2380,Concepción,VIII,Retail,2026-05-17
+C02381,Cliente 2381,Santiago,RM,Premium,2026-01-10
+C02382,Cliente 2382,Viña del Mar,V,Retail,2025-12-05
+C02383,Cliente 2383,Talca,VII,Retail,2024-02-28
+C02384,Cliente 2384,Temuco,IX,Retail,2025-11-19
+C02385,Cliente 2385,Antofagasta,II,Retail,2024-03-28
+C02386,Cliente 2386,Rancagua,VI,Retail,2025-06-18
+C02387,Cliente 2387,Viña del Mar,V,Premium,2024-11-17
+C02388,Cliente 2388,Santiago,RM,Retail,2024-01-03
+C02389,Cliente 2389,Valparaíso,V,Retail,2025-06-12
+C02390,Cliente 2390,La Serena,IV,Retail,2026-03-27
+C02391,Cliente 2391,Santiago,RM,Retail,2026-04-21
+C02392,Cliente 2392,Santiago,RM,Retail,2024-02-24
+C02393,Cliente 2393,Talca,VII,Retail,2024-12-29
+C02394,Cliente 2394,Talca,VII,Retail,2024-03-07
+C02395,Cliente 2395,Puerto Montt,X,Retail,2025-06-25
+C02396,Cliente 2396,Antofagasta,II,Retail,2024-09-21
+C02397,Cliente 2397,La Serena,IV,Retail,2025-01-22
+C02398,Cliente 2398,Concepción,VIII,Retail,2024-05-24
+C02399,Cliente 2399,Viña del Mar,V,Retail,2025-11-13
+C02400,Cliente 2400,Puerto Montt,X,Premium,2024-05-13
+C02401,Cliente 2401,Valparaíso,V,Retail,2026-03-07
+C02402,Cliente 2402,Antofagasta,II,Corporate,2025-10-08
+C02403,Cliente 2403,Antofagasta,II,Premium,2024-02-13
+C02404,Cliente 2404,Temuco,IX,Retail,2024-07-10
+C02405,Cliente 2405,Valparaíso,V,Retail,2024-11-11
+C02406,Cliente 2406,Talca,VII,Retail,2024-01-24
+C02407,Cliente 2407,Talca,VII,Retail,2026-04-30
+C02408,Cliente 2408,Santiago,RM,Retail,2024-12-14
+C02409,Cliente 2409,Antofagasta,II,Retail,2024-08-09
+C02410,Cliente 2410,Talca,VII,Retail,2024-11-18
+C02411,Cliente 2411,Valparaíso,V,Retail,2025-12-29
+C02412,Cliente 2412,Valparaíso,V,Retail,2025-09-13
+C02413,Cliente 2413,Rancagua,VI,Retail,2025-02-18
+C02414,Cliente 2414,Santiago,RM,Premium,2024-03-26
+C02415,Cliente 2415,Puerto Montt,X,Retail,2025-05-27
+C02416,Cliente 2416, Santiago ,RM,Retail,2024-07-08
+C02417,Cliente 2417,Valparaíso,V,Retail,2025-02-28
+C02418,Cliente 2418,Santiago,RM,Retail,2025-01-21
+C02419,Cliente 2419,Antofagasta,II,Premium,2025-09-02
+C02420,Cliente 2420,Viña del Mar,V,Retail,2025-02-05
+C02421,Cliente 2421,Valparaíso,V,Retail,2024-03-13
+C02422,Cliente 2422,Valparaíso,V,Retail,2024-08-19
+C02423,Cliente 2423,Viña del Mar,V,Retail,2025-02-21
+C02424,Cliente 2424,Viña del Mar,V,Retail,2024-05-31
+C02425,Cliente 2425,Valparaíso,V,Retail,2024-02-07
+C02426,Cliente 2426,Santiago,RM,Premium,2025-10-07
+C02427,Cliente 2427,Puerto Montt,X,Retail,2026-03-20
+C02428,Cliente 2428,Puerto Montt,X,Premium,2024-01-19
+C02429,Cliente 2429, La Serena ,IV,Retail,2025-02-11
+C02430,Cliente 2430,Concepción,VIII,Retail,2024-03-15
+C02431,Cliente 2431,La Serena,IV,Retail,2024-12-14
+C02432,Cliente 2432,Puerto Montt,X,Retail,2025-05-12
+C02433,Cliente 2433,Concepción,VIII,Retail,2025-06-21
+C02434,Cliente 2434,Antofagasta,II,Premium,2024-01-06
+C02435,Cliente 2435,La Serena,IV,Retail,2025-11-14
+C02436,Cliente 2436,La Serena,IV,Retail,2025-01-18
+C02437,Cliente 2437,Rancagua,VI,Retail,2024-01-19
+C02438,Cliente 2438,viña del mar,V,Premium,2026-04-02
+C02439,Cliente 2439,Rancagua,VI,Corporate,2025-08-19
+C02440,Cliente 2440,Puerto Montt,X,Premium,2025-08-09
+C02441,Cliente 2441,Viña del Mar,V,Premium,2026-02-02
+C02442,Cliente 2442,Temuco,IX,Retail,2025-10-14
+C02443,Cliente 2443,Santiago,RM,Premium,2026-06-27
+C02444,Cliente 2444,Concepción,VIII,Premium,2024-04-20
+C02445,Cliente 2445,Concepción,VIII,Premium,2025-03-16
+C02446,Cliente 2446,Viña del Mar,V,Retail,2025-07-25
+C02447,Cliente 2447,Puerto Montt,X,Corporate,2024-02-01
+C02448,Cliente 2448,La Serena,IV,Retail,2024-08-13
+C02449,Cliente 2449,la serena,IV,Premium,2025-06-16
+C02450,Cliente 2450,Antofagasta,II,Premium,2024-12-18
+C02451,Cliente 2451,Viña del Mar,V,Retail,2024-12-15
+C02452,Cliente 2452,Viña del Mar,V,Premium,2025-07-11
+C02453,Cliente 2453,Puerto Montt,X,Retail,2024-12-18
+C02454,Cliente 2454,Talca,VII,Retail,2025-03-12
+C02455,Cliente 2455,La Serena,IV,Premium,2024-11-17
+C02456,Cliente 2456,La Serena,IV,Premium,2025-02-12
+C02457,Cliente 2457,Talca,VII,Retail,2024-02-11
+C02458,Cliente 2458,Santiago,RM,Retail,2026-05-22
+C02459,Cliente 2459,Valparaíso,V,Corporate,2024-04-29
+C02460,Cliente 2460,Viña del Mar,V,Retail,2026-04-23
+C02461,Cliente 2461,Viña del Mar,V,Retail,2024-03-23
+C02462,Cliente 2462,Santiago,RM,Retail,2026-03-03
+C02463,Cliente 2463,Rancagua,VI,Retail,2025-10-04
+C02464,Cliente 2464,Antofagasta,II,Retail,2025-05-22
+C02465,Cliente 2465,Rancagua,VI,Premium,2026-01-13
+C02466,Cliente 2466,Concepción,VIII,Retail,2025-07-22
+C02467,Cliente 2467,Rancagua,VI,Corporate,2024-02-18
+C02468,Cliente 2468,Antofagasta,II,Retail,2025-06-20
+C02469,Cliente 2469,Rancagua,VI,Retail,2024-05-15
+C02470,Cliente 2470,Puerto Montt,X,Retail,2025-07-11
+C02471,Cliente 2471,Concepción,VIII,Retail,2024-03-21
+C02472,Cliente 2472,Puerto Montt,X,Retail,2025-06-09
+C02473,Cliente 2473,Temuco,IX,Retail,2024-07-13
+C02474,Cliente 2474,Antofagasta,II,Retail,2024-02-20
+C02475,Cliente 2475,Puerto Montt,X,Retail,2024-02-14
+C02476,Cliente 2476,Rancagua,VI,Retail,2024-09-13
+C02477,Cliente 2477,rancagua,VI,Premium,2025-05-26
+C02478,Cliente 2478,Concepción,VIII,Retail,2026-06-18
+C02479,Cliente 2479,Valparaíso,V,Retail,2024-09-24
+C02480,Cliente 2480,Temuco,IX,Premium,2025-05-18
+C02481,Cliente 2481,La Serena,IV,Premium,2025-07-06
+C02482,Cliente 2482,Temuco,IX,Retail,2024-12-12
+C02483,Cliente 2483,Rancagua,VI,Premium,2025-08-25
+C02484,Cliente 2484,Valparaíso,V,Retail,2025-12-17
+C02485,Cliente 2485,Puerto Montt,X,Retail,2026-04-06
+C02486,Cliente 2486,Puerto Montt,X,Retail,2024-03-27
+C02487,Cliente 2487,temuco,IX,Retail,2024-03-29
+C02488,Cliente 2488,Temuco,IX,Retail,2025-04-03
+C02489,Cliente 2489,Valparaíso,V,Retail,2026-02-27
+C02490,Cliente 2490,Puerto Montt,X,Corporate,2026-02-12
+C02491,Cliente 2491,Antofagasta,II,Retail,2025-09-30
+C02492,Cliente 2492,Concepción,VIII,Retail,2024-02-08
+C02493,Cliente 2493,La Serena,IV,Retail,2025-07-09
+C02494,Cliente 2494,Talca,VII,Corporate,2025-10-25
+C02495,Cliente 2495,Viña del Mar,V,Retail,2025-10-06
+C02496,Cliente 2496,Talca,VII,Retail,2026-04-09
+C02497,Cliente 2497,Concepción,VIII,Retail,2025-07-11
+C02498,Cliente 2498,Concepción,VIII,Retail,2025-09-22
+C02499,Cliente 2499,Valparaíso,V,Premium,2025-11-10
+C02500,Cliente 2500,Concepción,VIII,Premium,2025-08-11
+C00531,Cliente 0531,Viña del Mar,V,Retail,2024-11-23
+C01312,Cliente 1312,PUERTO MONTT,X,Retail,2024-02-28
+C02115,Cliente 2115,Antofagasta,II,Retail,2024-02-27
+C02363,Cliente 2363,La Serena,IV,Premium,2026-01-20
+C00804,Cliente 0804,Talca,VII,Premium,2026-01-14
+C02024,Cliente 2024,Valparaíso,V,Retail,2025-09-22
+C00157,Cliente 0157,Puerto Montt,X,Retail,2025-07-03
+C02180,Cliente 2180,Concepción,VIII,Retail,2024-09-06
+C01304,Cliente 1304,Concepción,VIII,Retail,2024-07-09
+C02148,Cliente 2148,Temuco,IX,Retail,2026-05-01
+C00003,Cliente 0003,Santiago,RM,Retail,2026-01-03
+C01633,Cliente 1633,Santiago,RM,Corporate,2024-01-27
+C00763,Cliente 0763,Puerto Montt,X,Retail,2024-12-10
+C00973,Cliente 0973,Puerto Montt,X,Premium,2025-02-28
+C01511,Cliente 1511,Temuco,IX,Retail,2024-04-05
+C00213,Cliente 0213,Concepción,VIII,Retail,2026-04-28
+C01104,Cliente 1104,Puerto Montt,X,Premium,2024-03-30
+C00123,Cliente 0123,TEMUCO,IX,Retail,2024-04-28
