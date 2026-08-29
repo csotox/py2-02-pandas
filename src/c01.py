@@ -71,6 +71,75 @@ def main():
     # Funciones de agregado
     # print( df_productos['stock'].sum() )
 
+    #-- - -----------------------------------------------
+    #-- - Pandas selección, filtrado e índices
+    #-- - -----------------------------------------------
+
+    #-- - Obtener por nombre de la columna fijo
+    #-- - --------------------------------------
+    # print( 
+    #     df_productos[
+    #         'product_name'
+    #     ]
+    # )
+
+    #-- - Obtener por nombre de la columna dinámico
+    #-- - ------------------------------------------
+    # col = 'product_name'
+    # print( df_productos[col]  )
+
+    #-- - Devolver varias columnas
+    #-- - Debo enviar como argumento una lista list []
+    #-- - ------------------------
+    # print(
+    #     df_productos[
+    #         [
+    #             'product_id',
+    #             'product_name',
+    #             'stock'
+    #         ]
+    #     ]
+    # )
+
+    #-- - Diferencia entre Serie y DataFrame al obtener columnas
+    #-- - ------------------------------------------------------
+
+    #-- - Obtenemos una serie
+    # print( type( df_productos[ 'product_name' ] ) )
+
+    #-- - Obtenemos un DataFrame
+    # print( type( df_productos[ [ 'product_name' ] ] ) )
+
+
+    #-- - Obtener valores usando los métodos iloc y loc
+    #-- - ---------------------------------------------
+
+    #-- - iloc[] selección por posición
+    #-- - Cumple con las reglas Slice de Python
+
+    #-- - Obtener filas
+    # print( df_productos.iloc[5] )
+    # print( df_productos.iloc[4:8] )
+
+    """
+    Recordar que Slice el valor final no es incluido
+    (inicio, fin]
+    i >= inicio and i < fin
+    """
+
+    #-- - Obtener filas y columnas
+    #-- -                      Filas      Columnas
+    # print( df_productos.iloc[4:8,       [0, 1, 5]] )
+
+    #-- - Base de comparación
+    # print( df_productos.iloc[0:3, [0, 1]] )
+
+    #-- - loc selecciona por etiqueta
+    # print( df_productos.loc[0:3] )
+
+    # print( df_productos.loc[0:2, ['product_id', 'product_name']] )
+
+
 
 
 if __name__ == "__main__":
