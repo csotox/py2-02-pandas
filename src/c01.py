@@ -26,7 +26,7 @@ def inicio():
     print( df_venta )
 
 def get_productos():
-    df = pd.read_csv("data/products.csv")
+    df = pd.read_csv("data/products.csv", )
 
     return df
 
@@ -46,9 +46,30 @@ def main():
     # print( df_productos.tail(15) )
 
     # Obtener filas aleatorias
-    print( df_productos.sample(5) )
+    # print( df_productos.sample(5) )
 
+    # Tamaño del DataFrame
+    # Tupla -> (Filas, Columnas)
+    # print( df_productos.shape )
 
+    # Columnas
+    # print( type( df_productos ) )
+    # print( df_productos.columns )
+
+    # Índices
+    # print( df_productos.index )
+
+    # Informasción general sobre el DataFrame
+    # print( df_productos.info() )
+
+    # Tipo de datos de la columna
+    # print( df_productos.dtypes )
+
+    # Estadistica descriptiva
+    # print( df_productos.describe() )
+
+    # Funciones de agregado
+    # print( df_productos['stock'].sum() )
 
 
 
