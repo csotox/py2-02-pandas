@@ -139,6 +139,96 @@ def main():
 
     # print( df_productos.loc[0:2, ['product_id', 'product_name']] )
 
+    #-- - Filtros booleanos
+    #-- - -----------------
+
+    # condicion = df_productos["unit_price"] > 500
+
+    # print( condicion )
+
+    # print(
+    #     f"Productos con precio mayores a 500: {condicion.sum()}"
+    # )
+
+    # prod_mayor_500 = df_productos[ condicion ]
+    # print( prod_mayor_500 )
+
+    #-- - Filtrar valores categóricos
+    # prod_electronica = df_productos[
+    #     df_productos["category"] == 'Electrónica'
+    # ]
+
+    # print( prod_electronica[
+    #     [
+    #         'product_id', 'product_name', 'category', 'stock']
+    #     ]
+    # )
+
+    """
+    Operadores lógicos
+    - - - - - - - - - -
+    -> Y = &
+    -> O = |
+    -> NOT = ~
+    -> Debemos utilizar paréntesis para cada operación de comparación
+    """
+
+    # prod_electronica = df_productos.loc[
+    #     (df_productos["category"] == 'Electrónica')
+    #         & (df_productos["stock"] > 100),
+    #     ['product_id', 'product_name', 'category', 'stock']
+    # ]
+
+    # print( prod_electronica[
+    #     [
+    #         'product_id', 'product_name', 'category', 'stock']
+    #     ]
+    # )
+
+    #-- - Filtrar valores categóricos
+    # condicion = df_productos['category'] == 'Mascotas'
+ 
+    # print(df_productos.loc[condicion, ['product_id', 'product_name', 'category']])
+
+    #-- - Operador `isin()`
+    # print( df_productos.head() )
+
+    #-- - De manera tradicional utilizamos un if y un Or para filtrar
+    #-- - por varias categoría. Esto tiene varios problemas:
+    #-- - La condición queda fija
+    # r1 = df_productos[
+    #     ( df_productos['category'] == 'Juguetes' ) |
+    #     ( df_productos['category'] == 'Libros' )
+    # ]
+
+    # print( r1 )
+
+    #-- - Utilizando isin() podemos pasar una lista/tupla generada de manera
+    #-- - dinámica y esto hace más flexible la condición.
+    # categorias = ( 'Juguetes', 'Libros' )
+
+    # r2 = df_productos[
+    #     ( df_productos['category'].isin(categorias) )
+    # ]
+
+    # print( r2 )
+
+    #-- - Uso de `between()`
+    #-- - Nos facilita aplicar filtro para a un rango
+    # r3 = df_productos[
+    #     ( df_productos['unit_price'] >= 500 ) &
+    #     ( df_productos['unit_price'] <= 600 )
+    # ]
+
+    # print( r3 )
+
+    #-- - Mismo resultado, más legible
+    # r4 = df_productos[
+    #     ( df_productos['unit_price'].between(500, 600 ) )
+    # ]
+
+    # print( r4 )
+
 
 
 
