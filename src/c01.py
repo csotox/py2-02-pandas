@@ -263,6 +263,71 @@ def main():
     # print( r5.index )
     # print( r5 )
 
+    #-- - -----------------------------------------------
+    #-- - Pandas calidad de los datos
+    #-- - -----------------------------------------------
+
+    #-- - Vista general de los datos
+    # print( df_productos.shape )
+    # print( df_productos.head() )
+    # print( df_productos.info() )
+
+    #-- - Gestión de Valores faltantes
+    # df_prod_faltan = df_productos.isna().sum()
+
+    # print( df_prod_faltan )
+    # print( type(df_prod_faltan) )
+
+    # 3 vías de acción para trabajar con faltantes
+    #-- - ------------------------------------------
+    # 1. Eliminar las filas con valores faltantes
+    # 2. Rellenar / imputar
+    # 3. Conservar original
+
+    #-- - Mostrar solo columnas con valores faltantes
+    # solo_faltantes = df_prod_faltan[ df_prod_faltan > 0 ]
+    # print( solo_faltantes )
+
+    #-- - Productos sin marca
+    prod_sin_marca = df_productos.loc[
+        df_productos["brand"].isna(),
+        ["product_id", "product_name", "brand"]
+    ]
+
+    # print( prod_sin_marca )
+
+    #-- - Productos con marca
+    prod_con_marca = df_productos.loc[
+        df_productos["brand"].notna(),
+        ["product_id", "product_name", "brand"]
+    ]
+
+    print( prod_con_marca )
+    # print( id(prod_con_marca) )
+    # prod_con_marca = None
+    # print( id(prod_con_marca) )
+
+    #-- - Eliminar variable de la memoria
+    # del prod_con_marca
+    # print( id(prod_con_marca) )
+
+    #-- - productos completos (Sin celdas con valores faltantes)
+    # df_prod_sin_faltante = df_productos.dropna()
+
+    # print( df_prod_sin_faltante.shape )
+
+    # 2. Reemplazar valores faltantes / imputación
+    prod_sin_marca2 = df_productos.loc[
+        df_productos["brand"].isna() |
+            df_productos["weight_g"].isna(),
+        ["product_id", "product_name", "brand", "weight_g"]
+    ]
+
+    print( prod_sin_marca2 )
+
+    prod_sin_marca2["brand"] = prod_sin_marca2["brand"].fillna("Sin marca")
+
+    print( prod_sin_marca2 )
 
 
 
