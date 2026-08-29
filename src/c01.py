@@ -229,6 +229,26 @@ def main():
 
     # print( r4 )
 
+    #-- - -----------------------------------------------
+    #-- - Ordenar DataFrame
+    #-- - -----------------------------------------------
+    # top_10_prod_precio = df_productos.sort_values(
+    #     "unit_price",
+    #     ascending=False
+    # ).head(15)
+
+    # print( top_10_prod_precio )
+
+    # r5 = df_productos.loc[
+    #     ( df_productos['category'] == 'Juguetes' ),
+    #     ["product_id", "product_name", "category", "unit_price", "stock"]
+    # ].sort_values(
+    #     "unit_price",
+    #     ascending=False
+    # ).head(10)
+
+    # print( r5 )
+
 
 
 
