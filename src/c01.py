@@ -249,6 +249,20 @@ def main():
 
     # print( r5 )
 
+    #-- - -----------------------------------------------
+    #-- - Índices
+    #-- - -----------------------------------------------
+
+    # print( r5.index )
+
+    # # reset_index() regresa un nuevo DataFrame
+    # print( r5.reset_index() )
+
+    #-- - Si deseamos modificar el DF actual debemos usar el argumento `inplace`
+    # print( r5.reset_index( inplace=True ) )
+    # print( r5.index )
+    # print( r5 )
+
 
 
 
