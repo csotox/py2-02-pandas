@@ -289,20 +289,20 @@ def main():
     # print( solo_faltantes )
 
     #-- - Productos sin marca
-    prod_sin_marca = df_productos.loc[
-        df_productos["brand"].isna(),
-        ["product_id", "product_name", "brand"]
-    ]
+    # prod_sin_marca = df_productos.loc[
+    #     df_productos["brand"].isna(),
+    #     ["product_id", "product_name", "brand"]
+    # ]
 
     # print( prod_sin_marca )
 
     #-- - Productos con marca
-    prod_con_marca = df_productos.loc[
-        df_productos["brand"].notna(),
-        ["product_id", "product_name", "brand"]
-    ]
+    # prod_con_marca = df_productos.loc[
+    #     df_productos["brand"].notna(),
+    #     ["product_id", "product_name", "brand"]
+    # ]
 
-    print( prod_con_marca )
+    # print( prod_con_marca )
     # print( id(prod_con_marca) )
     # prod_con_marca = None
     # print( id(prod_con_marca) )
@@ -317,17 +317,83 @@ def main():
     # print( df_prod_sin_faltante.shape )
 
     # 2. Reemplazar valores faltantes / imputación
-    prod_sin_marca2 = df_productos.loc[
-        df_productos["brand"].isna() |
-            df_productos["weight_g"].isna(),
-        ["product_id", "product_name", "brand", "weight_g"]
-    ]
+    # prod_sin_marca2 = df_productos.loc[
+    #     df_productos["brand"].isna() |
+    #         df_productos["weight_g"].isna(),
+    #     ["product_id", "product_name", "brand", "weight_g"]
+    # ]
 
-    print( prod_sin_marca2 )
+    # print( prod_sin_marca2 )
 
-    prod_sin_marca2["brand"] = prod_sin_marca2["brand"].fillna("Sin marca")
+    # prod_sin_marca2["brand"] = prod_sin_marca2["brand"].fillna("Sin marca")
 
-    print( prod_sin_marca2 )
+    # print( prod_sin_marca2 )
+
+
+    # Valores inconsistentes
+    #-- - ------------------
+    # print( df_productos.columns )
+    # categoria = df_productos["category"].unique()
+    # print( categoria )
+
+    # for item in categoria:
+    #     print( f"[{item}]" )
+
+    # Establecer la cantidad de valores unicos para la columna Category
+    # cant_category = len( categoria )
+    # print( f"Cantidad de categorías {cant_category}" )
+
+    # if cant_category > 10:
+    #     Envíar alerta asumiendo que no deben existir más de 10 categorías
+
+    # Hacemos una copia para mantener el original
+    # df_aux   = df_productos.copy()
+    df_aux_h = df_productos.copy()
+
+    # Quitar espacios en blanco
+    # df_aux["category"] = df_aux["category"].str.strip()
+
+    # Normalizar a letra capital
+    # df_aux["category"] = df_aux["category"].str.capitalize()
+
+    # Usando métodos encadenados
+    # df_aux["category"] = df_aux["category"].str.strip().str.capitalize()
+
+    # categoria_nueva = sorted( df_aux["category"].unique() )
+    # cant_category_real = len( categoria_nueva )
+    # for item in categoria_nueva:
+    #     print( f"[{item}]" )
+
+    # print( f"cantidad de categorías real: {cant_category_real}")
+
+    # Alternativa para normalizar textos
+    # Técnica de Homologación (Diccionario)
+    # Ejemplo de caso de uso
+    #   santiago
+    #   Santiago
+    #   saniago
+    #   santiago centro
+    #   stgo
+
+    cate_real = {
+        " deportes ": "Deportes",
+        " juguetes ": "Juguetes",
+        " belleza ": "Belleza",
+        " ropa ": "Hogar",
+        " accesorios ": "Accesorios",
+    }
+    df_aux_h["category"] = df_aux_h["category"].replace( cate_real )
+
+    categoria_nueva = sorted( df_aux_h["category"].unique() )
+    cant_category_real = len( categoria_nueva )
+    for item in categoria_nueva:
+        print( f"[{item}]" )
+
+    print( f"cantidad de categorías real: {cant_category_real}")
+
+
+
+
 
 
 
