@@ -445,6 +445,48 @@ def main():
     # df_clientes = df_clientes.drop_duplicates()
     # print( f"Número de clientes reales: {len(df_clientes):,}")
 
+    #-- - ----------------
+    #-- - Valores atípicos
+    #-- - ----------------
+
+    print( df_productos["unit_price"].describe() )
+
+    # print(
+    #     df_productos.sort_values("unit_price", ascending=False)
+    # )
+
+    # z-score
+    # iqr
+
+    #-- - Calcular el z-score
+    media = df_productos["unit_price"].mean()
+    desviacion = df_productos["unit_price"].std()
+
+    df_productos["z-score"] = (
+        (df_productos["unit_price"] - media) / desviacion
+    )
+
+    print(
+        df_productos.loc[
+            df_productos["z-score"].abs() > 3,
+            ["product_name", "unit_price", "z-score"]
+        ]
+
+    )
+
+    #-- - Calcular IQR
+    q1 = df_productos["unit_price"].quantile(0.25)
+    q3 = df_productos["unit_price"].quantile(0.75)
+
+    iqr = q3 - q1
+    limite_inferior = q1 - 1.5 * iqr
+    limite_superior = q3 + 1.5 * iqr
+
+    print( f"Q1: {q1}" )
+    print( f"Q3: {q3}" )
+    print( f"IQR: {iqr}" )
+    print( f"Limite inferior: {limite_inferior}" )
+    print( f"Limite superior: {limite_superior}" )
 
 
 
