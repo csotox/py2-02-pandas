@@ -30,11 +30,17 @@ def get_productos():
 
     return df
 
+def get_clientes():
+    df = pd.read_csv("data/customers.csv", )
+
+    return df
+
 def main():
     # print("Hola mundo")
     # inicio()
 
     df_productos = get_productos()
+    df_clientes = get_clientes()
     # print( df_productos )
 
     # Imprime/muestra las primeras 5 filas
@@ -348,7 +354,7 @@ def main():
 
     # Hacemos una copia para mantener el original
     # df_aux   = df_productos.copy()
-    df_aux_h = df_productos.copy()
+    # df_aux_h = df_productos.copy()
 
     # Quitar espacios en blanco
     # df_aux["category"] = df_aux["category"].str.strip()
@@ -375,24 +381,69 @@ def main():
     #   santiago centro
     #   stgo
 
-    cate_real = {
-        " deportes ": "Deportes",
-        " juguetes ": "Juguetes",
-        " belleza ": "Belleza",
-        " ropa ": "Hogar",
-        " accesorios ": "Accesorios",
-    }
-    df_aux_h["category"] = df_aux_h["category"].replace( cate_real )
+    # cate_real = {
+    #     " deportes ": "Deportes",
+    #     " juguetes ": "Juguetes",
+    #     " belleza ": "Belleza",
+    #     " ropa ": "Hogar",
+    #     " accesorios ": "Accesorios",
+    # }
+    # df_aux_h["category"] = df_aux_h["category"].replace( cate_real )
 
-    categoria_nueva = sorted( df_aux_h["category"].unique() )
-    cant_category_real = len( categoria_nueva )
-    for item in categoria_nueva:
-        print( f"[{item}]" )
+    # categoria_nueva = sorted( df_aux_h["category"].unique() )
+    # cant_category_real = len( categoria_nueva )
+    # for item in categoria_nueva:
+    #     print( f"[{item}]" )
 
-    print( f"cantidad de categorías real: {cant_category_real}")
+    # print( f"cantidad de categorías real: {cant_category_real}")
 
+    #-- - ------------------
+    #-- - Valores duplicados
+    #-- - ------------------
 
+    # Exploración inicial
+    # print( df_clientes.shape )
+    # print( df_clientes )
+    # print( df_clientes.columns )
 
+    # Devuelve una serie booleana
+    # 1. Considera toda la fila.
+    # 2. Mantiene como original la primera fila
+    # 3. Considera duplicada a partir de la siguiente aparición
+    # duplicados = df_clientes.duplicated()
+    # print( duplicados )
+
+    # print( duplicados.sum() )
+
+    # clientes_duplicados = df_clientes[ duplicados ]
+    # print( clientes_duplicados )
+
+    # print( "Muestra todas las filas duplicadas")
+    # clientes_duplicados_todos = df_clientes[
+    #     df_clientes.duplicated( keep=False )
+    # ].sort_values("customer_id")
+    # print( clientes_duplicados_todos )
+
+    # NOTA: `duplicated()` toma todos los valores de la fila
+    # Si tenemos una columna de `id` unica no tendremos
+    # valores duplicados
+    # Columna de identidad con las siguientes características:
+    # Valor entero (int) + unico
+
+    # Calcular los duplicados por columnas especificas/determinadas
+    # print( "Muestra duplicados por columnas especificas")
+    # duplicado_por_columna = df_clientes[
+    #     df_clientes.duplicated( 
+    #         subset=['customer_name', 'city']
+    #     )
+    # ].sort_values("customer_id")
+    # print( duplicado_por_columna )
+
+    #-- - Eliminar duplicados
+    #-- - -------------------
+    # print( f"Número de clientes del dataset: {len(df_clientes):,}")
+    # df_clientes = df_clientes.drop_duplicates()
+    # print( f"Número de clientes reales: {len(df_clientes):,}")
 
 
 
