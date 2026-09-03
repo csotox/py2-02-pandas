@@ -11,7 +11,9 @@ def mi_primer_grafico():
     y = [10, 12, 18, 16, 25]
 
     # Creamos el lienzo de trabajo
-    plt.figure()
+    # 10 = ancho
+    #  5 = alto
+    plt.figure( figsize=(10, 5) )
 
     plt.plot(x, y)
 
