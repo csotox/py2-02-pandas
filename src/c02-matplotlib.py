@@ -51,11 +51,27 @@ def mi_primer_grafico():
     plt.savefig('output/mi_primer_grafico.png')
     plt.close()
 
+def analisis_precios(data):
+
+    plt.figure( figsize=(10, 5) )
+
+    plt.hist(data["unit_price"], bins=30)
+
+    plt.title("Histograma de precio de productos")
+    plt.xlabel("Precio")
+    plt.ylabel("Frecuencia")
+
+    plt.show()
+
+
+
+
 def main():
     df = get_productos()
 
     # print( df.describe() )
-    mi_primer_grafico()
+    # mi_primer_grafico()
+    analisis_precios(df)
 
 if __name__ == '__main__':
     main()
