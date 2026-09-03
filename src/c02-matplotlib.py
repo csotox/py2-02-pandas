@@ -6,10 +6,22 @@ def get_productos():
 
     return df
 
+def mi_primer_grafico():
+    x = [1, 2, 3, 4, 5]
+    y = [10, 12, 18, 16, 25]
+
+    # Creamos el lienzo de trabajo
+    plt.figure()
+
+    plt.plot(x, y)
+
+    plt.show()
+
 def main():
     df = get_productos()
 
-    print( df.describe() )
+    # print( df.describe() )
+    mi_primer_grafico()
 
 if __name__ == '__main__':
     main()
