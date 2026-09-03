@@ -49,9 +49,13 @@ def mi_primer_grafico():
     plt.close()
 
 def analisis_precios(data):
+    media = data["unit_price"].mean()
+    mediana = data["unit_price"].median()
+    desviacion = data["unit_price"].std()
+    z_score = (data["unit_price"] - media) / desviacion
 
     # Crear figura con dos subplots horizontales
-    fig, axes = plt.subplots(1, 2, figsize=(12, 4))
+    fig, axes = plt.subplots(1, 3, figsize=(17, 4))
 
     # Histograma
     axes[0].hist(data["unit_price"], bins=30)
@@ -63,6 +67,19 @@ def analisis_precios(data):
     axes[1].boxplot(data["unit_price"], orientation="horizontal")
     axes[1].set_title("Boxplot de unit_price")
     axes[1].set_xlabel("Precio")
+
+        # Gráfico de dispersión
+    scatter = axes[2].scatter(
+        data.index,
+        data["unit_price"],
+        c=z_score,
+        cmap="coolwarm",
+        alpha=0.7
+    )
+    axes[2].set_title("unit_price por observación")
+    axes[2].set_xlabel("Índice")
+    axes[2].set_ylabel("Precio")
+    fig.colorbar(scatter, ax=axes[2], label="Z-score")
 
 
     plt.tight_layout()
