@@ -47,7 +47,9 @@ def mi_primer_grafico():
 
     plt.legend()
 
-    plt.show()
+    # plt.show()
+    plt.savefig('output/mi_primer_grafico.png')
+    plt.close()
 
 def main():
     df = get_productos()
