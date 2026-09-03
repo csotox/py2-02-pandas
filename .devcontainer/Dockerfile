@@ -16,6 +16,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     build-essential \
     ca-certificates \
     sudo \
+    tk \
     && rm -rf /var/lib/apt/lists/*
 
 # Requirements

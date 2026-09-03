@@ -1,3 +1,6 @@
 ingresar:
 	clear
-	docker exec -it --user vscode itwall-python-dev bash
+	docker exec -it \
+		-e DISPLAY=$(DISPLAY) \
+		--user vscode \
+		itwall-python-dev bash
