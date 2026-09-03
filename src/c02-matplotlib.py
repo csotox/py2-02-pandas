@@ -15,6 +15,11 @@ def mi_primer_grafico():
 
     plt.plot(x, y)
 
+    # Agregar títulos
+    plt.title("Esto es el título del gráfico")
+    plt.xlabel("Label del Eje X")
+    plt.ylabel("Label del Eje Y")
+
     plt.show()
 
 def main():
