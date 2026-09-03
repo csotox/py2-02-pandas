@@ -1,6 +1,3 @@
-from cProfile import label
-
-from matplotlib.lines import lineStyles
 import pandas as pd
 import matplotlib.pyplot as plt
 
@@ -53,17 +50,25 @@ def mi_primer_grafico():
 
 def analisis_precios(data):
 
-    plt.figure( figsize=(10, 5) )
+    # Crear figura con dos subplots horizontales
+    fig, axes = plt.subplots(1, 2, figsize=(12, 4))
 
-    plt.hist(data["unit_price"], bins=30)
+    # Histograma
+    axes[0].hist(data["unit_price"], bins=30)
+    axes[0].set_title("Distribución de unit_price")
+    axes[0].set_xlabel("Precio")
+    axes[0].set_ylabel("Frecuencia")
 
-    plt.title("Histograma de precio de productos")
-    plt.xlabel("Precio")
-    plt.ylabel("Frecuencia")
+    # Boxplot
+    axes[1].boxplot(data["unit_price"], orientation="horizontal")
+    axes[1].set_title("Boxplot de unit_price")
+    axes[1].set_xlabel("Precio")
 
-    plt.show()
 
-
+    plt.tight_layout()
+    # plt.show()
+    plt.savefig('output/tablero.png')
+    plt.close()
 
 
 def main():
