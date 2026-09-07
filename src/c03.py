@@ -38,7 +38,22 @@ def main():
         (df_productos["unit_price"] / df_productos["unit_cost"]) * 100
     )
 
+    # Renombrar columna individualmente
+    df_productos = df_productos.rename(
+        columns={
+            "margen": "utilidad",
+            "margen_pct": "utilidad_pct"
+        }
+    )
 
+    print( df_productos[[
+            "product_name",
+            "unit_cost",
+            "unit_price",
+            "utilidad",
+            "utilidad_pct"
+        ]].head(10)
+    )
 
 
 
