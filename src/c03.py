@@ -1,3 +1,4 @@
+import numpy as np
 import pandas as pd
 
 def get_productos():
@@ -64,9 +65,17 @@ def main():
     # where() de Pandas
     # where() -> Si la condición es True, devuelve el valor original
     #         -> Si la condición es False, devuelve el valor alternativo
-    df_productos["stock_status"] = (
-        df_productos["stock"].where(df_productos["stock"] >= 20, "Crítico")
-    )
+    # df_productos["stock_status"] = (
+    #     df_productos["stock"].where(df_productos["stock"] >= 20, "Crítico")
+    # )
+
+    # where() de Numpy
+    # Funciona como un if() tradicional
+    df_productos["stock_status"] = np.where(
+            df_productos["stock"] < 20,
+            "Crítico",
+            "Normal"
+        )
 
     print( df_productos.loc[
         ( df_productos["stock"] < 30 ),
