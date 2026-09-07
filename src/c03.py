@@ -11,6 +11,17 @@ def get_clientes():
 
     return df
 
+def clasificar_stock(stock):
+    r = ""
+    if stock <= 5:
+        r = "Muy Crítico"
+    elif stock < 20:
+        r = "Crítico"
+    else:
+        r = "Normal"
+
+    return r
+
 def main():
     df_productos = get_productos()
     # df_clientes = get_clientes()
@@ -77,14 +88,27 @@ def main():
             "Normal"
         )
 
+    #-- - apply()
+    #-- - -------
+    # Invocar una función
+    # Que ocurre si deseamos agregar una nueva clasificación
+    # para stock <= 5 se debe marcar como "Muy Crítico"
+
+    print( f"{clasificar_stock(5) = }" )
+    print( f"{clasificar_stock(19) = }" )
+    print( f"{clasificar_stock(25) = }" )
+
+    df_productos["stock_status_apply"] = (
+        df_productos["stock"].apply(clasificar_stock)
+    )
+
     print( df_productos.loc[
         ( df_productos["stock"] < 30 ),
         [
             "product_name",
-            "unit_cost",
-            "unit_price",
             "stock",
-            "stock_status"
+            "stock_status",
+            "stock_status_apply"
         ]]
     )
 
