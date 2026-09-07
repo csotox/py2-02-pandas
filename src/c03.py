@@ -38,22 +38,52 @@ def main():
         (df_productos["unit_price"] / df_productos["unit_cost"]) * 100
     )
 
-    # Renombrar columna individualmente
-    df_productos = df_productos.rename(
-        columns={
-            "margen": "utilidad",
-            "margen_pct": "utilidad_pct"
-        }
+    # # Renombrar columna individualmente
+    # df_productos = df_productos.rename(
+    #     columns={
+    #         "margen": "utilidad",
+    #         "margen_pct": "utilidad_pct"
+    #     }
+    # )
+
+    # print( df_productos[[
+    #         "product_name",
+    #         "unit_cost",
+    #         "unit_price",
+    #         "utilidad",
+    #         "utilidad_pct"
+    #     ]].head(10)
+    # )
+
+    #-- - --------------------------------------
+    #-- - Crear columna de categoría condicional
+    #-- - --------------------------------------
+
+    # Marcar productos con stock inferior a 20 unidades
+    # como Crítico
+    # where() de Pandas
+    # where() -> Si la condición es True, devuelve el valor original
+    #         -> Si la condición es False, devuelve el valor alternativo
+    df_productos["stock_status"] = (
+        df_productos["stock"].where(df_productos["stock"] >= 20, "Crítico")
     )
 
-    print( df_productos[[
+    print( df_productos.loc[
+        ( df_productos["stock"] < 30 ),
+        [
             "product_name",
             "unit_cost",
             "unit_price",
-            "utilidad",
-            "utilidad_pct"
-        ]].head(10)
+            "stock",
+            "stock_status"
+        ]]
     )
+
+
+
+
+
+
 
 
 
