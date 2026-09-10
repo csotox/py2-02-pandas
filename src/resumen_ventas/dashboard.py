@@ -26,11 +26,19 @@ def main():
     ticket_promedio = ventas_totales / cantidad_pedidos
     cantidad_clientes = ordenes_entregadas['customer_id'].nunique()
 
-    print( f"Ventas totales: {ventas_totales:,}" )
-    print( f"Cantidad de pedidos: {cantidad_pedidos:,}" )
-    print( f"Ticket promedio: {ticket_promedio:,}" )
-    print( f"Cantidad de clientes: {cantidad_clientes:,}" )
+    # Tablero 1
+    print( "\n" + "=" * 40 )
+    print( f"{'Resumen de ventas':^40}" )
+    print( "=" * 40 )
 
+
+    print( f"{'Ventas totales:':<25} {ventas_totales:>13,.2f}" )
+
+    print( f"{'Cantidad de pedidos:':<25} {cantidad_pedidos:>13,.0f}" )
+    print( f"{'Ticket promedio:':<25} {ticket_promedio:>13,.2f}" )
+    print( f"{'Cantidad de clientes:':<25} {cantidad_clientes:>13,.0f}" )
+
+    print( "=" * 40 )
 
 
 
