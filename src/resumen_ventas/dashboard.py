@@ -1,16 +1,18 @@
 import pandas as pd
 
-from cargar_datos import get_ruta, cargar_csv
+from cargar_datos import *
 
 def main():
     print( get_ruta() )
 
     try:
-        algo = cargar_csv('products.csv')
+        ordenes = get_ordenes()
+        detalles_ordenes = get_detalles_ordenes()
     except FileNotFoundError as err:
         print( err )
 
-    print( algo )
+    print( ordenes )
+    print( detalles_ordenes )
 
 if __name__ == "__main__":
     main()

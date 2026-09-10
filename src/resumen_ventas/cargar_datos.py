@@ -24,3 +24,8 @@ def cargar_csv(nombre_archivo: str) -> pd.DataFrame:
 
     return pd.read_csv( ruta )
 
+def get_ordenes():
+    return cargar_csv('orders.csv')
+
+def get_detalles_ordenes():
+    return cargar_csv('order_items.csv')
