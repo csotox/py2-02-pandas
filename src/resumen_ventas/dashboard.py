@@ -22,8 +22,10 @@ def main():
 
     # KPI
     ventas_totales = ventas["item_total"].sum()
+    cantidad_pedidos = ordenes_entregadas['order_id'].nunique()
 
     print( f"Ventas totales: {ventas_totales:,}" )
+    print( f"Cantidad de pedidos: {cantidad_pedidos:,}" )
 
 
 
