@@ -6,24 +6,10 @@ def main():
     print( get_ruta() )
 
     try:
-        ordenes = get_ordenes()
+        ordenes_entregadas = get_ordenes_entregadas()
         detalles_ordenes = get_detalles_ordenes()
     except FileNotFoundError as err:
         print( err )
-
-    # print( ordenes )
-    print( ordenes.columns )
-    print(
-        ordenes[
-            [ 'order_id', 'customer_id', 'status' ]
-        ].head()
-    )
-
-    print( ordenes['status'].unique()  )
-
-    ordenes_entregadas = ordenes[
-        ordenes['status'] == 'delivered'
-    ]
 
     print(
         ordenes_entregadas[

@@ -27,5 +27,12 @@ def cargar_csv(nombre_archivo: str) -> pd.DataFrame:
 def get_ordenes():
     return cargar_csv('orders.csv')
 
+def get_ordenes_entregadas():
+    ordenes = get_ordenes()
+
+    return ordenes[
+        ordenes['status'] == 'delivered'
+    ]
+
 def get_detalles_ordenes():
     return cargar_csv('order_items.csv')
