@@ -11,14 +11,17 @@ def main():
     except FileNotFoundError as err:
         print( err )
 
-    print(
-        ordenes_entregadas[
-            [ 'order_id', 'customer_id', 'status' ]
-        ].head()
+
+    # DataFrame de ventas
+    # Solo considera las ordenes entregadas
+    ventas = detalles_ordenes.merge(
+        ordenes_entregadas[['order_id']],
+        on="order_id",
+        how="inner"
     )
 
 
-    # print( detalles_ordenes )
+
 
 if __name__ == "__main__":
     main()
