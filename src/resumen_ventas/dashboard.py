@@ -20,6 +20,11 @@ def main():
         how="inner"
     )
 
+    # KPI
+    ventas_totales = ventas["item_total"].sum()
+
+    print( f"Ventas totales: {ventas_totales:,}" )
+
 
 
 
