@@ -1,6 +1,8 @@
-from matplotlib.image import resample
+import json
+
 import pandas as pd
 import matplotlib.pyplot as plt
+from matplotlib.image import resample
 
 from cargar_datos import *
 
@@ -127,6 +129,32 @@ def main():
     }
 
     generar_dashboard(kpi)
+
+    # Guardar un archivo para analisis
+
+    kpi_json = {
+        "ventas_totales": float(ventas_totales),
+        "cantidad_pedidos": int(cantidad_pedidos),
+        "ticket_promedio": float(ticket_promedio),
+        "cantidad_clientes": int(cantidad_clientes),
+        "ventas_mensuales": {
+            pd.Timestamp(fecha).strftime("%Y-%m"): round(float(valor), 2)
+            for fecha, valor in ventas_mensuales.items()
+        }
+    }
+
+    # No pude resolverlo con pandas
+    with open(
+        "src/resumen_ventas/output/kpi.json",
+        "w",
+        encoding="utf-8"
+    ) as archivo:
+        json.dump(
+            kpi_json,
+            archivo,
+            indent=4,
+            ensure_ascii=False
+        )
 
 
 
