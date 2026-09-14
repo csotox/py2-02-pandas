@@ -37,6 +37,8 @@ def generar_dashboard(kpi):
     card(axes[0, 3], "Cantidad de clientes", f"{kpi['cantidad_clientes']:,.0f}", "red")
 
 
+    plt.tight_layout()
+
     plt.show()
 
 
