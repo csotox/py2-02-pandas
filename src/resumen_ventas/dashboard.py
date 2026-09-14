@@ -1,6 +1,38 @@
 import pandas as pd
+import matplotlib.pyplot as plt
 
 from cargar_datos import *
+
+def card(ax, titulo: str, valor: str, color: str = "blue") -> None:
+    ax.text(
+        0.5, 0.65,
+        titulo,
+        ha="center", va="center",
+        fontsize=12
+    )
+
+    ax.text(
+        0.5, 0.35,
+        valor,
+        ha="center", va="center",
+        fontsize=14, fontweight='bold', color=color
+    )
+
+    ax.set_xticks([])
+    ax.set_yticks([])
+
+
+def generar_dashboard(kpi):
+    fig, axes = plt.subplots(2, 4, figsize=(17, 4))
+
+    card(axes[0, 0], "Ventas totales", f"{kpi['ventas_totales']:,.2f}")
+    card(axes[0, 1], "Cantidad de pedidos", f"{kpi['cantidad_pedidos']:,.0f}", "green")
+    card(axes[0, 2], "Ticket promedio", f"{kpi['ticket_promedio']:,.2f}")
+    card(axes[0, 3], "Cantidad de clientes", f"{kpi['cantidad_clientes']:,.0f}", "red")
+
+
+    plt.show()
+
 
 def main():
     print( get_ruta() )
@@ -39,6 +71,15 @@ def main():
     print( f"{'Cantidad de clientes:':<25} {cantidad_clientes:>13,.0f}" )
 
     print( "=" * 40 )
+
+    kpi = {
+        "ventas_totales": ventas_totales,
+        "cantidad_pedidos": cantidad_pedidos,
+        "ticket_promedio": ticket_promedio,
+        "cantidad_clientes": cantidad_clientes
+    }
+
+    generar_dashboard(kpi)
 
 
 
