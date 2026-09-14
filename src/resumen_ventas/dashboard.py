@@ -61,7 +61,9 @@ def generar_dashboard(kpi):
 
     plt.tight_layout()
 
-    plt.show()
+    plt.savefig('src/resumen_ventas/output/tablero.png')
+    plt.close()
+    # plt.show()
 
 
 def main():
