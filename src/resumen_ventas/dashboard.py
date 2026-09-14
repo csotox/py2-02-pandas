@@ -25,6 +25,12 @@ def card(ax, titulo: str, valor: str, color: str = "blue") -> None:
 def generar_dashboard(kpi):
     fig, axes = plt.subplots(2, 4, figsize=(17, 4))
 
+    fig.suptitle(
+        "Resumen de ventas",
+        fontsize=14,
+        fontweight='bold'
+    )
+
     card(axes[0, 0], "Ventas totales", f"{kpi['ventas_totales']:,.2f}")
     card(axes[0, 1], "Cantidad de pedidos", f"{kpi['cantidad_pedidos']:,.0f}", "green")
     card(axes[0, 2], "Ticket promedio", f"{kpi['ticket_promedio']:,.2f}")
