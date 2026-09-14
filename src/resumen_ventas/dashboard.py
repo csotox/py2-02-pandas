@@ -44,8 +44,11 @@ def generar_dashboard(kpi):
     for eje in axes[1, :]:
         eje.remove()
 
+    # Si el gráfico solo cubre las 2 primeras columnas: grid[1, 0:2]
+    #-- - 
+    # Para cubrir las dos columnas centrales
     ax_line = fig.add_subplot(
-        grid[1, :]
+        grid[1, 1:3]
     )
 
     # Dibujar la serie de ventas mensuales
