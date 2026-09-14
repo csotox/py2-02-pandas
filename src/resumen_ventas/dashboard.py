@@ -1,3 +1,4 @@
+from matplotlib.image import resample
 import pandas as pd
 import matplotlib.pyplot as plt
 
@@ -55,9 +56,23 @@ def main():
     # DataFrame de ventas
     # Solo considera las ordenes entregadas
     ventas = detalles_ordenes.merge(
-        ordenes_entregadas[['order_id']],
+        ordenes_entregadas[['order_id', 'purchase_datetime']],
         on="order_id",
         how="inner"
+    )
+
+    # La columna `purchase_datetime`originalmente
+    # es de tipo `str`, para analizar correctamente
+    # debemos pasarla a Fecha/Hora
+    ventas['purchase_datetime'] = pd.to_datetime(
+        ventas['purchase_datetime']
+    )
+
+    ventas_mensuales = (
+        ventas.set_index('purchase_datetime')
+        ['item_total']
+        .resample("ME")
+        .sum()
     )
 
     # KPI
@@ -84,7 +99,8 @@ def main():
         "ventas_totales": ventas_totales,
         "cantidad_pedidos": cantidad_pedidos,
         "ticket_promedio": ticket_promedio,
-        "cantidad_clientes": cantidad_clientes
+        "cantidad_clientes": cantidad_clientes,
+        "ventas_mensuales": ventas_mensuales
     }
 
     generar_dashboard(kpi)
