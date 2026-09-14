@@ -37,6 +37,24 @@ def generar_dashboard(kpi):
     card(axes[0, 2], "Ticket promedio", f"{kpi['ticket_promedio']:,.2f}")
     card(axes[0, 3], "Cantidad de clientes", f"{kpi['cantidad_clientes']:,.0f}", "red")
 
+    #-- - --- Segunda fila: gráfico de línea
+    # Combinar toda la segunda fila en un solo eje
+    grid = axes[1, 0].get_gridspec()
+
+    for eje in axes[1, :]:
+        eje.remove()
+
+    ax_line = fig.add_subplot(
+        grid[1, :]
+    )
+
+    # Dibujar la serie de ventas mensuales
+    ax_line.plot(kpi['ventas_mensuales'].index, kpi['ventas_mensuales'].values, marker="o")
+    ax_line.set_title("Ventas mensuales")
+    ax_line.set_ylabel("Monto ($)")
+    ax_line.set_xlabel("Mes")
+    ax_line.grid(True)
+
 
     plt.tight_layout()
 
